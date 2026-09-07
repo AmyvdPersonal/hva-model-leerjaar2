@@ -28,7 +28,38 @@ Deze dag heb ik heel erg veel last van me knie gehad en ben hierbij thuis geblev
 Een fork van de model repository gemaakt en gepubliceerd via mijn eigen Github omgeving.
 
 ### 7 september - les dag
-Op maandag 7 september heb ik de volgende dingen egdaan
+Op maandag 7 september heb ik de volgende dingen gedaan
+- Artikelen lezen over digital garden
+- Begrijpen wat digital garden is.
+- Het inschrijven op de deepdive naar intresse
+- Rangschikken websites
+- Onderwerp kiezen voor Digital Garden.
+
+Om te bergijpen wat een digital garden is ben ik samen in een groepje van 4 andere mensen gaan kijken naar 5 verschillende artikelen. Hierin Heeft ieder 1 Artikel gelezen die gaan over Digital Garden. Vervolgens vertelde we de volgende bevindingen aan elkaar:
+- Een digital garden is een plek waar je eigen fantasie en ontwerp tot leven komt.
+- Je schrijft de content voor jezelf
+- Je moet een beetje tegen kritiek kunnen.
+- Een digital garden is nooit af.
+- Hoe de Digital garden ontstaan is door de mexem manier waarbij een iemand een boek analyseert en alle ideeën bij elkaar komen en weer terug wordt geschreven in een boek. ZO kan een ander dat ook lezen.
+- Een blog heeft een datum erbij staan en een digital garden niet.
+- Je kan ideeën met elkaar vergelijken en samenbrengen waardoor er meer ideeën ontstaan.
+
+Voor de eerste opdracht hebben we een werkvel gekregen waarmee je twee websites moest analyseren. Bij het analyseren kijk je dus of een websites  echt webby is. Dit hebben We gedaan doormiddel van een Werkblad met twee vragen.
+
+![alt text](./bewijzen/WhatsApp%20Image%202026-09-07%20at%2018.19.46.jpeg)
+
+In deze opdracht heb ik de twee websites  van mikemai.net geanalyseert en daarna de website Virtual Vampire Haven.
+-  https://mikemai.net/
+- https://virtualvampirehaven.neocities.org/Links
+
+In het kort gaat de mikemai dat het echt een goeie website is op basis van de vragen. De website heeft een goeie hierarchie, layout, is responsive en heeft kleine interacties erin zitten.
+De website is toegankelijk en heeft ook een een goeie leesbare tekst met korte kopjes en niet te lang. Door deze punten vind ik dat het een goeie website is.
+
+De virtualVampireHaven is een website dat vooral met passie is gemaakt en is een verzameling van alle websites met vampieren. De website is neit responsive maar wel heel creatief.
+
+Vervolgens zijn we in een groepje van 4 mensen samen onze bevinden gaan vertellen en kwamen we tot de conclusie dat de volgende website de meest webby was en welke het minst 
+
+
 
 Leg uit wat een digital garden is en waarom dat anders is dan een reguliere website.
 Een digital garden is een website die nooit af is en je hierin je vrije tijd de loop laat lijden.
