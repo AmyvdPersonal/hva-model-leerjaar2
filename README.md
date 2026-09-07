@@ -57,9 +57,33 @@ De website is toegankelijk en heeft ook een een goeie leesbare tekst met korte k
 
 De virtualVampireHaven is een website dat vooral met passie is gemaakt en is een verzameling van alle websites met vampieren. De website is neit responsive maar wel heel creatief.
 
-Vervolgens zijn we in een groepje van 4 mensen samen onze bevinden gaan vertellen en kwamen we tot de conclusie dat de volgende website de meest webby was en welke het minst 
+Vervolgens zijn we in een groepje van 4 mensen samen onze bevinden gaan vertellen en kwamen we tot de conclusie dat de volgende website de meest webby was en welke het minst was. In de afbeelding hieronder zie je de uitkomsten van de analyse.
+![alt text](./bewijzen/website%20analyse%202.jpeg).
+
+#### opdracht 2
+- Vanuit de inventarisatie: Wat zou je zelf willen maken? Heb je dingen gezien die je nog niet kan, maar wel interessant vindt in de websites die je bekeken hebt?
+Ik Heb nog geen gekozen onderwerp maar ik wil misschien de website gaan maken over de volgende onderwerpen:
+    - Een website over fitness
+    - Een starwars website
+    - Een pokemon website
+    - een webiste over haken
+    - een website over eten
 
 
+- Welke webby dingen heb je gezien die je ook wil gebruiken?
+Voor de digital garden zou ik animaties, dark / lightmode willen maken, een duidleijke hierachie van de website waarin het onderwerp duide;lijk word en natuurlijk moet de website nog wel responsive worden.
+
+- Welke eigen content zou je over het onderwerp kunnen schrijven? Wat is de toon, ​de context, het doel, wat zijn onderwerpen, wat is ‘het’ wat jou raakt!
+De doel is weel om de teksten zo te schrijven dat dew gebruiker weet waar het over gaat. de teksten moeten goed leesbaar moeten worden en ook toegankelijk voor iedereen. 
+
+- Maak je gebruik van content van een ander? Hoe denk je dat te doen? En mag dat eigenlijk wel? Hoe kan je die content zo aanpassen dat het echt een eigen verhaal wordt? Dat het echt jouw content wordt, op jouw eigen garden?
+Als ik de content van een ander zou willen gebruiken dan vermeld ik wel debron waar ik het vandaan heb. daarnaast pas ik de content zo danig aan waardoor het wel mijn eigen creatie blijft.
+
+- Op welke manier is de content te ervaren, denk verder dan alleen in tekst en beeld (beleeft, voelt, ziet, hoort enz.)
+Ik zou afbeeldingen willen tekenen die te bewegen zijn op de website zelf. Ik zou daarnaast gebruik maken van verschillende kleurenpalleten die op elkaar aansluiten maar ook  nog bij het onderwerp past. daarnaast zou ik de afbeeldingen tot leven willen brengen aande hand van animaties
+
+De uitwerking van de derde opdracht kan je terug vinden op het linkje hieronder.
+[Visit Opdracht 3](./oefeningen/presentatie/index.html)
 
 Leg uit wat een digital garden is en waarom dat anders is dan een reguliere website.
 Een digital garden is een website die nooit af is en je hierin je vrije tijd de loop laat lijden.
