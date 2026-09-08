@@ -1,0 +1,14 @@
+@font-face{
+    font-family: "Dynapuff";
+    src: url(./fonts//DynaPuff-VariableFont_wdth\,wght.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: "Quicksand";
+    src: url(./fonts/Quicksand-VariableFont_wght.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+

@@ -1,0 +1,28 @@
+@import url(./fonts.css);
+
+*,*::before,*::after{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+
+html{
+    font-size:62.2%;
+    width:100vw;
+    height:100vh;
+
+}
+
+body {
+    font-size:2rem;
+    
+    #inspiratie-voor-de-digital-garden-van{
+        font-family: Dynapuff;
+    }
+}
+.remark-code,
+    .remark-inline-code {
+    font-family: Quicksand;
+    }
