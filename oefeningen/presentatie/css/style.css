@@ -1,28 +1,109 @@
 @import url(./fonts.css);
 
-*,*::before,*::after{
-    padding:0;
-    margin:0;
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
 
 
-html{
-    font-size:62.2%;
-    width:100vw;
-    height:100vh;
-
+html {
+    font-size: 62.2%;
+    width: 100vw;
+    height: 100vh;
 }
 
 body {
-    font-size:2rem;
-    
-    #inspiratie-voor-de-digital-garden-van{
-        font-family: Dynapuff;
+    font-size: 2rem;
+
+}
+
+h1, h3 {
+    font-family: Dynapuff;
+}
+
+h2{
+    font-family: Quicksand;
+    font-weight:300;
+    padding-top:5rem;
+}
+
+p,
+ul {
+    font-family: Quicksand;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: Quicksand;
+    font-weight:600;
+}
+
+a:active,
+a:visited {
+    color: black;
+    cursor: pointer;
+}
+
+
+.collageFrame {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: -5rem;
+
+    .mijn-collage {
+        width: 60rem;
+        height: auto;
+    }
+
+
+}
+
+.inspirationlinks, .informatielinks{
+    padding: 5rem 0rem ;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    gap:1.5rem;
+
+}
+
+.collageSfeer1_Container{
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    gap:5rem;
+    img{
+        width:58rem;
+        height:auto;
     }
 }
-.remark-code,
-    .remark-inline-code {
-    font-family: Quicksand;
+
+.collageSfeer1Tekst{
+    display: flex;
+    gap: 2.5rem;
+    flex-direction: column;
+    h3{
+        font-size:2rem
     }
+
+}
+
+.characters{
+   width:100rem;
+}
+
+.remark-code,
+.remark-inline-code {
+    font-family: Quicksand;
+}
