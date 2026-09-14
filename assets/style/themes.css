@@ -37,12 +37,11 @@ h1 {
 }
 
 .form_Wrapper {
-
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap:10rem;
+  gap: 10rem;
 }
 
 .chooseTheme {
@@ -53,38 +52,113 @@ h1 {
 
 button {
   max-width: 40rem;
-  min-width: 20rem;
   max-height: 40rem;
-  min-width: 20rem;
   background: none;
   border: none;
 
   /* Button text styling*/
   font-family: 'Montserrat';
   font-weight: 500;
-  font-size:4rem;
+  font-size: 4rem;
 }
-button:hover{
+
+button:hover {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   transform: scale(1.1);
   animation: ease-in;
-  transition: .5s ;
+  transition: .5s;
 }
 
 img {
   max-width: 40rem;
-  min-width: 20rem;
   max-height: 40rem;
-  min-width: 20rem;
 }
 
-@media (max-width: 60rem) {
+@media (max-width: 500px) {
+  h1 {
+    font-family: "Deathstar";
+    color: var(--text-color-choosetheme);
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .chooseTheme {
+    display: flex;
+    gap: 2.5rem;
+    flex-direction: column;
+  }
+
+  button {
+    max-width: 20rem;
+    max-height: 20rem;
+    background: none;
+    border: none;
+
+    /* Button text styling*/
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 2rem;
+  }
+
+  button:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transform: scale(1.1);
+    animation: ease-in;
+    transition: .5s;
+  }
+
+  img {
+    max-width: 100%;
+  }
 
   .form_Wrapper {
     flex-direction: column;
-    padding: 5rem 0rem 5rem 0rem;
+    padding: 2.5rem 0rem 2.5rem 0rem;
     width: 60rem;
     height: 80rem;
-    border: solid 2rem black;
+  }
+}
+@media (max-width: 1000px) {
+  h1 {
+    font-family: "Deathstar";
+    color: var(--text-color-choosetheme);
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .chooseTheme {
+    display: flex;
+    gap: 3rem;
+    flex-direction: row;
+  }
+
+  button {
+    max-width: 40rem;
+    max-height: 40rem;
+    background: none;
+    border: none;
+
+    /* Button text styling*/
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 2rem;
+  }
+
+  button:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transform: scale(1.1);
+    animation: ease-in;
+    transition: .5s;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .form_Wrapper {
+    flex-direction: column;
+    padding: 2.5rem 0rem 2.5rem 0rem;
+    width: 70rem;
+    height: 90rem;
   }
 }
