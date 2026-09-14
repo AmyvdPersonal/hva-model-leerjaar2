@@ -1,0 +1,35 @@
+
+    @font-face{
+        font-family:'Moonhouse';
+        src: url("./fonts/Moonhouse-yE5M.ttf");
+        font-weight:400;
+        font-style: normal;
+    }
+
+
+    @font-face{
+        font-family:'Deathstar';
+        src: url("./fonts/DeathStar-VmWB.ttf");
+        font-weight:400;
+        font-style: normal;
+    }
+
+     @font-face{
+        font-family:'StarJedi';
+        src: url("./fonts/StarJedi-DGRW.ttf");
+        font-weight:400;
+        font-style: normal;
+    }
+
+    @font-face{
+        font-family: "Montserrat";
+        src: url(./fonts/Montserrat-VariableFont_wght.ttf);
+        font-weight: 400;
+        font-style: normal;
+    }
+     @font-face{
+        font-family: "Quicksand";
+        src: url(./fonts/Quicksand-VariableFont_wght.ttf);
+        font-weight: 400;
+        font-style: normal;
+    }

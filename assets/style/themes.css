@@ -1,0 +1,90 @@
+@import url('./fonts.css');
+@import url("./colors.css");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+
+  font-size: 62.5%;
+  height: 100vh;
+  width: 100%;
+}
+
+
+body {
+  font-size: 2rem;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images//starwarsthemebg.jpeg);
+  background-repeat: none;
+  background-size: cover;
+
+}
+
+h1 {
+  font-family: "Deathstar";
+  color: var(--text-color-choosetheme);
+  font-size: 7rem;
+}
+
+.form_Wrapper {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap:10rem;
+}
+
+.chooseTheme {
+  display: flex;
+  gap: 20rem;
+  flex-direction: row;
+}
+
+button {
+  max-width: 40rem;
+  min-width: 20rem;
+  max-height: 40rem;
+  min-width: 20rem;
+  background: none;
+  border: none;
+
+  /* Button text styling*/
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size:4rem;
+}
+button:hover{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transform: scale(1.1);
+  animation: ease-in;
+  transition: .5s ;
+}
+
+img {
+  max-width: 40rem;
+  min-width: 20rem;
+  max-height: 40rem;
+  min-width: 20rem;
+}
+
+@media (max-width: 60rem) {
+
+  .form_Wrapper {
+    flex-direction: column;
+    padding: 5rem 0rem 5rem 0rem;
+    width: 60rem;
+    height: 80rem;
+    border: solid 2rem black;
+  }
+}

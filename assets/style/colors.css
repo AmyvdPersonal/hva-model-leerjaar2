@@ -1,0 +1,10 @@
+:root {
+  --bg-color: #F7F5DC;
+  --text-color: #000000;
+}
+
+[data-theme="dark"] {
+  --bg-color: #524646; /* De donkere rode kleur die je had gekozen */
+  --text-color: #000000; 
+}
+
