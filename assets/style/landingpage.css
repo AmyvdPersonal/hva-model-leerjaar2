@@ -1,0 +1,100 @@
+@import url(./colors.css);
+@import url(./fonts.css);
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    height: 100vh;
+    width: 100%;
+}
+
+body {
+    font-size: 2rem;
+    color: #FFF2F2;
+    width: 100vw;
+    height: 100vh;
+
+    background: #152331;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, var(--gradient-black-bg) 40%, var(--gradient-darkblueish-bg) 10%, var(--gradient-black-bg) 40%);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, var(--gradient-black-bg) 40%, var(--gradient-darkblueish-bg) 10%, var(--gradient-black-bg) 40%);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.jumpspeedbg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    mix-blend-mode: cover;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width:100vw;
+    overflow:hidden;
+    perspective: 80rem;
+}
+
+#crawl{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    gap:4rem;
+    width:60%;
+    max-width:90rem;
+    
+    animation: scrollUp 15s ease-out forwards;
+}
+
+h1 {
+    font-family: "Cinzel";
+    color: var(--starwars-yellow);
+    font-size: 7rem;
+    width:100%;
+}
+
+p{
+    font-family: 'Montserrat';
+    color: var(--starwars-yellow);
+    font-size: 3rem;
+}
+a{
+    background-color:var(--grey-color);
+    padding:2.5rem 5rem;
+    height:10rem;
+    width:40%;
+    border-radius: 5rem;
+    border:none;
+
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+
+
+@keyframes scrollUp{
+    0% {
+        transform: translateY(100vh) rotateX(20deg);
+    }
+    100%{
+        transform: translateY(-0) rotateX(0deg);
+        opacity:1;
+    }
+}

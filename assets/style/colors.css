@@ -1,10 +1,29 @@
 :root {
   --bg-color: #F7F5DC;
   --text-color: #000000;
+
+  /* Color usesage for the landingpage*/
+  --gradient-black-bg:#000000;
+  --gradient-darkblueish-bg:#152331;
+
+  --starwars-yellow:#FFE81F;
+
+  --black-color:#0a0a0a;
+  --grey-color:#292929;
+  --grey-less-color:#292929a7;
+  --beige-color:#dbd0ba;
+  --dark-beige-color:#c7bfb1;
+
 }
 
 [data-theme="dark"] {
-  --bg-color: #524646; /* De donkere rode kleur die je had gekozen */
-  --text-color: #000000; 
+  --bg-primairy-color: #313b44; 
+  --bg-secundairy-color: #1c1d22;
+  --bg-third-color:#606467;
+  --light-grey:#aaa8ad;
+  --text-color: #dbd0ba; 
+
+  --red-color:#e62815;
+  --bordeau-color:#8b4944;
 }
 
