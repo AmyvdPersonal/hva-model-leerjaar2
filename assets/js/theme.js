@@ -5,7 +5,7 @@ let darktheme = document.getElementById('darkside-button');
 lighttheme.addEventListener('click', () => {
     console.log('hello lightside') ;
     localStorage.setItem('theme', 'light');
-    window.location.href = '../../pages/homepage.html';
+    window.location.href = '/pages/homepage.html';
     
 });
 
@@ -13,7 +13,7 @@ lighttheme.addEventListener('click', () => {
 darktheme.addEventListener('click', () => {
     console.log('hello darkside');
     localStorage.setItem('theme', 'dark'); 
-    window.location.href = '../../pages/homepage.html';   
+    window.location.href = '/pages/homepage.html';   
     
 });
 
