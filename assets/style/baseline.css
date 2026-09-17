@@ -644,7 +644,8 @@ footer {
   color: var(--color-footer);
 }
 
-footer section {
+footer section,
+footer nav {
   max-inline-size: 44em;
   margin-inline: auto;
   padding: var(--whitespace-l) var(--whitespace-m);
