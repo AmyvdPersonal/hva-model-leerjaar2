@@ -14,6 +14,15 @@
   --beige-color:#dbd0ba;
   --dark-beige-color:#c7bfb1;
 
+  /*Colors for the navbar or button*/
+  --lightsaber-red:#c2301e;
+  --lightsaber-darkred:#641d14;
+  --lightsaber-grey:#5b5b54;
+  --lightsaber-blue:#5e8898;
+    /*inpso https://es.pinterest.com/pin/51158145756833365/*/
+
+    --lightsaber-light-blue:#15F2FD;
+
 }
 
 [data-theme="dark"] {
