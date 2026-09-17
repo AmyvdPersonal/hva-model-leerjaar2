@@ -1,16 +1,53 @@
 @import url(./colors.css);
 @import url(./fonts.css);
 
-body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  transition: background-color 0.3s ease;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-[data-theme="dark"]{
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2;
+
+}
+
+header {}
+
+header img {
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+header picture:nth-of-type(2) {
+  display: none;
+}
+
+[data-theme="dark"] {
   body {
-  background-color: var(--bg-primairy-color);
-  color: var(--text-color);
-  transition: background-color 0.3s ease;
+    background-color: var(--bg-primairy-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease;
+  }
+
+  header img {
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+
+  header picture:nth-of-type(1) {
+  display: none;
+}
+
+  header picture:nth-of-type(2) {
+  display: block;
 }
 }
