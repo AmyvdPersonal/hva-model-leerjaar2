@@ -2,6 +2,10 @@
   In deze file zie je de basic styling van de website. 
 */
 
+:root{
+  
+}
+
 *,*::before,*::after{
   margin:0;
   padding: 0;
@@ -19,4 +23,8 @@ body{
   color:#FFF2F2;
   width:100vw;
   height:100vh;
+}
+
+h1{
+
 }
