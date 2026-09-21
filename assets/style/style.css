@@ -1,0 +1,22 @@
+/*   
+  In deze file zie je de basic styling van de website. 
+*/
+
+*,*::before,*::after{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100vh;
+  width: 100%;
+}
+
+body{
+  font-size: 2rem;
+  color:#FFF2F2;
+  width:100vw;
+  height:100vh;
+}
