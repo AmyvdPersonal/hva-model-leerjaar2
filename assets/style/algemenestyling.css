@@ -6,7 +6,8 @@
   --h1: clamp(3.0rem, 2rem + 3.5vw, 5.0rem);
   --h2: clamp(2.4rem, 1.5rem + 2.5vw, 3.7rem);
   --h3: clamp(1.9rem, 1.2rem + 2vw, 2.7rem);
-  --p: clamp(clamp(1.5rem, 1rem + 1.5vw, 2.0rem));
+  --p: clamp(1.5rem, 1rem + 1.5vw, 2.0rem);
+  --p-disappear: clamp(0rem, 0rem + 0vw, 0rem);
 }
 /* 
 * bron uitleg van gemini over alleen de berekning op basis dat ik er voor hebt gezorgt dat 2rem ongeveer 20px is

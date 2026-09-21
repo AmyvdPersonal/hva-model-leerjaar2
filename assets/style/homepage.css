@@ -19,9 +19,21 @@ nav {
   z-index: 10;
 
   @media(max-width: 500px) {
-    position:sticky;
-    top: 0;
+    position: fixed;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    /*  
+  https://stackoverflow.com/questions/75366281/position-fixed-navigation-bar-at-bottom-of-screen?
+  https://stackoverflow.com/questions/79321387/how-to-put-fixed-bars-on-top-and-bottom?
+  */
   }
+
+
+
+
 }
 
 /* 
@@ -50,6 +62,11 @@ ul {
 
   border-radius: 5rem 10rem 10rem 5rem;
   color: var(--text-color);
+
+  @media(max-width: 500px) {
+    height:5rem;
+  }
+
 }
 
 li:nth-of-type(1) {
@@ -68,16 +85,31 @@ li:nth-of-type(3) {
 }
 
 li a {
-  font-size: var(--p);
+  font-size: var(--h3);
   color: var(--text-color);
   text-decoration: none;
   font-family: "Montserrat";
+
+  @media(max-width:500px) {
+    display:grid;
+    font-size: var(--p-disappear);
+    place-content: center;
+  }
+
 }
 
-
-a img {
+nav a img {
   z-index: -1;
   display: none;
+
+  @media(max-width: 500px) {
+    display: grid;
+    width: 5rem;
+    height: 5rem;
+    place-items: center;
+    z-index: auto;
+  }
+
 }
 
 picture {
@@ -92,15 +124,15 @@ header img {
   object-position: center 20%;
 
   @media(max-width: 500px) {
-    height: 80%;
+    height: auto;
     width: 100%;
     object-position: center 20%;
     place-items: center;
   }
 
-  @media (max-width:1000px){
-    height:80%;
-    width:100%;
+  @media (max-width:1000px) {
+    height: auto;
+    width: 100%;
     object-position: center;
     place-items: center;
   }
@@ -127,5 +159,11 @@ header picture:nth-of-type(2) {
 
   header picture:nth-of-type(2) {
     display: block;
+  }
+
+  ul{
+    background-image: linear-gradient(to right,
+      var(--lightsaber-grey) 0% 30%,
+      var(--lightsaber-red) 30% 100%);
   }
 }
