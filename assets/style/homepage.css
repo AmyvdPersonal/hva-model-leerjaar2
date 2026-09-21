@@ -1,23 +1,8 @@
 @import url(./colors.css);
 @import url(./fonts.css);
+@import url(./algemenestyling.css);
 
 /*  light theme */
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-size: 2rem;
-
-}
 
 header {
   display: grid;
@@ -33,7 +18,10 @@ nav {
   grid-area: 1/1;
   z-index: 10;
 
-  @media(max-width: 500px) {}
+  @media(max-width: 500px) {
+    position:sticky;
+    top: 0;
+  }
 }
 
 /* 
@@ -103,23 +91,26 @@ header img {
   object-fit: contain;
   object-position: center 20%;
 
-  @media(max-width: 500px) {}
+  @media(max-width: 500px) {
+    height: 80%;
+    width: 100%;
+    object-position: center 20%;
+    place-items: center;
+  }
+
+  @media (max-width:1000px){
+    height:80%;
+    width:100%;
+    object-position: center;
+    place-items: center;
+  }
+
 }
 
 header picture:nth-of-type(2) {
   display: none;
 }
 
-@media(max-width: 500px) {
-  header img {
-    height: 80%;
-    width: 100%;
-    object-position: center 20%;
-  }
-
-}
-
-@media(max-width: 1000px) {}
 
 /* Dark theme*/
 [data-theme="dark"] {
