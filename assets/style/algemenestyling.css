@@ -3,8 +3,16 @@
 */
 
 :root{
-  
+  --h1: clamp(3.0rem, 2rem + 3.5vw, 5.0rem);
+  --h2: clamp(2.4rem, 1.5rem + 2.5vw, 3.7rem);
+  --h3: clamp(1.9rem, 1.2rem + 2vw, 2.7rem);
+  --p: clamp(clamp(1.5rem, 1rem + 1.5vw, 2.0rem));
 }
+/* 
+* bron uitleg van gemini over alleen de berekning op basis dat ik er voor hebt gezorgt dat 2rem ongeveer 20px is
+   * CLAMP UITLEG: clamp(minimum_op_mobiel, vloeiende_groei, maximum_op_web_en_tablet) 
+   * Omdat 1rem = 10px, leest dit heel makkelijk: 1.5rem = 15px.
+   */
 
 *,*::before,*::after{
   margin:0;
@@ -26,5 +34,17 @@ body{
 }
 
 h1{
+  font-size: var(--h1);
+}
 
+h2{
+  font-size: var(--h2);
+}
+
+h3{
+  font-size: var(--h3);
+}
+
+body, p, a{
+  font-size: var(--p);
 }
