@@ -13,6 +13,46 @@ Ik heb bloomingskilss gekozen omdat ik op deze oefenwebsite en eindopdracht mijn
 Beschrijf hoe je aanpassingen aan jouw pagina kunt maken en hoe je er voor zorgt dat die op het web gepubliceerd worden.
 Als je een stukje code heb geschreven upload je die naar Github. In github zit er een ingebouwde hosting die ik aan mijn domein heb gekoppeld. Door mijn code te uploaden naar github de main branch. upload je gelijktijdig je code naar je website toe dat live staat.
 
+### Vrijdag 18 September
+
+## orienteren en begrijpen
+Waarom geven de docenten deze opdracht?
+Ze willen dat we leren te coderen. Want later als je wilt gaan samen werken met codeurs / programmers dan weet je waar je over kan praten 
+
+Welke technieken gebruik ik?
+Ik maak gebruik van html, css en javascript. Ik heb mij digital garden gemaakt met html en css en daar een klein beetje javascript bij voor de theme function. Zo kon ik de theme buttons doorlinken aan de juiste thema. 
+
+Wat zijn de randvoorwaarden?
+Allereerst zijn er een aantal algemene randvoorwaarden waar je werk en proces aan moeten voldoen om in aanmerking te komen voor een voldoende beoordeling:
+
+Je website staat tijdig op GitHub en werkt zonder fouten.
+Je hebt voortgang besproken tijdens de voortgangsgesprekken.
+Je hebt jouw proces inzichtelijk vastgelegd.
+Je hebt je bronnen vermeld in je learning log en code.
+Je hebt je werk zelf gemaakt*.
+Je kunt keuzes/ideeën/code uitleggen.
+Je hebt zelf nette code** geschreven.
+
+Waar gebruik je HTML/CSS voor?
+De html zorgt voor inhoud en de structuur. Je gebruikt het om te bepalen waar tekst, kopjes, afbeeldingen,labellen en knoppen op een webpagina.
+Css zorgt voor  uitstraling en het uiterlijk voor  website. 
+
+Wat kan er allemaal met CSS?
+Met css heb je verschillende mogelijkheden hebben qua styling. Zo heb je color properties waarmee je gemakklijk een kleur kan aanroepen ipv dat je telkens de kleur code met oproepen. Dat geldt het zelfde voor custom fonts. Het beste is om 1 file te maken en deze kan je altijd importeren in verschillende style sheets. Je hebt ook de transition properties waarmee je dus dingen op de website kan animeren.
+
+
+
+## verbeelden en 
+
+Lukt het om verschillende ideeën te bedenken?
+jaa het lukt wel om twee verschillende ideeën qua design te maken.
+
+Lukt het om je ideeën te schetsen?
+Ja het lukt wel met het schetsen op basis van me concept en het ideeën te verwerken erin. ik probeer in me schetsen duidelijk de starwars style naar voren te brengen.
+
+Wat doet deze CSS-property?
+je kan met verschillende properties 
+
 
 ### 2 september - [workshop dag 1]
 Op woensdag heb ik eerst een workshop gevolgt van diederik met typography. Hierin besproken we hoe typography is ontstaan en krijgen we een kleine uitleg over de geschiedenis van typography. Diederiek had ons meegenomen naar hoe eerst de letters vaak handgeschreven zijn en hierbij moet je dan denken aan dat bijbels door monikken met de hand zijn geschreven en dat ze daar 1 jaar mee bezig waren. De monniken waren bezig met een bijbel 1 jaar lang. Dat is uiteindelijk door het drukwerk veel sneller gegaan. Hierdoor zijn er meerdere boeken gemaakt binnen een jaar tijd.
@@ -214,5 +254,7 @@ OP maandag hebben we in groepjes het gehad over de vormen van researching. We kr
 ![alt text](./bewijzen/WhatsApp Image 2026-09-15 at 17.37.35.jpeg)
 
 Op de foto zie je dat we de deelvragen hadden behandeld. De bladen werden omgewisself met een andere groepje. Bij hun vragen hebben de bijpassende onderzoeksmethoden besproken en opgeschreven. Zo wisten we welke onderzoeksmethode je hierop kan aansluiten en in welke scenario je dit kan toepassen.
+
+
 
 
