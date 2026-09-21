@@ -1,19 +1,7 @@
 @import url(./colors.css);
 @import url(./fonts.css);
+@import url(./algemenestyling.css);
 
-*,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    font-size: 62.5%;
-    height: 100vh;
-    width: 100%;
-}
 
 body {
     font-size: 2rem;
@@ -28,6 +16,20 @@ body {
     background: linear-gradient(to top, var(--gradient-black-bg) 40%, var(--gradient-darkblueish-bg) 10%, var(--gradient-black-bg) 40%);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+    @media (max-width:500px) {
+        display: grid;
+        place-items: center;
+        padding: 1rem 1.5rem rem 1.5rem;
+        width: 100%;
+    }
+
+    @media (max-width:1000px) {
+        display: grid;
+        place-items: center;
+        padding: 1rem 1.5rem rem 1.5rem;
+        width: 100%;
+    }
+
 }
 
 video {
@@ -39,6 +41,16 @@ video {
     mix-blend-mode: cover;
     opacity: 0.3;
     z-index: -1;
+
+    @media (max-width:500px) {
+        object-fit: cover;
+        gap: 2rem;
+    }
+
+    @media (max-width:1000px) {
+        object-fit: cover;
+        gap: 2rem;
+    }
 }
 
 section {
@@ -61,6 +73,20 @@ section {
     max-width: 90rem;
 
     animation: scrollUp 15s ease-out forwards;
+
+    @media (max-width:500px) {
+        width: 90%;
+        height: 100%;
+        text-align: left;
+        align-items: flex-start;
+    }
+
+    @media (max-width:1000px) {
+        width: 90%;
+        height: 100%;
+        text-align: left;
+        align-items: flex-start;
+    }
 }
 
 #crawl p {
@@ -69,6 +95,14 @@ section {
     font-size: 2rem;
     align-items: left;
     text-align: left;
+
+    @media (max-width:500px) {
+        font-size: 1.5rem;
+    }
+
+    @media (max-width:1000px) {
+        font-size: 2rem;
+    }
 }
 
 h1 {
@@ -78,6 +112,14 @@ h1 {
     width: 100%;
     align-items: left;
     text-align: left;
+
+    @media (max-width:500px) {
+        font-size: 2rem;
+    }
+
+    @media (max-width:1000px) {
+        font-size: 3rem;
+    }
 }
 
 p {
@@ -107,10 +149,34 @@ a {
     text-transform: uppercase;
 
     animation: rotate 15s linear infinite;
+
+    @media(max-width:500px){
+        width: 19rem;
+        height: 5rem;
+        display: grid;
+        place-items: center;
+        border-radius: 2.5rem;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    @media (max-width:1000px){
+        width: 19rem;
+        height: 5rem;
+        display: grid;
+        place-items: center;
+        border-radius: 2.5rem;
+        font-size: 1.5rem;
+        text-align: center;
+    }
 }
 
 a:hover::before,
-a:hover::after {
+a:hover::after,
+a:active::before,
+a:active::after,
+a:focus::before,
+a:focus::after {
     content: '';
     position: absolute;
     width: 26rem;
@@ -126,6 +192,24 @@ a:hover::after {
     filter: blur(5px);
 
     animation: rotate 15s linear infinite;
+
+    @media(max-width:500px){
+        content: '';
+        position: absolute;
+        width: 20rem;
+        height: 6rem;
+
+        animation: rotate 15s linear infinite;
+    }
+
+    @media (max-width:1000px){
+        content: '';
+        position: absolute;
+        width: 20rem;
+        height: 6rem;
+
+        animation: rotate 15s linear infinite;
+    }
 }
 
 @keyframes rotate {
@@ -151,126 +235,5 @@ a:hover::after {
     100% {
         transform: translateY(-10vh) rotateX(0deg);
         opacity: 1;
-    }
-}
-
-@media (max-width: 500px) {
-    body {
-        background: #152331;
-        /* fallback for old browsers */
-        background: -webkit-linear-gradient(to top, var(--gradient-black-bg) 40%, var(--gradient-darkblueish-bg) 10%, var(--gradient-black-bg) 40%);
-        /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to top, var(--gradient-black-bg) 40%, var(--gradient-darkblueish-bg) 10%, var(--gradient-black-bg) 40%);
-        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        display: grid;
-        place-items: center;
-        padding: 1rem 1.5rem rem 1.5rem;
-        width: 100%;
-    }
-
-    video {
-        object-fit: cover;
-        gap: 2rem;
-    }
-
-    #crawl {
-        width: 90%;
-        height: auto;
-        text-align: left;
-        align-items: flex-start;
-    }
-
-    #crawl p {
-        font-size: 1.5rem;
-    }
-
-    h1 {
-        font-size: 2rem;
-    }
-
-    a {
-        width: 19rem;
-        height: 5rem;
-        display: grid;
-        place-items: center;
-        border-radius: 2.5rem;
-        font-size: 1.5rem;
-        text-align: center;
-    }
-
-    a:hover::before,
-    a:hover::after,
-    a:active::before,
-    a:active::after,
-    a:focus::before,
-    a:focus::after {
-        content: '';
-        position: absolute;
-        width: 20rem;
-        height: 6rem;
-
-        animation: rotate 15s linear infinite;
-    }
-
-}
-
-
-@media (max-width: 1000px) {
-    body {
-        background: #152331;
-        /* fallback for old browsers */
-        background: -webkit-linear-gradient(to top, var(--gradient-black-bg) 40%, var(--gradient-darkblueish-bg) 10%, var(--gradient-black-bg) 40%);
-        /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to top, var(--gradient-black-bg) 40%, var(--gradient-darkblueish-bg) 10%, var(--gradient-black-bg) 40%);
-        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        display: grid;
-        place-items: center;
-        padding: 1rem 1.5rem rem 1.5rem;
-        width: 100%;
-    }
-
-    video {
-        object-fit: cover;
-        gap: 2rem;
-    }
-
-    #crawl {
-        width: 90%;
-        height: 100%;
-        text-align: left;
-        align-items: flex-start;
-    }
-
-    #crawl p {
-        font-size: 2rem;
-
-    }
-
-    h1 {
-        font-size: 3rem;
-    }
-
-    a {
-        width: 19rem;
-        height: 5rem;
-        display: grid;
-        place-items: center;
-        border-radius: 2.5rem;
-        font-size: 1.5rem;
-        text-align: center;
-    }
-
-    a:hover::before,
-    a:hover::after,
-    a:active::before,
-    a:active::after,
-    a:focus::before,
-    a:focus::after {
-        content: '';
-        position: absolute;
-        width: 20rem;
-        height: 6rem;
-
-        animation: rotate 15s linear infinite;
     }
 }
