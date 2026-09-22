@@ -178,13 +178,13 @@ section {
   @media(max-width:1000px) {
     position: relative;
     grid-area: 1/1;
-    top: 10%;
+    top: 5%;
     justify-items: end;
     justify-content: end;
     right: 5%;
 
-    left: 15%;
-    width: 50%;
+    left: 10%;
+    width: 65%;
   }
 
   @media (max-width:500px) {
