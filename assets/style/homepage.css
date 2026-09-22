@@ -6,17 +6,29 @@
 
 header {
   display: grid;
+
+
+  @media(max-width:1000px) {}
+
+  @media(max-width:500px) {
+    background-image: linear-gradient(to top,
+        var(--gradient-black-overlay-bg) 50%,
+        var(--gradient-darkblueish-overlay-bg));
+    opacity: 1.9;
+    place-content: center;
+  }
 }
 
 nav {
   position: relative;
-  top: 5rem;
+  top: 2.5rem;
   display: flex;
   justify-content: space-around;
   align-self: start;
   width: 100%;
   grid-area: 1/1;
-  z-index: 10;
+  z-index: 2;
+
 
   @media(max-width: 500px) {
     position: fixed;
@@ -24,16 +36,12 @@ nav {
     bottom: 0;
     left: 0;
     width: 100%;
-    z-index: 10;
+    z-index: 2;
     /*  
   https://stackoverflow.com/questions/75366281/position-fixed-navigation-bar-at-bottom-of-screen?
   https://stackoverflow.com/questions/79321387/how-to-put-fixed-bars-on-top-and-bottom?
   */
   }
-
-
-
-
 }
 
 /* 
@@ -63,8 +71,10 @@ ul {
   border-radius: 5rem 10rem 10rem 5rem;
   color: var(--text-color);
 
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
   @media(max-width: 500px) {
-    height:5rem;
+    height: 5rem;
   }
 
 }
@@ -91,25 +101,31 @@ li a {
   font-family: "Montserrat";
 
   @media(max-width:500px) {
-    display:grid;
+    display: grid;
     font-size: var(--p-disappear);
+    justify-content: center;
     place-content: center;
+    align-content: center;
+    gap: 0.2rem;
   }
 
 }
 
-nav a img {
-  z-index: -1;
+
+
+nav li:nth-of-type(1) a img,
+nav li:nth-of-type(2) a img,
+nav li:nth-of-type(3) a img {
   display: none;
 
   @media(max-width: 500px) {
-    display: grid;
+    display: block;
     width: 5rem;
     height: 5rem;
-    place-items: center;
-    z-index: auto;
+    object-fit: contain;
+    mix-blend-mode: normal;
+    opacity: 1;
   }
-
 }
 
 picture {
@@ -118,17 +134,13 @@ picture {
 
 header img {
   grid-area: 1/1;
-  width: 100vw;
+  width: 99.5vw;
   height: 100%;
   object-fit: contain;
   object-position: center 20%;
+  mix-blend-mode: overlay;
+  opacity: 1.9;
 
-  @media(max-width: 500px) {
-    height: auto;
-    width: 100%;
-    object-position: center 20%;
-    place-items: center;
-  }
 
   @media (max-width:1000px) {
     height: auto;
@@ -137,11 +149,65 @@ header img {
     place-items: center;
   }
 
+  @media(max-width: 500px) {
+    display: block;
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: left 75%;
+    place-items: center;
+  }
+
 }
 
 header picture:nth-of-type(2) {
   display: none;
 }
+
+section {
+  position: relative;
+  grid-area: 1/1;
+  top: 15%;
+  justify-items: end;
+  justify-content: end;
+  right:5%;
+  
+  left:25%;
+  width:50%;
+
+  @media(max-width:1000px) {}
+
+  @media (max-width:500px) {
+    top: 15rem;
+    grid-template-columns: 1fr;
+    gap: 5rem;
+    place-content: center;
+    height: 100%;
+    width: 95%;
+    right: 0;
+    left:0;
+    justify-items: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+section section {
+  display: grid;
+  gap:1;
+}
+
+section h1::before {
+  content: '"Hello There"';
+  font-family: 'Deathstar';
+  letter-spacing: 0.5rem;
+}
+
+section p::before {
+  content: 'Welkom in de wereld van Star Wars. Net als Obi-wan op Tatioone, bewaart deze plek de kennis van een mooie tijdperk. Laat hem je gids zijn door de oude Jedi Orde.We duiken in de verhalen van legendarische Jedi-personages en hun diepe connectie met de Force. Ook ontdekken we de geheimen achter hun lightsabers en verkennen we de snelle Jedi Starfighters waarmee zij de vrede bewaarden. Neem de tijd, kijk rond en may the Force be with you.';
+  font-family: "Montserrat";
+}
+
 
 
 /* Dark theme*/
@@ -161,9 +227,9 @@ header picture:nth-of-type(2) {
     display: block;
   }
 
-  ul{
+  ul {
     background-image: linear-gradient(to right,
-      var(--lightsaber-grey) 0% 30%,
-      var(--lightsaber-red) 30% 100%);
+        var(--lightsaber-grey) 0% 30%,
+        var(--lightsaber-red) 30% 100%);
   }
 }

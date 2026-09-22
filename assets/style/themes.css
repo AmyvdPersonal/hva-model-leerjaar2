@@ -21,7 +21,7 @@ h1 {
   letter-spacing:1rem;
 
   @media(max-width:500px){
-    font-family: "Moonhouse";
+    font-family: "Deathstar";
     color: var(--text-color-choosetheme);
     font-size: var(--h1);
     text-align: center;
