@@ -170,12 +170,22 @@ section {
   top: 15%;
   justify-items: end;
   justify-content: end;
-  right:5%;
-  
-  left:25%;
-  width:50%;
+  right: 5%;
 
-  @media(max-width:1000px) {}
+  left: 25%;
+  width: 50%;
+
+  @media(max-width:1000px) {
+    position: relative;
+    grid-area: 1/1;
+    top: 10%;
+    justify-items: end;
+    justify-content: end;
+    right: 5%;
+
+    left: 15%;
+    width: 50%;
+  }
 
   @media (max-width:500px) {
     top: 15rem;
@@ -185,16 +195,20 @@ section {
     height: 100%;
     width: 95%;
     right: 0;
-    left:0;
+    left: 0;
     justify-items: center;
     margin: 0 auto;
     text-align: center;
   }
 }
 
+/*
+bron: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
+*/
+
 section section {
   display: grid;
-  gap:1;
+  gap: 1;
 }
 
 section h1::before {
@@ -231,5 +245,16 @@ section p::before {
     background-image: linear-gradient(to right,
         var(--lightsaber-grey) 0% 30%,
         var(--lightsaber-red) 30% 100%);
+  }
+
+  section h1::before {
+    content: '"I am your master"';
+    font-family: 'Deathstar';
+    letter-spacing: 0.5rem;
+  }
+
+  section p::before {
+    content: 'Welkom in de wereld van Star Wars. Net als Obi-wan op Tatioone, bewaart deze plek de kennis van een mooie tijdperk. Laat hem je gids zijn door de oude Jedi Orde.We duiken in de verhalen van legendarische Jedi-personages en hun diepe connectie met de Force. Ook ontdekken we de geheimen achter hun lightsabers en verkennen we de snelle Jedi Starfighters waarmee zij de vrede bewaarden. Neem de tijd, kijk rond en may the Force be with you.';
+    font-family: "Montserrat";
   }
 }
