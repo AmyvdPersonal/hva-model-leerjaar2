@@ -325,8 +325,16 @@ section p {
     }
   }
 
+  section h1::before,
+  section h1 {
+    content: '"If you only knew the power of the dark side."';
+    font-family: 'Deathstar';
+    letter-spacing: 0.5rem;
+    font-size: var(--h1);
+  }
+
   section p::before,
-  section h1{
+  section p {
     content: 'Met Darth Vader als gids leer je hier alles over de macht van de Sith. We kijken naar bekende Sith-personages en hun duistere band met de Force, maar duiken ook in de details van hun rode lightsabers en de iconische Imperial TIE Fighters. Kijk gerust rond en join the dark side.';
     font-family: "Montserrat";
     font-size: var(--p);
