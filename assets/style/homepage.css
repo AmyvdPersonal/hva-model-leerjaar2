@@ -162,7 +162,7 @@ header img {
 
 }
 
-header:nth-of-type(2) {
+header picture:nth-of-type(2) {
   display: none;
 }
 
@@ -226,6 +226,63 @@ section p {
   content: 'Welkom in de wereld van Star Wars. Net als Obi-wan op Tatioone, bewaart deze plek de kennis van een mooie tijdperk. Laat hem je gids zijn door de oude Jedi Orde.We duiken in de verhalen van legendarische Jedi-personages en hun diepe connectie met de Force. Ook ontdekken we de geheimen achter hun lightsabers en verkennen we de snelle Jedi Starfighters waarmee zij de vrede bewaarden. Neem de tijd, kijk rond en may the Force be with you.';
   font-family: "Montserrat";
   font-size: var(--p);
+}
+
+/**************************
+* MARK: lightside -main
+**************************/
+main section {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-items: center;
+  align-items: center;
+  gap: 5rem;
+  width: 100%;
+
+  position: static;
+  padding: 10rem 0rem 10rem 5rem;
+}
+
+main section picture{
+  grid-area: auto;
+  margin:0;
+  padding:0;
+  grid-column:2;
+  grid-row:2;
+}
+
+main section h2::before {
+  content: 'Meet the jedi you must';
+  font-family: "Deathstar";
+  font-size: 10rem;
+  letter-spacing: .5rem;
+  text-align: left;
+  grid-column: 1;
+  grid-row:1;
+  max-width:20rem;
+}
+
+
+main picture:nth-of-type(1) {
+  display: block;
+  width:94%;
+  place-items:right;
+  justify-self:end;
+  justify-items: right;
+  rotate: calc(-10deg);
+}
+
+main section img {
+  display: flex;
+  justify-content: right;
+  justify-items: end;
+  width:110%;
+  height:auto;
+  z-index:-10;
+}
+
+main picture:nth-of-type(2) {
+  display: none;
 }
 
 
@@ -338,5 +395,29 @@ section p {
     content: 'Met Darth Vader als gids leer je hier alles over de macht van de Sith. We kijken naar bekende Sith-personages en hun duistere band met de Force, maar duiken ook in de details van hun rode lightsabers en de iconische Imperial TIE Fighters. Kijk gerust rond en join the dark side.';
     font-family: "Montserrat";
     font-size: var(--p);
+  }
+
+  /**************************
+* MARK: Darks side - main
+**************************/
+
+
+  main section {
+    width: 100%;
+    height: 50rem;
+  }
+
+  main picture:nth-of-type(1) {
+    display: none;
+
+  }
+
+  main section img {
+    width: 20rem;
+    height: auto;
+  }
+
+  main picture:nth-of-type(2) {
+    display: block;
   }
 }
