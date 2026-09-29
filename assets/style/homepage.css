@@ -1,6 +1,7 @@
 @import url(./colors.css);
 @import url(./fonts.css);
 @import url(./algemenestyling.css);
+@import url(./cookiepopup.css);
 
 
 /**************************
@@ -231,6 +232,24 @@ section p {
 /**************************
 * MARK: lightside -main
 **************************/
+main.hide-content{
+  display: none;
+  background-color: var(--gradient-black-overlay-bg);
+  opacity:.5;
+
+  #ahsokacookie{
+    display:block;
+  }
+
+  @media(max-width:1000px) {
+    
+  }
+
+  @media (max-width:500px) {
+
+  }
+}
+
 main section {
   display: grid;
   grid-template-columns: repeat(2, auto);

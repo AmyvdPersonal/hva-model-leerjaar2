@@ -8,7 +8,9 @@
   <title>Landingpage</title>
 
   <link rel="stylesheet" href="../assets/style/homepage.css">
+  <link rel="stylesheet" href="../assets/style/cookiepopup.css">
   <script src="../assets/js/themePreference.js"></script>
+  <script src="../assets/js/cookiepopup.js" defer></script>
 </head>
 
 <body>
@@ -51,7 +53,8 @@
     </section>
   </header>
 
-  <main>
+  <main class="hide-content">
+
     <section>
       <h2></h2>
 
@@ -62,7 +65,7 @@
       </picture>
 
 
-       <picture>
+      <picture>
         <source srcset="../assets/images/darthsidious.png" media="(width > 70rem)">
         <source srcset="../assets/images/darthsidious.png" media="(width > 1058rem)">
         <img src="../assets/images/darthsidious.png" alt="">
@@ -70,6 +73,19 @@
 
     </section>
   </main>
+  <button id="ahsokacookie">
+    <img src="../assets/images/ahsokacookie1.svg" alt="klik op mij ahsoka" srcset="">
+  </button>
+
+
+  <dialog id="cookiepopup">
+    <h2>Clearance Required, Traveler</h2>
+    <p>We use tracking beacons (cookies) to personalize your journey across the galaxy, to provide Holonet features and
+      to analyze our hyperspace traffic. We also share your sector coordinates with our New Republic, merchant, and
+      intelligence allies, who may combine it with other intel you’ve provided to them during past missions.</p>
+    <button id="acceptbtn">Accept Beacons</button>
+    <button id="declinebtn">Decline Beacons</button>
+  </dialog>
 </body>
 
 </html>
