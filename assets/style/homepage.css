@@ -232,15 +232,16 @@ section p {
 /**************************
 * MARK: lightside -main
 **************************/
-main{
-  @media (max-width:500px){
+main {
+  @media (max-width:500px) {
     position: sta;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
 }
+
 main.hide-content {
   display: none;
   background-color: var(--gradient-black-overlay-bg);
@@ -267,19 +268,19 @@ main section {
   padding: 10rem 0rem 10rem 5rem;
 
   @media(max-width:1000px) {
-    padding:0;
+    padding: 0;
   }
 
   @media (max-width:500px) {
     position: relative;
-    top:25rem;
-    left:0;
-    right:0;
-    padding:0;
-    grid-template-columns:1fr;
-    grid-template-rows:auto auto;
+    top: 25rem;
+    left: 0;
+    right: 0;
+    padding: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
     justify-items: center;
-    gap:2rem;
+    gap: 2rem;
   }
 }
 
@@ -292,7 +293,7 @@ main section picture {
 
   @media (max-width:500px) {
     grid-column: 1;
-    grid-row:2;
+    grid-row: 2;
   }
 }
 
@@ -328,6 +329,7 @@ main section picture {
   justify-self: end;
   justify-items: right;
   rotate: calc(-10deg);
+
   @media(max-width:1000px) {
     font-size: var(--h2);
   }
@@ -346,12 +348,13 @@ main section img {
   width: 110%;
   height: auto;
   z-index: -10;
+
   @media(max-width:1000px) {
     font-size: var(--h2);
   }
 
   @media (max-width:500px) {
-    width:100%;
+    width: 100%;
     height: auto;
     justify-content: center;
   }
@@ -476,24 +479,31 @@ main picture:nth-of-type(2) {
   /**************************
 * MARK: Darks side - main
 **************************/
-
-
-  main section {
-    width: 100%;
-    height: 50rem;
+  main section picture:nth-of-type(1) {
+    display: none;
   }
 
-  main picture:nth-of-type(1) {
-    display: none;
-
+  main section picture:nth-of-type(2) {
+    display: block;
+    /* Toon Darth Sidious */
   }
 
   main section img {
-    width: 20rem;
+    display: flex;
+    justify-content: right;
+    justify-items: end;
+    width: 110%;
     height: auto;
-  }
+    z-index: -10;
 
-  main picture:nth-of-type(2) {
-    display: block;
+    @media(max-width:1000px) {
+      font-size: var(--h2);
+    }
+
+    @media (max-width:500px) {
+      width: 100%;
+      height: auto;
+      justify-content: center;
+    }
   }
 }
