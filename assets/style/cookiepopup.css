@@ -13,17 +13,17 @@
     border: none;
 
     @media(max-width:1000px) {
-        width:15rem;
-        height:15rem;
-        right:.5rem;
-        bottom:2rem;
+        width: 15rem;
+        height: 15rem;
+        right: .5rem;
+        bottom: 2rem;
     }
 
     @media (max-width:500px) {
-        width:10rem;
-        height:10rem;
-        right:.5rem;
-        bottom:2rem;
+        width: 10rem;
+        height: 10rem;
+        right: .5rem;
+        bottom: 5rem;
     }
 
 }
@@ -32,4 +32,127 @@ button#ahsokacookie:hover img {
     content: url(../images/ahsokacookie2.svg);
 }
 
-#ahsokacookie {}
+dialog#cookiepopup[open] {
+    display: flex;
+    align-items: left;
+    justify-content: space-evenly;
+    flex-direction: column;
+    top: 24%;
+    left: 52.5%;
+    bottom: 25%;
+
+    width: 60rem;
+    height: 50rem;
+    max-height: 50vh;
+    max-width: 90vw;
+    padding: 2rem;
+    border: none;
+    overflow: visible;
+    border-radius: 2rem;
+
+    background-color: var(--bg-color);
+    color: var(--text-color);
+
+    h2 {
+        font-family: 'Deathstar';
+        font-size: var(--h2);
+        letter-spacing: .5rem;
+    }
+
+    p {
+        font-family: 'Montserrat';
+        font-size: var(--p);
+    }
+
+    @media(max-width:1000px) {
+        top: 10%;
+        left: 10%;
+        bottom: 25%;
+        max-height: 50vh;
+        max-width: 90vw;
+    }
+
+    @media (max-width:500px) {
+        top: 15%;
+        left: 3.5%;
+        bottom: 25%;
+        gap: 2rem;
+        max-height: 60vh;
+        max-width: 90vw;
+    }
+}
+
+dialog#cookiepopup[open]::after {
+    content: '';
+    position: absolute;
+    bottom: -2.5rem;
+    right: 4rem;
+
+    border-width: 4rem 0rem 0rem 4rem;
+    border-style: solid;
+    border-color: var(--bg-color) transparent transparent transparent;
+}
+
+dialog#cookiepopup::backdrop {
+    background-color: var(--gradient-black-overlay-bg);
+}
+
+dialog h2 {
+    font-family: 'Deathstar';
+    letter-spacing: .5rem;
+}
+
+dialog p {
+    font-family: 'Montserrat';
+}
+
+dialog#cookiepopup>section {
+    position: static;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+dialog#cookiepopup>button,
+#acceptbtn,
+#declinebtn{
+    background-color: var(--black-color);
+    color: var(--starwars-yellow);
+    width: 15rem;
+    height: 3.5rem;
+
+    position: relative;
+
+    display: grid;
+    place-items: center;
+    border-radius: 2.5rem;
+    left:2%;
+
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: var(--p);
+    text-align: center;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    animation: rotate 15s linear infinite;
+
+    @media(max-width:500px){
+        width: 19rem;
+        height: 5rem;
+        display: grid;
+        place-items: center;
+        border-radius: 2.5rem;
+        text-align: center;
+    }
+
+    @media (max-width:1000px){
+        width: 12.5rem;
+        height: 4rem;
+        display: grid;
+        place-items: center;
+        border-radius: 2.5rem;
+        text-align: center;
+    }
+
+}
