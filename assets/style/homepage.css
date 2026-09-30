@@ -22,13 +22,13 @@ header {
   }
 }
 
-header > a:nth-of-type(1){
-  position:fixed;
-	left:-9999em;
-	
-	z-index:1;
-	padding:.5em;
-	margin:.5em;
+header>a:nth-of-type(1) {
+  position: fixed;
+  left: -9999em;
+
+  z-index: 1;
+  padding: .5em;
+  margin: .5em;
 
   background-color: var(--starwars-yellow);
   color: var(--text-color);
@@ -91,8 +91,8 @@ ul {
   @media(max-width: 500px) {
     height: 5rem;
     background: linear-gradient(to right,
-      var(--lightsaber-grey) 0% 30%,
-      var(--lightsaber-light-blue) 30% 100%);
+        var(--lightsaber-grey) 0% 30%,
+        var(--lightsaber-light-blue) 30% 100%);
   }
 
 }
@@ -145,8 +145,8 @@ nav li:nth-of-type(3) a img {
 }
 
 a:focus-visible {
-    outline: 3px solid var(--starwars-yellow);
-    outline-offset: 5px;
+  outline: 3px solid var(--starwars-yellow);
+  outline-offset: 5px;
 }
 
 picture {
@@ -288,7 +288,7 @@ main section {
 
   position: static;
   padding: 5rem 5rem 5rem 10rem;
-  
+
 
   @media(max-width:1000px) {
     padding: 0;
@@ -321,7 +321,6 @@ main section picture {
 }
 
 main section h2 {
-  content: 'Meet the jedi you must';
   font-family: "Deathstar";
   font-size: var(--h1);
   letter-spacing: .5rem;
@@ -330,7 +329,7 @@ main section h2 {
   grid-row: 1 / span 2;
   align-self: center;
   justify-self: start;
-  top:25rem;
+  top: 25rem;
   max-width: 40rem;
 
   @media(max-width:1000px) {
@@ -522,6 +521,35 @@ main picture:nth-of-type(2) {
     color: var(--text-color);
   }
 
+  main section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1rem, 1fr));
+    place-content: center;
+    width: 100vw;
+    height:50rem;
+
+    position: static;
+    padding: 5rem 5rem 5rem 10rem;
+
+
+    @media(max-width:1000px) {
+      padding: 0;
+    }
+
+    @media (max-width:500px) {
+      position: relative;
+      top: 25rem;
+      left: 0;
+      right: 0;
+      padding: 0;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto;
+      justify-items: center;
+      gap: 2rem;
+      height:auto;
+    }
+  }
+
   main section h2:nth-of-type(1),
   main section picture:nth-of-type(1) {
     display: none;
@@ -538,14 +566,26 @@ main picture:nth-of-type(2) {
 
   main section picture:nth-of-type(2) {
     display: block;
+  }
 
+  main section picture {
+    grid-area: auto;
+    margin: 0;
+    padding: 0;
+    grid-column: 2;
+    grid-row: 2;
+
+    @media (max-width:500px) {
+      grid-column: 1;
+      grid-row: 2;
+    }
   }
 
   main section img {
     display: flex;
     justify-content: right;
     justify-items: end;
-    width: 110%;
+    width: 90%;
     height: auto;
     z-index: -10;
 
