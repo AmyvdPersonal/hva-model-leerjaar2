@@ -13,8 +13,8 @@ body {
 
     @media(prefers-reduced-motion: reduce) {
         background-image: url(../images/starwarsthemebg.jpeg);
-        height:100%;
-        width:auto;
+        height: 100%;
+        width: auto;
         mix-blend-mode: cover;
     }
 
@@ -65,13 +65,13 @@ section {
     justify-content: center;
     align-items: left;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     overflow: hidden;
     perspective: 80rem;
 }
 
-.intro{
-    display:grid;
+.intro {
+    display: grid;
     place-items: center;
     place-content: center;
 }
@@ -84,9 +84,6 @@ section {
     gap: 4rem;
     width: 55%;
     max-width: 90rem;
-
-    transform: translateY(0) rotateX(0deg); 
-        opacity: 1;
 
     animation: scrollUp 15s ease-out forwards;
 
@@ -104,8 +101,10 @@ section {
         align-items: flex-start;
     }
 
-    @media(prefers-reduce-motion: reduce){
-        
+    @media(prefers-reduce-motion: reduce) {
+        animation: none !important;
+        transform: translateY(0) rotateX(0deg);
+        opacity: 1;
     }
 
 }
@@ -128,10 +127,9 @@ section {
     }
 }
 
-#crawl,
 a,
 a::before,
-a::after{
+a::after {
     animation: none !important;
 }
 
