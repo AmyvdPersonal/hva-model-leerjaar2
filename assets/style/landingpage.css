@@ -140,7 +140,7 @@ a::after {
 h1 {
     font-family: "Cinzel";
     color: var(--starwars-yellow);
-    font-size: var(--h1);
+    font-size: var(--h2);
     width: 100%;
     align-items: left;
     text-align: left;
@@ -148,7 +148,7 @@ h1 {
     @media(prefers-reduced-motion:no-preference) {
         font-family: "Cinzel";
         color: var(--starwars-yellow);
-        font-size: var(--h1);
+        font-size: var(--h2);
         width: 100%;
         align-items: left;
         text-align: left;
