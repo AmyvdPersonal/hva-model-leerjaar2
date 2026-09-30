@@ -106,7 +106,7 @@ button:hover {
   animation: ease-in;
   transition: .5s;
 
-  @media(prefers-reduced-motion: reduce) {
+  @media(prefers-reduced-motion: no-preference) {
     animation-play-state: paused;
   }
 
