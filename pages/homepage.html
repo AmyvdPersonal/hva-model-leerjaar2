@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en nl">
 
 <head>
   <meta charset="UTF-8">
@@ -13,18 +13,18 @@
   <script src="../assets/js/cookiepopup.js" defer></script>
 </head>
 
-<body>
-  <header>
-    <nav>
+<body aria-label="body">
+  <header aria-label="header">
+    <nav aria-label="navigatie">
       <ul>
         <li>
-          <a href="#"><img src="../assets/images/SVG/lightsaber-icon.svg" alt="" srcset="">Lightsabers</a>
+          <a href="#" alt="link naar lightsabers"><img src="../assets/images/SVG/lightsaber-icon.svg" alt="Dit is een afbeelding van twee lightsabers die je naar de lightsaber pagina heen stuurt" srcset="">Lightsabers</a>
         </li>
         <li>
-          <a href="#"><img src="../assets/images/SVG/Home-icon.svg" alt="" srcset=""> Home </a>
+          <a href="#" alt="Link naar homepagina" aria-current=""><img src="../assets/images/SVG/Home-icon.svg" alt="Dit is een afbeelding van een starwars huisje  die je naar de home pagina heen stuurt" srcset=""> Home </a>
         </li>
         <li>
-          <a href="#"><img src="../assets/images/SVG/characters-icon.svg" alt="" srcset=""> Characters</a>
+          <a href="#" alt="link naar karakters"><img src="../assets/images/SVG/characters-icon.svg" alt="Dit is een afbeelding van een darth vader zijn helm huisje  die je naar de karakters pagina heen stuurt" srcset=""> Characters</a>
         </li>
 
       </ul>
@@ -33,7 +33,7 @@
     <picture>
       <source srcset="../assets/images/obi-onekenobi.jpg" media="(width > 70rem)">
       <source srcset="../assets/images/obi-onekenobi.jpg" media="(width > 105rem)">
-      <img src="../assets/images/obi-onekenobi.jpg" alt="obi-wan" srcset="">
+      <img src="../assets/images/obi-onekenobi.jpg" alt=" een achtergrond foto van obi-wan kenobi die staat in een desert mete en doek over zijn hoofd heen. Hij kijkt naar darthvader die op een berg staat." srcset="">
     </picture>
 
     <!-- Bron foto https://wallpapercat.com/darth-vader-wallpapers#download-->
@@ -43,7 +43,7 @@
       <img src="../assets/images/279815-3840x2160-desktop-4k-darth-vader-wallpaper.jpg" alt="dart-vader" srcset="">
     </picture>
 
-    <section>
+    <section aria-label="intro tekst van de thema" >
       <section>
         <h1><!-- De tekst staat in de css file die erbij hoort ivm de thema's--></h1>
         <p>
@@ -53,7 +53,7 @@
     </section>
   </header>
 
-  <main class="hide-content">
+  <main  aclass="hide-content">
 
     <section>
       <h2></h2>
@@ -73,19 +73,19 @@
 
     </section>
   </main>
-  <button id="ahsokacookie">
-    <img src="../assets/images/ahsokacookie1.svg" alt="klik op mij ahsoka" srcset="">
+  <button id="ahsokacookie" alt="Klik op mij ahsoka om je cookie consent te geven" aria-haspopup="Als je er op klikt krijg je een popup van de cookie consent">
+    <img src="../assets/images/ahsokacookie1.svg" alt="Dit is het hoofd van het karakter ahsoka" srcset="">
   </button>
 
 
-  <dialog id="cookiepopup">
+  <dialog id="cookiepopup" aria-label="cookiepopup">
     <h2>Clearance Required, Traveler</h2>
     <p>We use tracking beacons (cookies) to personalize your journey across the galaxy, to provide Holonet features and
       to analyze our hyperspace traffic. We also share your sector coordinates with our New Republic, merchant, and
       intelligence allies, who may combine it with other intel you’ve provided to them during past missions.</p>
-    <section>
-      <button id="acceptbtn">Accept</button>
-      <button id="declinebtn">Decline </button>
+    <section aria-label="keuzeknoppen">
+      <button id="acceptbtn" alt="accepteer de cookies">Accept</button>
+      <button id="declinebtn" alt="weiger de cookies">Decline </button>
     </section>
   </dialog>
 </body>

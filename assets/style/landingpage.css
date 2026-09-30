@@ -11,6 +11,13 @@ body {
     background: linear-gradient(to top, var(--gradient-black-bg) 40%, var(--gradient-darkblueish-bg) 10%, var(--gradient-black-bg) 40%);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+    @media(prefers-reduced-motion: reduce) {
+        background-image: url(../images/starwarsthemebg.jpeg);
+        height:100%;
+        width:auto;
+        mix-blend-mode: cover;
+    }
+
     @media (max-width:500px) {
         display: grid;
         place-items: center;
@@ -36,6 +43,11 @@ video {
     mix-blend-mode: cover;
     opacity: 0.3;
     z-index: -1;
+
+    @media(prefers-reduced-motion: reduce) {
+        display: none;
+        animation-play-state: paused;
+    }
 
     @media (max-width:500px) {
         object-fit: cover;
@@ -82,6 +94,7 @@ section {
         text-align: left;
         align-items: flex-start;
     }
+
 }
 
 #crawl p {
@@ -90,6 +103,8 @@ section {
     font-size: var(--p);
     align-items: left;
     text-align: left;
+
+    @media(prefers-reduced-motion: reduce) {}
 
     @media (max-width:500px) {
         font-size: 1.5rem;
@@ -108,7 +123,16 @@ h1 {
     align-items: left;
     text-align: left;
 
-   /*
+    @media(prefers-reduced-motion:no-preference) {
+        font-family: "Cinzel";
+        color: var(--starwars-yellow);
+        font-size: var(--h1);
+        width: 100%;
+        align-items: left;
+        text-align: left;
+    }
+
+    /*
     @media (max-width:500px) {
         font-size: 2rem;
     }
@@ -147,7 +171,7 @@ a {
 
     animation: rotate 15s linear infinite;
 
-    @media(max-width:500px){
+    @media(max-width:500px) {
         width: 19rem;
         height: 5rem;
         display: grid;
@@ -156,7 +180,7 @@ a {
         text-align: center;
     }
 
-    @media (max-width:1000px){
+    @media (max-width:1000px) {
         width: 19rem;
         height: 5rem;
         display: grid;
@@ -188,7 +212,7 @@ a:focus::after {
 
     animation: rotate 15s linear infinite;
 
-    @media(max-width:500px){
+    @media(max-width:500px) {
         content: '';
         position: absolute;
         width: 20rem;
@@ -197,7 +221,7 @@ a:focus::after {
         animation: rotate 15s linear infinite;
     }
 
-    @media (max-width:1000px){
+    @media (max-width:1000px) {
         content: '';
         position: absolute;
         width: 20rem;
