@@ -54,8 +54,9 @@ dialog#cookiepopup[open] {
     justify-content: space-evenly;
     flex-direction: column;
     top: 24%;
-    left: 52.5%;
+    left: 40%;
     bottom: 25%;
+    padding-left:5rem;
 
     width: 60rem;
     height: 50rem;
@@ -126,6 +127,7 @@ dialog#cookiepopup>section {
     position: static;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap:1em;
 }
 
 dialog#cookiepopup>button,
@@ -141,7 +143,7 @@ dialog#cookiepopup>button,
     display: grid;
     place-items: center;
     border-radius: 2.5rem;
-    left:2%;
+    left:15%;
 
     font-family: 'Montserrat';
     font-weight: 600;
