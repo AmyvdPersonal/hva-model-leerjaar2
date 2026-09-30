@@ -26,6 +26,13 @@ h1 {
     font-size: var(--h1);
     text-align: center;
   }
+
+  @media(max-width:1000px){
+    font-family: "Deathstar";
+    color: var(--text-color-choosetheme);
+    font-size: var(--h1);
+    text-align: center;
+  }
 }
 
 main {
@@ -60,7 +67,7 @@ section {
   }
   @media(max-width:1000px){
     gap: 5rem;
-    flex-direction: column;
+    flex-direction: row;
   }
 }
 
