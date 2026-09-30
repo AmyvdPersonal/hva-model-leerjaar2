@@ -56,6 +56,9 @@ nav {
   */
 
 ul {
+  background: linear-gradient(to right,
+      var(--lightsaber-lightgrey) 0% 30%,
+      var(--lightsaber-light-blue) 30% 100%);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
@@ -67,10 +70,6 @@ ul {
   height: 8rem;
   text-align: center;
 
-  background-image: linear-gradient(to right,
-      var(--lightsaber-grey) 0% 30%,
-      var(--lightsaber-light-blue) 30% 100%);
-
   border-radius: 5rem 10rem 10rem 5rem;
   color: var(--text-color);
 
@@ -78,6 +77,9 @@ ul {
 
   @media(max-width: 500px) {
     height: 5rem;
+    background: linear-gradient(to right,
+      var(--lightsaber-grey) 0% 30%,
+      var(--lightsaber-light-blue) 30% 100%);
   }
 
 }
@@ -111,9 +113,7 @@ li a {
     align-content: center;
     gap: 0.2rem;
   }
-
 }
-
 
 
 nav li:nth-of-type(1) a img,
@@ -129,6 +129,11 @@ nav li:nth-of-type(3) a img {
     mix-blend-mode: normal;
     opacity: 1;
   }
+}
+
+a:focus-visible {
+    outline: 3px solid var(--starwars-yellow);
+    outline-offset: 5px;
 }
 
 picture {
@@ -214,9 +219,13 @@ section section {
   gap: 1;
 }
 
+section section h1:nth-of-type(2),
+section section p:nth-of-type(2) {
+  display: none;
+}
+
 section h1::before,
 section h1 {
-  content: '"Hello There"';
   font-family: 'Deathstar';
   letter-spacing: 0.5rem;
   font-size: var(--h1);
@@ -224,7 +233,6 @@ section h1 {
 
 section p::before,
 section p {
-  content: 'Welkom in de wereld van Star Wars. Net als Obi-wan op Tatioone, bewaart deze plek de kennis van een mooie tijdperk. Laat hem je gids zijn door de oude Jedi Orde.We duiken in de verhalen van legendarische Jedi-personages en hun diepe connectie met de Force. Ook ontdekken we de geheimen achter hun lightsabers en verkennen we de snelle Jedi Starfighters waarmee zij de vrede bewaarden. Neem de tijd, kijk rond en may the Force be with you.';
   font-family: "Montserrat";
   font-size: var(--p);
 }
@@ -233,8 +241,11 @@ section p {
 * MARK: lightside -main
 **************************/
 main {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+
   @media (max-width:500px) {
-    position: sta;
+    position: static;
     top: 0;
     bottom: 0;
     left: 0;
@@ -258,14 +269,13 @@ main.hide-content {
 
 main section {
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  justify-items: center;
-  align-items: center;
-  gap: 5rem;
-  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(1rem, 1fr));
+  place-content: center;
+  width: 100vw;
 
   position: static;
-  padding: 10rem 0rem 10rem 5rem;
+  padding: 5rem 5rem 5rem 10rem;
+  
 
   @media(max-width:1000px) {
     padding: 0;
@@ -297,15 +307,18 @@ main section picture {
   }
 }
 
-main section h2::before {
+main section h2 {
   content: 'Meet the jedi you must';
   font-family: "Deathstar";
-  font-size: 10rem;
+  font-size: var(--h1);
   letter-spacing: .5rem;
   text-align: left;
   grid-column: 1;
-  grid-row: 1;
-  max-width: 20rem;
+  grid-row: 1 / span 2;
+  align-self: center;
+  justify-self: start;
+  top:25rem;
+  max-width: 40rem;
 
   @media(max-width:1000px) {
     font-size: var(--h2);
@@ -320,6 +333,10 @@ main section h2::before {
   }
 }
 
+main section h2:nth-of-type(2),
+main section picture:nth-of-type(2) {
+  display: none;
+}
 
 main picture:nth-of-type(1),
 main section picture {
@@ -343,8 +360,8 @@ main section picture {
 
 main section img {
   display: flex;
-  justify-content: right;
-  justify-items: end;
+  justify-content: left;
+  justify-items: start;
   width: 110%;
   height: auto;
   z-index: -10;
@@ -461,9 +478,18 @@ main picture:nth-of-type(2) {
     }
   }
 
+  section section h1:nth-of-type(1),
+  section section p:nth-of-type(1) {
+    display: none;
+  }
+
+  section section h1:nth-of-type(2),
+  section section p:nth-of-type(2) {
+    display: block;
+  }
+
   section h1::before,
   section h1 {
-    content: '"If you only knew the power of the dark side."';
     font-family: 'Deathstar';
     letter-spacing: 0.5rem;
     font-size: var(--h1);
@@ -471,7 +497,6 @@ main picture:nth-of-type(2) {
 
   section p::before,
   section p {
-    content: 'Met Darth Vader als gids leer je hier alles over de macht van de Sith. We kijken naar bekende Sith-personages en hun duistere band met de Force, maar duiken ook in de details van hun rode lightsabers en de iconische Imperial TIE Fighters. Kijk gerust rond en join the dark side.';
     font-family: "Montserrat";
     font-size: var(--p);
   }
@@ -479,13 +504,28 @@ main picture:nth-of-type(2) {
   /**************************
 * MARK: Darks side - main
 **************************/
+  main {
+    background-color: var(--bg-primairy-color);
+    color: var(--text-color);
+  }
+
+  main section h2:nth-of-type(1),
+  main section picture:nth-of-type(1) {
+    display: none;
+  }
+
+  main section h2:nth-of-type(2),
+  main section picture:nth-of-type(2) {
+    display: block;
+  }
+
   main section picture:nth-of-type(1) {
     display: none;
   }
 
   main section picture:nth-of-type(2) {
     display: block;
-    /* Toon Darth Sidious */
+
   }
 
   main section img {

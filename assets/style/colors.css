@@ -18,9 +18,10 @@
   --dark-beige-color:#c7bfb1;
 
   /*Colors for the navbar or button*/
-  --lightsaber-red:#c2301e;
+  --lightsaber-red:#FE8178;
   --lightsaber-darkred:#641d14;
-  --lightsaber-grey:#5b5b54;
+  --lightsaber-grey:#2B2B2B;
+  --lightsaber-lightgrey: #B9B9B9;
   --lightsaber-blue:#5e8898;
     /*inpso https://es.pinterest.com/pin/51158145756833365/*/
 
@@ -35,7 +36,7 @@
   --light-grey:#aaa8ad;
   --text-color: #dbd0ba; 
 
-  --red-color:#e62815;
+  --red-color:#FE8178;
   --bordeau-color:#8b4944;
 }
 

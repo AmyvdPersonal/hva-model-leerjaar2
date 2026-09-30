@@ -1,33 +1,30 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="author" content="jouw naam" />
   <meta name="color-scheme" content="dark light" />
-
   <title>Bloomigskils</title>
   <link rel="stylesheet" href="./assets/style/landingpage.css" />
-
 </head>
-
-<body aria-label="Body">
-  <video autoplay loop muted playsinline class="jumpspeedbg" >
-    <source src="./assets/images/jumpspeedbg.mp4" type="video/mp4" alt="" >
+<body>
+  <!-- alt verwijderd uit source, aria-hidden toegevoegd zodat de screenreader de decoratieve video negeert -->
+  <video autoplay loop muted playsinline class="jumpspeedbg" aria-hidden="true">
+    <source src="./assets/images/jumpspeedbg.mp4" type="video/mp4">
   </video>
-  <section class="intro" aria-label="intro website">
+  <main class="intro" aria-label="Introductie">
     <section id="crawl">
-        <h1 >Episode 1: Een nieuw systeem</h1>
+        <h1>Episode 1: Een nieuw systeem</h1>
         <p>Welkom, reiziger.</p>
         <p>De Melkweg is in onrust. In deze galaxy van code en tekst woedt een oeroude strijd tussen de
           Jedi en de Sith.
           Voordat je de databanken van deze digitale tuin betreedt, wachten zij op jouw komst en moet je je lot bepalen.
         </p>
-        <p >Welk pad bewandel jij in dit portaal?</p>
-        <a href="./pages/theme.html" aria-label="link naar thema pagina." alt=" Klik hierop en dan  gaat  dit naar de kies je thema pagina">Choose Your side</a>
-  </section>
-  </section>
+        <p>Welk pad bewandel jij in dit portaal?</p>
+        <!-- alt en overbodige aria-label verwijderd op de link -->
+        <a href="./pages/theme.html">Choose Your side</a>
+    </section>
+  </main>
 </body>
-
 </html>

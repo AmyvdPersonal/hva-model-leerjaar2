@@ -1,5 +1,5 @@
 #ahsokacookie {
-    width: 20rem;
+    width: 10rem;
     height: 20rem;
     display: flex;
 
@@ -11,6 +11,13 @@
     /*butoon styling*/
     background: none;
     border: none;
+    cursor:pointer;
+    transition: transform 0.2s ease;
+
+    &:hover,
+    &:focus-visible{
+        transform: scale(1.05);
+    }
 
     @media(max-width:1000px) {
         width: 15rem;
@@ -26,10 +33,19 @@
         bottom: 5rem;
     }
 
+    @media(prefers-reduce-motion: reduce){
+        animation: none;
+    }
+
 }
 
-button#ahsokacookie:hover img {
+button#ahsokacookie:hover img,
+button#ahsokacookie:focus-visible img {
     content: url(../images/ahsokacookie2.svg);
+}
+
+button#ahsokacookie:focus-visible{
+    outline: 3px solid var(--starwars-yellow);
 }
 
 dialog#cookiepopup[open] {
@@ -134,8 +150,8 @@ dialog#cookiepopup>button,
 
     text-decoration: none;
     text-transform: uppercase;
-
-    animation: rotate 15s linear infinite;
+    cursor:pointer;
+    border: 2px solid transparent;
 
     @media(max-width:500px){
         width: 19rem;
@@ -155,4 +171,17 @@ dialog#cookiepopup>button,
         text-align: center;
     }
 
+}
+
+#acceptbtn:hover,
+#declinebtn:hover{
+    background-color: var(--starwars-yellow);
+    color: var(--black-color);
+    border: 2px solid var(--black-color);
+}
+
+#acceptbtn:focus-visible,
+#declinebtn:focus-visible {
+    outline: 3px solid var(--starwars-yellow);
+    outline-offset: 3px;
 }

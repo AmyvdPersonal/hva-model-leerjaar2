@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="color-scheme" content="dark light">
-  <title>Landingpage</title>
+  <title>Home</title>
 
   <link rel="stylesheet" href="../assets/style/homepage.css">
   <link rel="stylesheet" href="../assets/style/cookiepopup.css">
@@ -13,18 +13,18 @@
   <script src="../assets/js/cookiepopup.js" defer></script>
 </head>
 
-<body aria-label="body">
-  <header aria-label="header">
-    <nav aria-label="navigatie">
+<body >
+  <header >
+    <nav >
       <ul>
         <li>
-          <a href="#" alt="link naar lightsabers"><img src="../assets/images/SVG/lightsaber-icon.svg" alt="Dit is een afbeelding van twee lightsabers die je naar de lightsaber pagina heen stuurt" srcset="">Lightsabers</a>
+          <a href="#"><img src="../assets/images/SVG/lightsaber-icon.svg" alt="Dit is een afbeelding van twee lightsabers die je naar de lightsaber pagina heen stuurt" srcset="" aria-hidden="true">Lightsabers</a>
         </li>
         <li>
-          <a href="#" alt="Link naar homepagina" aria-current=""><img src="../assets/images/SVG/Home-icon.svg" alt="Dit is een afbeelding van een starwars huisje  die je naar de home pagina heen stuurt" srcset=""> Home </a>
+          <a href="#" aria-current="page" ><img src="../assets/images/SVG/Home-icon.svg" alt="Dit is een afbeelding van een starwars huisje  die je naar de home pagina heen stuurt" srcset="" aria-hidden="true"> Home </a>
         </li>
         <li>
-          <a href="#" alt="link naar karakters"><img src="../assets/images/SVG/characters-icon.svg" alt="Dit is een afbeelding van een darth vader zijn helm huisje  die je naar de karakters pagina heen stuurt" srcset=""> Characters</a>
+          <a href="#" ><img src="../assets/images/SVG/characters-icon.svg" alt="Dit is een afbeelding van een darth vader zijn helm huisje  die je naar de karakters pagina heen stuurt" srcset="" aria-hidden="true"> Characters</a>
         </li>
 
       </ul>
@@ -33,7 +33,7 @@
     <picture>
       <source srcset="../assets/images/obi-onekenobi.jpg" media="(width > 70rem)">
       <source srcset="../assets/images/obi-onekenobi.jpg" media="(width > 105rem)">
-      <img src="../assets/images/obi-onekenobi.jpg" alt=" een achtergrond foto van obi-wan kenobi die staat in een desert mete en doek over zijn hoofd heen. Hij kijkt naar darthvader die op een berg staat." srcset="">
+      <img src="../assets/images/obi-onekenobi.jpg" alt="" srcset="">
     </picture>
 
     <!-- Bron foto https://wallpapercat.com/darth-vader-wallpapers#download-->
@@ -43,38 +43,45 @@
       <img src="../assets/images/279815-3840x2160-desktop-4k-darth-vader-wallpaper.jpg" alt="dart-vader" srcset="">
     </picture>
 
-    <section aria-label="intro tekst van de thema" >
+    <section  >
       <section>
-        <h1><!-- De tekst staat in de css file die erbij hoort ivm de thema's--></h1>
+        <h1>"Hello There"</h1>
         <p>
-          <!-- De tekst staat in de css file die erbij hoort ivm de thema's-->
+          Welkom in de wereld van Star Wars. Net als Obi-wan op Tatioone, bewaart deze plek de kennis van een mooie tijdperk. Laat hem je gids zijn door de oude Jedi Orde.We duiken in de verhalen van legendarische Jedi-personages en hun diepe connectie met de Force. Ook ontdekken we de geheimen achter hun lightsabers en verkennen we de snelle Jedi Starfighters waarmee zij de vrede bewaarden. Neem de tijd, kijk rond en may the Force be with you.
+        </p>
+
+         <h1>"If you only knew the power of the dark side."</h1>
+        <p>
+          Met Darth Vader als gids leer je hier alles over de macht van de Sith. We kijken naar bekende Sith-personages en hun duistere band met de Force, maar duiken ook in de details van hun rode lightsabers en de iconische Imperial TIE Fighters. Kijk gerust rond en join the dark side.
         </p>
       </section>
     </section>
   </header>
 
-  <main  aclass="hide-content">
+  <main class="hide-content">
 
     <section>
-      <h2></h2>
+      <h2>Meet the jedi you must</h2>
+
+      <h2>Discover de sith</h2>
 
       <picture>
         <source srcset="../assets/images/yodaschets.png" media="(width > 70rem)">
         <source srcset="../assets/images/yodaschets.png" media="(width > 1058rem)">
-        <img src="../assets/images/yodaschets.png" alt="">
+        <img src="../assets/images/yodaschets.png" alt="Een schets van yoda">
       </picture>
 
 
       <picture>
         <source srcset="../assets/images/darthsidious.png" media="(width > 70rem)">
         <source srcset="../assets/images/darthsidious.png" media="(width > 1058rem)">
-        <img src="../assets/images/darthsidious.png" alt="">
+        <img src="../assets/images/darthsidious.png" alt="een schets van darth sidious">
       </picture>
 
     </section>
   </main>
-  <button id="ahsokacookie" alt="Klik op mij ahsoka om je cookie consent te geven" aria-haspopup="Als je er op klikt krijg je een popup van de cookie consent">
-    <img src="../assets/images/ahsokacookie1.svg" alt="Dit is het hoofd van het karakter ahsoka" srcset="">
+  <button id="ahsokacookie" alt="Klik op mij ahsoka om je cookie consent te geven" aria-haspopup="dialog">
+    <img src="../assets/images/ahsokacookie1.svg" alt="Ahsoka Tano" srcset="">
   </button>
 
 
@@ -84,8 +91,8 @@
       to analyze our hyperspace traffic. We also share your sector coordinates with our New Republic, merchant, and
       intelligence allies, who may combine it with other intel you’ve provided to them during past missions.</p>
     <section aria-label="keuzeknoppen">
-      <button id="acceptbtn" alt="accepteer de cookies">Accept</button>
-      <button id="declinebtn" alt="weiger de cookies">Decline </button>
+      <button id="acceptbtn">Accept</button>
+      <button id="declinebtn">Decline </button>
     </section>
   </dialog>
 </body>

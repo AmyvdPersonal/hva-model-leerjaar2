@@ -70,6 +70,12 @@ section {
     perspective: 80rem;
 }
 
+.intro{
+    display:grid;
+    place-items: center;
+    place-content: center;
+}
+
 #crawl {
     display: flex;
     flex-direction: column;
@@ -78,6 +84,9 @@ section {
     gap: 4rem;
     width: 55%;
     max-width: 90rem;
+
+    transform: translateY(0) rotateX(0deg); 
+        opacity: 1;
 
     animation: scrollUp 15s ease-out forwards;
 
@@ -93,6 +102,10 @@ section {
         height: 100%;
         text-align: left;
         align-items: flex-start;
+    }
+
+    @media(prefers-reduce-motion: reduce){
+        
     }
 
 }
@@ -113,6 +126,13 @@ section {
     @media (max-width:1000px) {
         font-size: 2rem;
     }
+}
+
+#crawl,
+a,
+a::before,
+a::after{
+    animation: none !important;
 }
 
 h1 {

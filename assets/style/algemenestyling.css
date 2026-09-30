@@ -2,12 +2,12 @@
   In deze file zie je de basic styling van de website. 
 */
 
-:root{
-  --h1: clamp(3.0rem, 2rem + 3.5vw, 5.0rem);
-  --h2: clamp(2.4rem, 1.5rem + 2.5vw, 3.7rem);
-  --h3: clamp(1.9rem, 1.2rem + 2vw, 2.7rem);
-  --p: clamp(1.5rem, 1rem + 1.5vw, 2.0rem);
-  --p-disappear: clamp(0rem, 0rem + 0vw, 0rem);
+:root {
+  --h1: clamp(2.25rem, 1.5rem + 4vw, 3.75rem);
+  --h2: clamp(1.8rem, 1.15rem + 3vw, 2.75rem);
+  --h3: clamp(1.4rem, 0.9rem + 2.5vw, 2rem);
+  --p: clamp(1.125rem, 0.75rem + 1.8vw, 1.5rem);
+  --p-disappear: clamp(0rem, 0vw, 0rem);
 }
 /* 
 * bron uitleg van gemini over alleen de berekning op basis dat ik er voor hebt gezorgt dat 2rem ongeveer 20px is
@@ -22,13 +22,11 @@
 }
 
 html {
-  font-size: 62.5%;
   height: 100vh;
   width: 100%;
 }
 
 body{
-  font-size: 2rem;
   color:#FFF2F2;
   width:100vw;
   height:100vh;
@@ -48,4 +46,9 @@ h3{
 
 body, p, a{
   font-size: var(--p);
+}
+
+a:focus-visible {
+    outline: 3px solid var(--starwars-yellow);
+    outline-offset: 5px;
 }
