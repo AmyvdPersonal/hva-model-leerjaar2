@@ -274,7 +274,7 @@ a:focus::after {
     }
 
     100% {
-        transform: translateY(-10vh) rotateX(0deg);
+        transform: translateY(-0) rotateX(0deg);
         opacity: 1;
     }
 }
