@@ -62,12 +62,13 @@ section {
   gap: 20rem;
   flex-direction: row;
 
-  @media(max-width:500px){
-    gap: 2.5rem;
-  }
   @media(max-width:1000px){
     gap: 5rem;
-    flex-direction: row;
+    flex-direction: column;
+  }
+  @media(max-width:500px){
+    gap: 2.5rem;
+    flex-direction: column;
   }
 }
 

@@ -8,6 +8,12 @@
   --h3: clamp(1.4rem, 0.9rem + 2.5vw, 2rem);
   --p: clamp(1.125rem, 0.75rem + 1.8vw, 1.5rem);
   --p-disappear: clamp(0rem, 0vw, 0rem);
+
+  /* uitsnede van datapad*/
+
+--breedte-uitsnede: 25rem;
+--hoogte-uitsnede: 16rem;
+--ronding: 25px;
 }
 /* 
 * bron uitleg van gemini over alleen de berekning op basis dat ik er voor hebt gezorgt dat 2rem ongeveer 20px is
@@ -62,3 +68,4 @@ a:focus-visible {
   white-space: nowrap;
   width: 1px;
 }
+
