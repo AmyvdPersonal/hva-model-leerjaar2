@@ -13,6 +13,151 @@ Ik heb bloomingskilss gekozen omdat ik op deze oefenwebsite en eindopdracht mijn
 Beschrijf hoe je aanpassingen aan jouw pagina kunt maken en hoe je er voor zorgt dat die op het web gepubliceerd worden.
 Als je een stukje code heb geschreven upload je die naar Github. In github zit er een ingebouwde hosting die ik aan mijn domein heb gekoppeld. Door mijn code te uploaden naar github de main branch. upload je gelijktijdig je code naar je website toe dat live staat.
 
+### Donderdag 31 september
+Op donderdag ben ik vooral bezig geweest met het schrijven en het bijhouden van mijn learning log. Ik heb vervolgens verder de test gedaan om te kijken of er verbetering zit in mijn website.
+Daaruit kwam dat  er wel wat verbeteringetjes nog zijn maar dat 98% van de website een stuk meer toegankelijker is voor de mensen met een beperking. IK heb het kleurecontrast aangepast en ook de website hierop aangepast
+![alt text](./readme-images/readme-images/bewijzen/test1.jpeg).
+
+### Woensdag 30 september
+Op woensdag hebben we op school een test gedaan om te kijken of je met de screenreader wel je eigen website kan bezoeken.
+Ik heb de test gemaakt en daaruit kwam er eigenlijk dat hij niet bezocht kon worden voor mensen met een screenreader. Ik heb de uitslagen gekregen uit een test die je kon invullen. 
+![alt text](./readme-images/readme-images/bewijzen/test1.jpeg).
+
+Ik ben hiermee dezelfde dag nog aan de slag mee gegaan om mijn website toegankelijk te maken voor met screenreader.
+Ik heb vooral alt teksten en arialabels toegevoegt in mijn html. Eerder maakte ik al gebruik van een goede symmanthiek van me html. Dit hoefde ik namelijk niet aan te passen. 
+![alt text](./readme-images/readme-images/bewijzen/refactoringcode-toegankelijkheid-codesnippet1.jpeg).
+![alt text](./readme-images/readme-images/bewijzen/refactoringcode-toegankelijkheid-codesnippet2.jpeg).
+![alt text](./readme-images/readme-images/bewijzen/refactoringcode-toegankelijkheid-codesnippet3.jpeg).
+
+Daarnaast ben ik ook bezig geweest om mijn popup van de cookieconsent aan te passen. Ik heb er een timer opgezet dar wanneer je door de indexpagina en de theme page door heen bent met  het klikken en je op de homepage komt. Als je 1 seconde op de homepage zit dan krijg je een popup te zien van ahsoka die je de cookieconsent laat zien en dan kan je ook niet verder gaan op de website.
+Barbara die gaf me een tip om mijn cookie consent te gaan verbeteren. Ik heb dus ervoor gekozen om het zo te gaan maken waarin ik eigenlijk een functie toevoeg binnen mijn cookieconsent functie.
+![alt text](./readme-images/readme-images/bewijzen/refactoringcode-toegankelijkheid-codesnippet4.jpeg).
+
+Woensdag 30 sep
+
+Waar staat WCAG en A11y voor? 
+Dit zijn voorwaarden om te checken of je website toegankelijk is voor de mensen met een screenreader
+
+Wat vind je lastiger, je laptop/websites alleen met een toetsenbord bedienen of met een screenreader? Waarom? Waar moet je nog mee oefenen?
+Ik vind het bedienen van een website op me laptop wel lastig om dit te bedienen met de toetsen en een screen reader. Doordat ik al gewend ben om normaal met een mouse of een trackpad te werken met dit het een stuk lastiger voor mij.
+
+Met welke beperking rekening houden vind je het meest lastig?
+Vind je dat je beperkt wordt in wat je kunt ontwerpen?
+Of heb je al manieren gevonden om vanuit een solide basis  - die voor iedereen toegankelijk is - allemaal leuke en mooie extra's toe te voegen als je bezoekers dat goed vinden?
+Voor animaties en blinden mensen die werken met een screen reader.
+Nee door gewoonte vind ik het lastig om te gaan programmeren en te ontwerpen voor mensen met een beperking. Dat komt gewoon omdat ik vaak vanuit mijn eigen perspectief of het perspectief voor iemand die geen beperking heeft.
+
+
+### dinsdag 29 september
+OP deze dag ben ik vooral bezig geweest met het schrijven van code voor de cookieconsent. Omdat op woensdag we de cookieconsent en de toegankelijkkheid van onze website gaan testen. Wilde ik het cookieconsent gaan maken.
+
+Ik heb een cookie consent gemaakt met ahsoka tano als knop. Ik heb een hover gemaakt dta ze eigenlijk als je over haar hen gaat der ogen open zien gaan alsof ze dan wakker word. Vervolgens als je op haar klikt krijg je een tekst balk te zien met een thema tekst van starwars en je eigenlijk het cookie consent ziet.
+![alt text](./readme-images/readme-images/bewijzen/cookieconsent-codesnippet1.png).
+![alt text](./readme-images/readme-images/bewijzen/cookieconsent-codesnippet2.png).
+![alt text](./readme-images/readme-images/bewijzen/cookieconsent-codesnippet3.png).
+
+In de afbeeldingen zie je ook dat ik een javascript file heb gemaakt waarin ik het id van de knoppen ophaal en hieraan een localstorage eraan toevoeg. Ik heb dit gedaan zodat die onthoudt welek keuze de gebruiker gemaakt heeft. Daarnaast heb ik zoals ikn de eerdere deepdives al behandeld is een classlist eraan toegevoegt als je op accepteer klikt dan kan je de rest van de pagina zien. Als je op weiger klikt dan kan je de rest van de pagina niet meer zien.
+
+### Maandag 28 september
+Op deze dag ben ik bezig geweest met het maken van :
+- een tekening van darth sidoius die je op de dark theme pagina kan vinden.
+- darth maul 
+- Het doorlezen van het les materiaal
+- Ashoka tano image maken in figma
+- deepdive meer interactie met html en css
+
+Ik heb deze dag vooral me tijd kwijtgeraakt aan het maken van assets die ik op mijn website kan gebruiken.
+Het tekeningen van de elementen en eht maken van de assets die ik wil gebruiken duurt wel lang. Ik heb dper tekening 3/4 uur aaan gezeten en de ahsoka asset ook 3 uurtjes max aangespendeert.
+![alt text](./assets/images/darthsidious.png).
+![alt text](./assets/images/Darthmaul.png).
+
+De asset die ik gemaakt heb van ashoka wilde ik gaan gebruiken voor het cookie consent. Zij was eerst een pada wan van anakin skywalker maar heeft uiteindelijk de jedi order verlaten. Ze is een character die een beetje tussen beide kanten staat en vooral mensen hielp tijdens de tijd dat de empire aan de macht kwam. Daarom heb ik ervoor gekozen om haar als button.
+![alt text](./assets/images/ahsokacookie1.png).
+![alt text](./assets/images/ahsokacookie2.png).
+
+Om wel op de hoogte te blijven van de kennis die et on sgedeelt word. Ben ik de lesstof gaan doorlezen. Zo krijg ik een idee wat er is gebeurd en ben ik nog wel op de hoogte.
+
+Daarnaast heb ik de deepdive gedaan interactie.
+In deze deepdive heb ik de interactie van een form gemaakt. Ik heb deze deepdive niet toegepast in mijn code omdat ik geen formulier wil maken op mijn website.
+![alt text](./readme-images/readme-images/bewijzen/deepdive-interactie.png).
+
+### Vrijdag 25 September
+Op vrijdag ben ik bezig geweest met het maken van:
+- Huiswerk
+- Deepdive
+- Tekening van Huyang, Star wars character
+
+Voor het huiswrk voor maandag ben ik mijn consent form gaan schetsen op papier. Ik ben vergeten er een foto van te maken en kan hem hierdoor niet terug vinden. Daarnaast heb ik de artikelen gelezen van de bi-weekly geek 2. Waarin we hebben gelezen over een megarechtzaak tegen meta in de vs. Ook dat chatgpt strengere regels krijgen in de eu waaraan die zich moet voldoen. 
+
+In de deepdive van positions en dialogs Ben ik gaan kijken naar hoe je in je dialog verschillende posities kan aangeven via css. Hierin heb ik geleerd welke typen posities je allemaal hebt:
+- sticky
+- absolute
+- relative
+- fixed
+- static
+
+Dit heb ik vervolgens toegepast in de volgende oefeningen.
+![alt text](./readme-images/readme-images/bewijzen/deepdive-positionsendialog-oefening1.png).
+![alt text](./readme-images/readme-images/bewijzen/deepdive-positionsendialog-oefening2.png).
+![alt text](./readme-images/readme-images/bewijzen/deepdive-positionsendialog-oefening3.png).
+
+Op deze dag zelf ben ik bezig geweest met het maken van deze tekening voor het gebruiken voor mijn website.
+![alt text](./assets/images/huyangschets.png).
+
+
+
+### Woensdag 23 September
+OP woensdag voelde ik mij niet lekker en be hierdoor niet naar school geweest. Maar om niet achter te gaan lopen ben ik wel bezig geweest met het huiswerk en de deepdive die open stond. Ik heb deze dag ook nog een beetje gewerkt aan me navbar in de homepagina.
+
+Voor de deepdive heb ik geleerd om aan de hand van een button actie een style te veranderen. Door de button aan te roepen en ook een class eraan toetevoegen kan ik dit toepassen in mijn eigen code.
+Daarnaast weet ik dus nu ook hoe je een dialoog maakt in html en css en javascript. Je maakt een dialoog aan in je html en een button. De button geef je een id mee en die haal je weer op in je js bestand. In je js bestand kan je dan vervolgens de id een variabelen van maken. Die kan je vervolgens een functie van maken die een  classlist toevoegt als de knop in true of false state staat (aan de hand de event click) > De classlist geeft een class mee die je vervolegsn in je css file weer kan stylen.
+![alt text](./readme-images/readme-images/bewijzen/deepdive-buttonsendialog-oefening1.png).
+![alt text](./readme-images/readme-images/bewijzen/deepdive-buttonsendialog-oefening2.png).
+![alt text](./readme-images/readme-images/bewijzen/deepdive-buttonsendialog-oefening3.png).
+![alt text](./readme-images/readme-images/bewijzen/deepdive-buttonsendialog-oefening4.png).
+![alt text](./readme-images/readme-images/bewijzen/deepdive-buttonsendialog-oefening5.png).
+
+Ik heb de styling ietjes verbeterd in me design voor de homepagin aop deze dag.
+
+Wat is een wireflow en wat heb je er aan?
+Een wireflow is een tekening van ej website op meerdere schermen. Je kan zo laten zien aan je groepje of je team wat de bedoeling is van de pagina voordat je het gaat uitwerken in een werkende protoype.
+
+Wat zijn dark UX patterns? Geef drie voorbeelden...
+- het moeilijk opzeggen van een abbenoment.
+Bijvoorbeeld als je een netflix abbenoment heb en je wilt heb stop zetten dan moet je eerst 5 lagen doorgaan voordat je de opzeg knop kan vinden.
+
+- Hiddencost
+Aan het einde. van een bestelling bij het afrekenprocess zie je opeens extra kostn die eerder niet duidelijk werden gemaakt
+
+- confirm shaming
+Stel je krijgt een popup die je vraagt in te schrijven voor een nieuwsbrief in ruil voor een kortingscode. De knop weigeren zegt " Ik bespaar niet graag" of 'ik betaal liever de volle pot.'. De bedoeling hiervan is om je keuze in twijfel te trekken en je toch over te halen om je in te schrijven.
+
+Waar moet je als ontwerper rekening mee houden bij het maken van een human consent component?
+Je koet rekening houden met dat het gebruiksvriendelijk is, Voldoet aan de wet en je gebruikers de keuzes duidelijk laat zien en uitleggen.
+
+
+
+### Dinsdag 22 september
+Op dinsdag ben ik gaan thuiswerken aan het huiswerk voor woensdag. Ik ben toen bezig geweest met:
+- Deepdive: s2- Buttons, states en selectors
+- De talk en de artikelen lezen
+- Het schetsen van een yoda element
+- gewerkt aan de homepagina van me website.
+
+Bij de deepdive heb ik geleerd dat buttons dieje maakt verschillende states hebben. Door de oefening te maken van de codepen heb ik meteen de theorie die mij is gegeeven tijdens de deepdive toegepast.
+![alt text](./readme-images/readme-images/bewijzen/deepdiveknoppen.png).
+
+Tijdens het lezen van de artikelen wete ik nu wat drak patterns zijn en hoe ik dit kan voorkomen.
+Ik ben ook bezig geweest met het werken aan me project. Ik heb de teksten van beide pagina's dus de header teksten gemaakt en die meteen samen met de header afbeelding responsive gemaakt. Ik ben een overlay over de image gemaakt en daarna hier overheen de teksten laten uitkomen. Ik heb een begin gemaakt aan de navbar die op telefoon afbeeldingen heeft en desktop de teksten met linkejes. Ik heb de navbar gemaakt in een lightsaber en hierin een linear gradient gemaakt die de helft van beide kleuren hebben.
+![alt text](./readme-images/readme-images/bewijzen/codesnippet1.png).
+![alt text](./readme-images/readme-images/bewijzen/codesnippet2.png).
+![alt text](./readme-images/readme-images/bewijzen/codesnippet3.png).
+![alt text](./readme-images/readme-images/bewijzen/codesnippet4.png).
+![alt text](./readme-images/readme-images/bewijzen/codesnippet5.png).
+
+Daarnaast ben ik begonnen met het schetsen en het maken van een yoda element. EErst wilde ik de afbeelding met photoshop en illustrator maken en dit is uiteindelijk zo uitgekomen. 
+![alt text](./readme-images/readme-images/bewijzen/yodaimage1.png).
+
 ### Maandag 21 september
 
 Op deze dag ben ik bezig geweest met het maken van een liver version die tijdens de les werd uitgetyped, ben ik verder gaan werken aan me project en zijn we dieper ingeaaan over de cookie popup.
