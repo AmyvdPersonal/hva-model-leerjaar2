@@ -18,16 +18,16 @@ h1 {
   font-family: "Deathstar";
   color: var(--text-color-choosetheme);
   font-size: var(--h1);
-  letter-spacing:1rem;
+  letter-spacing: 1rem;
 
-  @media(max-width:500px){
+  @media(max-width:500px) {
     font-family: "Deathstar";
     color: var(--text-color-choosetheme);
     font-size: var(--h1);
     text-align: center;
   }
 
-  @media(max-width:1000px){
+  @media(max-width:1000px) {
     font-family: "Deathstar";
     color: var(--text-color-choosetheme);
     font-size: var(--h1);
@@ -42,15 +42,15 @@ main {
   flex-direction: column;
   gap: 10rem;
 
-  @media(max-width:500px){
-    gap:5rem;
+  @media(max-width:500px) {
+    gap: 5rem;
     flex-direction: column;
     width: auto;
     height: auto;
   }
 
-  @media(max-width:1000px){
-    gap:5rem;
+  @media(max-width:1000px) {
+    gap: 5rem;
     flex-direction: column;
     width: auto;
     height: auto;
@@ -62,17 +62,18 @@ section {
   gap: 20rem;
   flex-direction: row;
 
-  @media(max-width:1000px){
+  @media(max-width:1000px) {
     gap: 5rem;
     flex-direction: column;
   }
-  @media(max-width:500px){
+
+  @media(max-width:500px) {
     gap: 2.5rem;
     flex-direction: column;
   }
 }
 
-button {
+a {
   max-width: 40rem;
   max-height: 40rem;
   background: none;
@@ -83,7 +84,22 @@ button {
   font-weight: 500;
   font-size: var(--p);
 
-  @media (max-width:500px){
+  text-decoration: none;
+
+  &:focus {
+    outline: 3px solid var(--starwars-yellow);
+    outline-offset: 5px;
+  }
+
+  &:active {
+    color: var(--text-color-choosetheme);
+  }
+
+  &:visited{
+    color: var(--text-color-choosetheme);
+  }
+
+  @media (max-width:500px) {
     max-width: 20rem;
     max-height: 20rem;
     background: none;
@@ -93,10 +109,10 @@ button {
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: var(--p);
-    color:var(--bg-color);
+    color: var(--bg-color);
   }
 
-  @media(max-width:1000px){
+  @media(max-width:1000px) {
     max-width: 40rem;
     max-height: 40rem;
     background: none;
@@ -106,11 +122,11 @@ button {
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: var(--p);
-    color:var(--bg-color);
+    color: var(--bg-color);
   }
 }
 
-button:hover {
+a:hover {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   transform: scale(1.1);
   animation: ease-in;
@@ -120,14 +136,14 @@ button:hover {
     animation-play-state: paused;
   }
 
-  @media(max-width:500px){
+  @media(max-width:500px) {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     transform: scale(1.1);
     animation: ease-in;
     transition: .5s;
   }
 
-  @media(max-width:1000px){
+  @media(max-width:1000px) {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     transform: scale(1.1);
     animation: ease-in;
@@ -139,11 +155,11 @@ img {
   max-width: 40rem;
   max-height: 40rem;
 
-  @media(max-width:500px){
+  @media(max-width:500px) {
     max-width: 100%;
   }
 
-  @media(max-width:1000px){
+  @media(max-width:1000px) {
     max-width: 100%;
   }
 }

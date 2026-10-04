@@ -5,15 +5,14 @@
 
 
 /**************************
-* MARK: lightside 
+* MARK: Basis & Lightside Layout
 **************************/
 header {
   display: grid;
 
+  @media (max-width: 1000px) {}
 
-  @media(max-width:1000px) {}
-
-  @media(max-width:500px) {
+  @media (max-width: 500px) {
     background-image: linear-gradient(to top,
         var(--gradient-black-overlay-bg) 50%,
         var(--gradient-darkblueish-overlay-bg));
@@ -22,7 +21,7 @@ header {
   }
 }
 
-header>a:nth-of-type(1) {
+header > a:nth-of-type(1) {
   position: fixed;
   left: -9999em;
 
@@ -45,29 +44,17 @@ nav {
   grid-area: 1/1;
   z-index: 2;
 
-
-  @media(max-width: 500px) {
+  @media (max-width: 500px) {
     position: fixed;
     top: auto;
     bottom: 0;
     left: 0;
     width: 100%;
     z-index: 2;
-    /*  
-  https://stackoverflow.com/questions/75366281/position-fixed-navigation-bar-at-bottom-of-screen?
-  https://stackoverflow.com/questions/79321387/how-to-put-fixed-bars-on-top-and-bottom?
-  */
   }
 }
 
-/* 
-  Dit is de bron voor de grid-area en overlapping van items
-  https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
-  https://css-tricks.com/complete-guide-css-grid-layout/
-  https://wpbuilds.com/2024/08/01/383-no-script-show-episode-14-the-frontend-divide-ux-designers-vs-javascript-specialists-2/
- 
-  */
-
+/* Lightsaber navigatiebalk */
 ul {
   margin: 0;
   padding: 0;
@@ -90,7 +77,7 @@ ul {
 
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 
-  @media(max-width: 500px) {
+  @media (max-width: 500px) {
     position: fixed;
     bottom: 2%;
     width: 95%;
@@ -100,7 +87,6 @@ ul {
         var(--lightsaber-grey) 0% 30%,
         var(--lightsaber-light-blue) 30% 100%);
   }
-
 }
 
 li:nth-of-type(1) {
@@ -124,7 +110,7 @@ li a {
   text-decoration: none;
   font-family: "Montserrat";
 
-  @media(max-width:500px) {
+  @media (max-width: 500px) {
     display: grid;
     font-size: var(--p-disappear);
     justify-content: center;
@@ -134,13 +120,12 @@ li a {
   }
 }
 
-
 nav li:nth-of-type(1) a img,
 nav li:nth-of-type(2) a img,
 nav li:nth-of-type(3) a img {
   display: none;
 
-  @media(max-width: 500px) {
+  @media (max-width: 500px) {
     display: block;
     width: 5rem;
     height: 5rem;
@@ -168,15 +153,14 @@ header img {
   mix-blend-mode: overlay;
   opacity: 1.9;
 
-
-  @media (max-width:1000px) {
+  @media (max-width: 1000px) {
     height: auto;
     width: 100%;
     object-position: center;
     place-items: center;
   }
 
-  @media(max-width: 500px) {
+  @media (max-width: 500px) {
     display: block;
     height: 70vh;
     width: 100%;
@@ -184,14 +168,9 @@ header img {
     object-position: left 75%;
     place-items: center;
   }
-
 }
 
-header picture:nth-of-type(2) {
-  display: none;
-}
-
-header>section {
+header > section {
   grid-area: 1 / 1;
   justify-self: end;
   align-self: center;
@@ -199,12 +178,12 @@ header>section {
   margin-right: 5%;
   margin-top: 5rem;
 
-  @media(max-width:1000px) {
+  @media (max-width: 1000px) {
     width: 70%;
     margin-right: 5%;
   }
 
-  @media (max-width:500px) {
+  @media (max-width: 500px) {
     justify-self: center;
     position: relative;
     align-self: end;
@@ -214,18 +193,9 @@ header>section {
   }
 }
 
-/*
-bron: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Line-based_placement
-*/
-
 section section {
   display: grid;
-  gap: 1;
-}
-
-section section h1:nth-of-type(2),
-section section p:nth-of-type(2) {
-  display: none;
+  gap: 1rem;
 }
 
 section h1::before,
@@ -241,8 +211,9 @@ section p {
   font-size: var(--p);
 }
 
+
 /**************************
-* MARK: lightside -main
+* MARK: Main Content
 **************************/
 main {
   background-color: var(--bg-color);
@@ -252,7 +223,7 @@ main {
   flex-direction: column;
   gap: 5rem;
 
-  @media (max-width:500px) {
+  @media (max-width: 500px) {
     background-color: var(--bg-color);
     min-height: 100vh;
     color: var(--text-color);
@@ -273,12 +244,12 @@ main.hide-content {
     display: block;
   }
 
-  @media(max-width:1000px) {}
+  @media (max-width: 1000px) {}
 
-  @media (max-width:500px) {}
+  @media (max-width: 500px) {}
 }
 
-main>section:first-of-type {
+main > section:first-of-type {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(1rem, 1fr));
   place-content: center;
@@ -287,12 +258,11 @@ main>section:first-of-type {
   position: static;
   padding: 5rem 5rem 5rem 10rem;
 
-
-  @media(max-width:1000px) {
+  @media (max-width: 1000px) {
     padding: 0;
   }
 
-  @media (max-width:500px) {
+  @media (max-width: 500px) {
     position: relative;
     top: 5rem;
     left: 0;
@@ -305,8 +275,8 @@ main>section:first-of-type {
   }
 }
 
-main>section:first-of-type>section {
-  @media(max-width:500) {
+main > section:first-of-type > section {
+  @media (max-width: 500px) {
     padding: 10rem;
   }
 }
@@ -318,9 +288,23 @@ main section picture {
   grid-column: 2;
   grid-row: 2;
 
-  @media (max-width:500px) {
+  display: block;
+  width: 94%;
+  place-items: right;
+  justify-self: end;
+  justify-items: right;
+  rotate: calc(-10deg);
+
+  @media (max-width: 1000px) {
+    font-size: var(--h2);
+  }
+
+  @media (max-width: 500px) {
     grid-column: 1;
     grid-row: 2;
+    width: 100%;
+    justify-self: center;
+    rotate: calc(0deg);
   }
 }
 
@@ -336,41 +320,16 @@ main section h2 {
   top: 25rem;
   max-width: 40rem;
 
-  @media(max-width:1000px) {
+  @media (max-width: 1000px) {
     font-size: var(--h2);
   }
 
-  @media (max-width:500px) {
+  @media (max-width: 500px) {
     font-size: var(--h2);
     grid-column: 1;
     grid-row: 1;
     max-width: 100%;
     text-align: center;
-  }
-}
-
-main section h2:nth-of-type(2),
-main section picture:nth-of-type(2) {
-  display: none;
-}
-
-main picture:nth-of-type(1),
-main section picture {
-  display: block;
-  width: 94%;
-  place-items: right;
-  justify-self: end;
-  justify-items: right;
-  rotate: calc(-10deg);
-
-  @media(max-width:1000px) {
-    font-size: var(--h2);
-  }
-
-  @media (max-width:500px) {
-    width: 100%;
-    justify-self: center;
-    rotate: calc(0deg);
   }
 }
 
@@ -382,22 +341,18 @@ main section img {
   height: auto;
   z-index: -10;
 
-  @media(max-width:1000px) {
+  @media (max-width: 1000px) {
     font-size: var(--h2);
   }
 
-  @media (max-width:500px) {
+  @media (max-width: 500px) {
     width: 100%;
     height: auto;
     justify-content: center;
   }
 }
 
-main picture:nth-of-type(2) {
-  display: none;
-}
-
-main>section:nth-of-type(2) {
+main > section:nth-of-type(2) {
   display: grid;
   justify-items: center;
   gap: 1.5rem;
@@ -405,11 +360,11 @@ main>section:nth-of-type(2) {
   position: relative;
   top: 2rem;
 
-  @media(max-width:500px) {}
+  @media (max-width: 500px) {}
 }
 
-main>section:nth-of-type(2)> div > h2 {
-  @media(max-width:500px) {
+main > section:nth-of-type(2) > div > h2 {
+  @media (max-width: 500px) {
     text-align: center;
     justify-self: center;
     width: 100%;
@@ -417,8 +372,7 @@ main>section:nth-of-type(2)> div > h2 {
   }
 }
 
-main>section:nth-of-type(2)>div {
-
+main > section:nth-of-type(2) > div {
   width: min(90vw, 40rem);
   aspect-ratio: 10 / 10;
   background: url(../images/datapad.svg);
@@ -428,7 +382,7 @@ main>section:nth-of-type(2)>div {
   display: grid;
 }
 
-main>section:nth-of-type(2)>div>section {
+main > section:nth-of-type(2) > div > section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
   gap: 1rem;
@@ -438,28 +392,19 @@ main>section:nth-of-type(2)>div>section {
 
 
 /**************************
-* MARK: Darks side
+* MARK: Dark side
 **************************/
 [data-theme="dark"] {
   body {
     background-color: var(--bg-primairy-color);
     color: var(--text-color);
-    padding: o;
+    padding: 0;
     margin: 0;
   }
 
   main {
     background-color: var(--bg-primairy-color);
     color: var(--text-color);
-  }
-
-  header picture:nth-of-type(1) {
-    display: none;
-  }
-
-  header picture:nth-of-type(2) {
-    display: block;
-    grid-area: 1/1;
   }
 
   header picture img {
@@ -473,34 +418,14 @@ main>section:nth-of-type(2)>div>section {
         var(--lightsaber-grey) 0% 30%,
         var(--lightsaber-darkred) 30% 100%);
 
-    @media(max-width:500px) {
+    @media (max-width: 500px) {
       background-image: linear-gradient(to right,
           var(--lightsaber-grey) 0% 30%,
           var(--lightsaber-red) 30% 100%);
     }
-
   }
 
-  header>section>section h1:nth-of-type(1),
-  header>section>section p:nth-of-type(1) {
-    display: none;
-  }
-
-  header>section>section h1:nth-of-type(2),
-  header>section>section p:nth-of-type(2) {
-    display: block;
-  }
-
-  main section h2:nth-of-type(1),
-  main section picture:nth-of-type(1) {
-    display: none;
-  }
-
-  main section h2:nth-of-type(2),
-  main section picture:nth-of-type(2) {
-    display: block;
-  }
-
+  /* Uitlijning voor de Sith schets (Darth Sidious) */
   main section img {
     justify-content: right;
     justify-items: end;
@@ -511,5 +436,4 @@ main>section:nth-of-type(2)>div>section {
       justify-content: center;
     }
   }
-
 }
