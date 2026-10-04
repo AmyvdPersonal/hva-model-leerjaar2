@@ -290,7 +290,6 @@ main section picture {
 
   display: block;
   width: 94%;
-  place-items: right;
   justify-self: end;
   justify-items: right;
   rotate: calc(-10deg);
