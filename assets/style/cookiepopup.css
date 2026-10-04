@@ -33,7 +33,7 @@
         bottom: 7rem;
     }
 
-    @media(prefers-reduce-motion: reduce) {
+    @media(prefers-reduced-motion: reduce) {
         animation: none;
     }
 

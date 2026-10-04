@@ -16,7 +16,7 @@ header {
     background-image: linear-gradient(to top,
         var(--gradient-black-overlay-bg) 50%,
         var(--gradient-darkblueish-overlay-bg));
-    opacity: 1.9;
+    opacity: 1;
     place-content: center;
   }
 }
@@ -151,7 +151,7 @@ header img {
   object-fit: contain;
   object-position: center 20%;
   mix-blend-mode: overlay;
-  opacity: 1.9;
+  opacity: 1;
 
   @media (max-width: 1000px) {
     height: auto;

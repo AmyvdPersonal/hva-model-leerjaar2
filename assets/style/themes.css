@@ -9,7 +9,7 @@ body {
   align-items: center;
   justify-content: center;
   background-image: url(../images//starwarsthemebg.jpeg);
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
 
 }
