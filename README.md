@@ -13,6 +13,45 @@ Ik heb bloomingskilss gekozen omdat ik op deze oefenwebsite en eindopdracht mijn
 Beschrijf hoe je aanpassingen aan jouw pagina kunt maken en hoe je er voor zorgt dat die op het web gepubliceerd worden.
 Als je een stukje code heb geschreven upload je die naar Github. In github zit er een ingebouwde hosting die ik aan mijn domein heb gekoppeld. Door mijn code te uploaden naar github de main branch. upload je gelijktijdig je code naar je website toe dat live staat.
 
+### Maandag 5 oktober
+
+## checkout
+Leg uit wat er met de volgende termen bedoeld wordt: kerning, tracking, leading, flush-left, flush-right, centered, justified, indent, outdent, modular scale, movable type, focus punt, vijf soorten contrast, spatial tension. (Hint, alle termen staan in de artikelen die we samen gelezen hebben).
+
+Kerning: Ruimte tussen twee specifieke letters.
+
+Tracking: Ruimte tussen alle letters in een woord/zin.
+
+Leading: Regelafstand.
+
+Flush-left: Links uitgelijnd.
+
+Flush-right: Rechts uitgelijnd.
+
+Centered: Gecentreerd in het midden.
+
+Justified: Uitgevuld (zowel links als rechts uitgelijnd).
+
+Indent: Inspringen van tekst.
+
+Outdent: Uitspringen van tekst (eerste regel steekt uit).
+
+Modular scale: Harmonieuze verhouding voor lettergroottes.
+
+Movable type: Losse, herbruikbare drukletters.
+
+Focus punt: Waar de aandacht als eerste naartoe gaat in een ontwerp.
+
+Vijf soorten contrast: Contrast in typografie: grootte, gewicht, structuur (lettertype), vorm en kleur.
+
+Spatial tension: Visuele spanning door de afstand en plaatsing van elementen.
+
+Wat is jouw ideale regellengte (measure)? Leg uit waarom.
+  ik zou zeggen tussen de 40 tot 66 tekens.
+
+Als je in een ontwerp maar één variabele tot je beschikking had om hiërarchie aan te brengen (grootte, plaatsing, spacing, lettersoorten), welke zou je dan gebruiken en waarom?
+Ik zou de specing gaan gebruiken voor de verschillende ruimtes.
+
 ### Donderdag 31 september
 Op donderdag ben ik vooral bezig geweest met het schrijven en het bijhouden van mijn learning log. Ik heb vervolgens verder de test gedaan om te kijken of er verbetering zit in mijn website.
 Daaruit kwam dat  er wel wat verbeteringetjes nog zijn maar dat 98% van de website een stuk meer toegankelijker is voor de mensen met een beperking. IK heb het kleurecontrast aangepast en ook de website hierop aangepast
