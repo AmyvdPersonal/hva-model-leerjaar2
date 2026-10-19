@@ -135,6 +135,7 @@ a,
 a::before,
 a::after {
     animation: none !important;
+    font-size:var(--p);
 }
 
 h1 {
@@ -154,7 +155,7 @@ h1 {
         text-align: left;
     }
 
-    /*
+    
     @media (max-width:500px) {
         font-size: 2rem;
     }
@@ -162,7 +163,7 @@ h1 {
     @media (max-width:1000px) {
         font-size: 3rem;
     }
-   */
+   
 }
 
 p {
@@ -174,8 +175,8 @@ p {
 a {
     background-color: var(--black-color);
     color: var(--starwars-yellow);
-    width: 25rem;
-    height: 7rem;
+    width: 20rem;
+    height: 5rem;
 
     position: relative;
 
@@ -220,8 +221,8 @@ a:focus::before,
 a:focus::after {
     content: '';
     position: absolute;
-    width: 26rem;
-    height: 8rem;
+    width: 21rem;
+    height: 6rem;
     background: linear-gradient(to right,
             var(--lightsaber-red)25%,
             var(--lightsaber-light-blue),
