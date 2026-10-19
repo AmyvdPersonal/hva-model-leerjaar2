@@ -925,9 +925,176 @@ main>section:nth-of-type(3)>div:nth-of-type(8) {
     left: 44%;
   }
 }
+
 /**************************
 * MARK: Lightside lightsaber tekst section
 **************************/
+main>section:nth-of-type(3)>section {
+  grid-column: 1 /-1;
+  width: 100%;
+  padding: 4rem 2rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  h2 {
+    text-align: center;
+    font-family: 'Deathstar', sans-serif;
+    font-size: var(--h2);
+    letter-spacing: 0.3rem;
+    color: var(--text-color);
+    max-width: 50rem;
+    align-self: center;
+    padding-top: 10rem;
+  }
+
+  p {
+    font-family: "Montserrat", sans-serif;
+    font-size: var(--p);
+    color: var(--text-color);
+    max-width: 60rem;
+    align-self: center;
+    padding-bottom: 10rem;
+  }
+
+  button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+}
+
+#lightsaber1 {
+  align-self: flex-end;
+  width: 25rem;
+
+  & img {
+    transform: scaleX(-1);
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    right: 93%;
+    top: 46%;
+    width: 52rem;
+    height: 2.5rem;
+    background: #ffffff;
+    border-radius: 30px 0 0 30px;
+
+    box-shadow:
+      0 0 4px #ffffff,
+      0 0 10px #ff0000,
+      0 0 25px var(--lightsaber-red),
+      0 0 45px rgba(255, 0, 0, 0.5);
+
+    transform: translateY(-50%) scaleX(0);
+    transform-origin: right center;
+    transition: transform 0.22s cubic-bezier(0.1, 0.8, 0.2, 1);
+    pointer-events: none;
+  }
+
+  &.active::before {
+    transform: translateY(-50%) scaleX(1);
+    animation: sith-blade-pulse 1.5s infinite alternate ease-in-out;
+  }
+
+  @media (max-width: 1000px) {}
+
+  @media (max-width: 500px) {}
+
+}
+
+#lightsaber2 {
+  bottom: 5%;
+  left: 3%;
+  width: 25rem;
+
+  & img{
+    z-index: -1;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 99%;
+    top: 53%;
+    width: 52rem;
+    height: 2.5rem;
+    background: #ffffff;
+    border-radius: 0 30px 30px 0;
+
+    box-shadow:
+      0 0 4px #ffffff,
+      0 0 10px #00d2ff,
+      0 0 25px var(--lightsaber-light-blue),
+      0 0 45px rgba(21, 242, 253, 0.5);
+
+    transform: translateY(-50%) scaleX(0);
+    transform-origin: left center;
+    transition: transform 0.22s cubic-bezier(0.1, 0.8, 0.2, 1);
+    pointer-events: none;
+  }
+
+  &.active::after {
+    transform: translateY(-50%) scaleX(1);
+    animation: jedi-blade-pulse 1.5s infinite alternate ease-in-out;
+  }
+}
+
+@keyframes sith-blade-pulse {
+  0% {
+    box-shadow:
+      0 0 4px #ffffff,
+      0 0 10px #ff0000,
+      0 0 25px var(--lightsaber-red),
+      0 0 40px rgba(255, 0, 0, 0.4);
+  }
+
+  100% {
+    box-shadow:
+      0 0 6px #ffffff,
+      0 0 16px #ff0000,
+      0 0 35px var(--lightsaber-red),
+      0 0 60px rgba(255, 0, 0, 0.7);
+  }
+}
+
+@keyframes jedi-blade-pulse {
+  0% {
+    box-shadow:
+      0 0 4px #ffffff,
+      0 0 10px #00d2ff,
+      0 0 25px var(--lightsaber-light-blue),
+      0 0 40px rgba(21, 242, 253, 0.4);
+  }
+
+  100% {
+    box-shadow:
+      0 0 6px #ffffff,
+      0 0 16px #00d2ff,
+      0 0 35px var(--lightsaber-light-blue),
+      0 0 60px rgba(21, 242, 253, 0.7);
+  }
+}
+
+/*
+Bronnen:
+https://codepen.io/Sixclones/pen/MJrEgz
+https://codepen.io/creme/pen/XXdZjM
+https://codepen.io/Aleix/pen/oWwoza
+https://codepen.io/jh3y/pen/gOmObQj
+*/
 
 
 /**************************
