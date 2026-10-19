@@ -90,9 +90,9 @@ dialog#cookiepopup[open] {
     }
 
     @media(max-width:1000px) {
-        top: 10%;
-        left: 10%;
-        bottom: 25%;
+        top: 5%;
+        left: 5%;
+        bottom: 5%;
         max-height: 50vh;
         max-width: 90vw;
         width: 60rem;

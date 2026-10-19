@@ -83,6 +83,7 @@ a {
   font-family: 'Montserrat';
   font-weight: 500;
   font-size: var(--p);
+  color:var(--bg-color);
 
   text-decoration: none;
 
@@ -96,7 +97,7 @@ a {
   }
 
   &:visited{
-    color: var(--black-color);
+    color: var(--starwars-yellow);
   }
 
   @media (max-width:500px) {
