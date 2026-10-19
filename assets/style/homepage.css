@@ -22,16 +22,20 @@ header {
 }
 
 header>a:nth-of-type(1) {
-  position: fixed;
-  left: -9999em;
-
-  z-index: 1;
+  position: absolute;
+  top: 1rem;
+  left: -9999px;
+  z-index: 100;
   padding: .5em;
   margin: .5em;
-
+  font-weight: bold;
   background-color: var(--starwars-yellow);
   color: var(--text-color);
   outline-color: var(--gradient-black-overlay);
+
+  &:focus-visible {
+    left: 1rem;
+  }
 }
 
 nav {
@@ -363,18 +367,23 @@ main>section:nth-of-type(2) {
   display: grid;
   justify-items: center;
   position: relative;
+  z-index: 2;
+  margin-top: -15rem;
   top: 2rem;
   width: 100%;
 
+  @media (max-width: 1000px) {
+    margin-top: 0;
+  }
 }
 
 main>section:nth-of-type(2)>div {
-  height:100%;
-  width: min(96vw, 85rem);
-  background: url(../images/datapad.svg) no-repeat center / 100% 150%;
-  padding: 6.5rem 2.5rem 6.5rem 2.5rem;
+  height: auto;
+  width: min(96vw, 100rem);
+  background: url(../images/datapad.svg) no-repeat center / 100% 100%;
+  padding: 4rem 3.5rem 4rem 3.5rem;
   display: grid;
-  gap: 1.5rem;
+  gap: 2.5rem;
 
   @media(max-width: 1000px) {
     background-image: none;
@@ -409,18 +418,18 @@ main>section:nth-of-type(2)>div>h2 {
 
 main>section:nth-of-type(2)>div>section {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
   gap: 1.5rem;
   width: 100%;
 
   @media(min-width: 1000px) {
-    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
-    height:auto;
+    grid-template-columns: repeat(5, 1fr);
+    height: auto;
     gap: 1.5rem;
   }
 
   @media(max-width: 500px) {
-    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    grid-template-columns: 1fr;
   }
 }
 
@@ -428,7 +437,9 @@ main>section:nth-of-type(2)>div>section>a {
   display: flex;
   flex-direction: column;
   height: 20rem;
-  width: 15rem;
+  width: 100%;
+  max-width: 25rem;
+  justify-self: center;
   border-radius: 1.2rem;
   overflow: hidden;
   text-decoration: none;
@@ -473,6 +484,451 @@ main>section:nth-of-type(2)>div>section>a>h3 {
   color: #f0f0f0;
   background-color: #151619;
 }
+
+main>section:nth-of-type(2)>div>a {
+  background-color: var(--black-color);
+  color: var(--starwars-yellow);
+  width: 20rem;
+  height: 5rem;
+
+  position: relative;
+  z-index: 1;
+
+  display: grid;
+  place-items: center;
+  border-radius: 2.5rem;
+
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: var(--p);
+  text-align: center;
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+
+  @media(max-width:500px) {
+    width: 19rem;
+    height: 5rem;
+    display: grid;
+    place-items: center;
+    border-radius: 2.5rem;
+    text-align: center;
+  }
+
+  @media (max-width:1000px) {
+    width: 19rem;
+    height: 5rem;
+    display: grid;
+    place-items: center;
+    border-radius: 2.5rem;
+    text-align: center;
+  }
+}
+
+main>section:nth-of-type(2)>div>a::before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  width: calc(100% + 8px);
+  height: calc(100% + 8px);
+  background: linear-gradient(to right,
+      var(--lightsaber-red)25%,
+      var(--lightsaber-light-blue),
+      var(--lightsaber-blue),
+      var(--lightsaber-red));
+  background-size: 400%;
+  border-radius: inherit;
+  z-index: -2;
+  filter: blur(5px);
+
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  animation: rotate 15s linear infinite;
+
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+    transition: none;
+  }
+
+  @media(max-width:500px) {
+    content: '';
+    position: absolute;
+    width: 20rem;
+    height: 6rem;
+
+    animation: rotate 15s linear infinite;
+  }
+
+  @media (max-width:1000px) {
+    content: '';
+    position: absolute;
+    width: 20rem;
+    height: 6rem;
+
+    animation: rotate 15s linear infinite;
+  }
+}
+
+main>section:nth-of-type(2)>div>a::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: var(--black-color);
+  border-radius: inherit;
+  z-index: -1
+}
+
+main>section:nth-of-type(2)>div>a:hover::before,
+main>section:nth-of-type(2)>div>a:focus::before,
+main>section:nth-of-type(2)>div>a:active::before {
+  opacity: 1;
+}
+
+@keyframes rotate {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 400% 0;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+}
+
+/**************************
+* MARK: lightside- lightsaber section
+**************************/
+main>section:nth-of-type(3) {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  padding: 5rem;
+  overflow-x: clip;
+  gap: 2rem;
+
+  @media(max-width:1000px) {
+    padding: 3rem 2rem;
+  }
+
+  @media(max-width:500px) {
+    grid-template-columns: 1fr;
+    padding: 2rem 1rem;
+    gap: 5rem;
+  }
+}
+
+/*  huyang image  */
+main>section:nth-of-type(3)>picture {
+  grid-column: 1;
+  grid-row: 1;
+  display: block;
+  width: 90%;
+  justify-self: start;
+  rotate: 5deg;
+  z-index: 2;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+  }
+
+  @media(max-width:1000px) {
+    width: 95%;
+    rotate: 3deg;
+  }
+
+  @media(max-width: 500px) {
+    grid-column: 1;
+    grid-row: 2;
+    width: 80%;
+    max-width: 280px;
+    justify-self: center;
+    rotate: 0deg;
+  }
+}
+
+/* Build a lightsaber*/
+main>section:nth-of-type(3)>h2 {
+  grid-column: 2;
+  grid-row: 1;
+  font-family: "Deathstar", sans-serif;
+  font-size: var(--h1);
+  letter-spacing: 0.5rem;
+  color: var(--text-color);
+  justify-self: center;
+  text-align: left;
+  max-width: 35rem;
+  z-index: 2;
+
+  @media (max-width: 1000px) {
+    font-size: var(--h2);
+    letter-spacing: 0.3rem;
+    max-width: 25rem;
+  }
+
+  @media(max-width:500px) {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: center;
+    font-size: var(--h2);
+    letter-spacing: 0.2rem;
+    max-width: 100%;
+  }
+}
+
+/*de 8 zwevende kyberkristallen*/
+main>section:nth-of-type(3)>div {
+  position: absolute;
+  z-index: 1;
+  width: clamp(2.5rem, 5vw, 4.5rem);
+  pointer-events: none;
+  transform-origin: top center;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+  }
+
+  @media(max-width:1000px) {
+    width: clamp(2rem, 4vw, 3rem);
+  }
+
+  @media(max-width:500px) {
+    width: 2.2rem;
+    opacity: 0.75;
+
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+
+  50% {
+    transform: translatey(-20px);
+  }
+
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+/* zwart*/
+main>section:nth-of-type(3)>div:nth-of-type(1) {
+  top: 4%;
+  left: 6%;
+  width: 123px;
+  height: 223px;
+  transform: rotate(277deg);
+
+  img {
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.8));
+  }
+
+  @media (max-width: 1000px) {
+    scale: 0.7;
+    top: -2%;
+    left: 2%;
+  }
+
+  @media (max-width: 500px) {
+    top: 0%;
+    left: 5%;
+  }
+}
+
+/* rood*/
+main>section:nth-of-type(3)>div:nth-of-type(2) {
+  top: 38%;
+  right: 5%;
+  width: 171px;
+  height: 310px;
+  transform: rotate(-25deg);
+
+  img {
+    filter: drop-shadow(0 0 5px var(--lightsaber-red));
+  }
+
+  @media (max-width: 1000px) {
+    scale: 0.7;
+    top: 5%;
+    right: 3%;
+  }
+
+  @media (max-width: 500px) {
+    scale: 0.45;
+    top: 20%;
+    right: 1%;
+    opacity: 0.7;
+  }
+}
+
+/* wit*/
+main>section:nth-of-type(3)>div:nth-of-type(3) {
+  top: 48%;
+  left: 62%;
+  width: 90px;
+  height: 163px;
+  transform: rotate(40deg);
+
+  img {
+    filter: drop-shadow(0 0 5px rgba(53, 51, 51, 0.9));
+  }
+
+  @media(max-width:1000px) {
+    scale: 0.7;
+    top: 50%;
+    left: 58%;
+  }
+
+  @media(max-width:500px) {
+    scale: 0.45;
+    left: 5%;
+    top: 20%;
+  }
+}
+
+/* paars */
+main>section:nth-of-type(3)>div:nth-of-type(4) {
+  top: 5%;
+  left: 52%;
+  width: 163px;
+  height: 295px;
+  transform: rotate(31deg);
+
+  img {
+    filter: drop-shadow(0 0 5px #b026ff);
+  }
+
+  @media(max-width:1000px) {
+    scale: 0.7;
+    top: 1%;
+    left: 50%;
+  }
+
+  @media(max-width:500px) {
+    scale: 0.45;
+    left: 62%;
+    top: 2%;
+  }
+}
+
+/* geel */
+main>section:nth-of-type(3)>div:nth-of-type(5) {
+  top: 58%;
+  left: 45%;
+  width: 105px;
+  height: 190px;
+  transform: rotate(24deg);
+
+  img {
+    filter: drop-shadow(0 0 5px var(--starwars-yellow, #FFE81F));
+  }
+
+  @media(max-width:500px) {
+    scale: 0.45;
+    left: 12%;
+    top: 56%;
+  }
+
+  @media(max-width:1000px) {
+    scale: 0.7;
+    top: 56%;
+    left: 28%;
+  }
+}
+
+/* Oranje */
+main>section:nth-of-type(3)>div:nth-of-type(6) {
+  top: 18%;
+  left: 40%;
+  width: 65px;
+  height: 118px;
+  transform: rotate(-46deg);
+
+  img {
+    filter: drop-shadow(0 0 5px #ff7700);
+  }
+
+  @media(max-width:500px) {
+    scale: 0.45;
+    left: 8%;
+    top: 12%;
+  }
+
+  @media(max-width:1000px) {
+    scale: 0.7;
+    top: 18%;
+    left: 36%;
+  }
+}
+
+/* groen */
+main>section:nth-of-type(3)>div:nth-of-type(7) {
+  top: 10%;
+  right: 8%;
+  width: 124px;
+  height: 223px;
+
+  img {
+    filter: drop-shadow(0 0 5px #22c55e);
+  }
+
+  @media (max-width: 1000px) {
+    scale: 0.7;
+    top: 2%;
+    right: 4%;
+  }
+
+  @media (max-width: 500px) {
+    scale: 0.45;
+    top: 10%;
+    left: 5%;
+  }
+}
+
+/* blauw */
+main>section:nth-of-type(3)>div:nth-of-type(8) {
+  top: 35%;
+  left: 47%;
+  width: 90px;
+  height: 163px;
+  transform: rotate(-117deg);
+
+  img {
+    filter: drop-shadow(0 0 5px var(--lightsaber-light-blue, #15F2FD));
+  }
+
+  @media (max-width: 500px) {
+    scale: 0.45;
+    top: 42%;
+    left: 78%;
+  }
+
+  @media (max-width: 1000px) {
+    scale: 0.7;
+    top: 36%;
+    left: 44%;
+  }
+}
+/**************************
+* MARK: Lightside lightsaber tekst section
+**************************/
+
 
 /**************************
 * MARK: Dark side

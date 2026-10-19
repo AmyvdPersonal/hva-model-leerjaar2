@@ -1,0 +1,87 @@
+/* MARK: fonts */
+@font-face {
+  font-family: 'Seraphs';
+  src: url('font/SeraphsVF.woff2') format('woff2');
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Seraphs', serif;
+  background-color: #fff;
+  color: #000;
+  min-height: 100vh;
+  padding: 5vh 5vw;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr auto;
+  gap: 2.5rem 3rem;
+}
+header {
+  writing-mode: sideways-lr;
+  border-right: 1.5px solid #000;
+  padding-right: 1.5rem;
+  position: sticky;
+  top: 5vh;
+  height: fit-content;
+}
+
+header h1 {
+  font-size: clamp(2.5rem, 8vi, 5rem);
+  letter-spacing: 0.15em;
+  font-weight: 700;
+}
+
+header .artist {
+  font-size: 1.1rem;
+  letter-spacing: 0.08em;
+  margin-top: 1rem;
+}
+
+main {
+  container-type: inline-size;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+  max-width: 55rem;
+}
+
+.verse, .chorus {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.lyric-group h2 {
+  font-size: clamp(1.8rem, 6cqi, 3rem);
+  font-weight: 600;
+  line-height: 1.1;
+}
+
+.lyric-group p,
+.chorus-detail {
+  font-size: clamp(1rem, 3cqi, 1.35rem);
+  line-height: 1.5;
+}
+
+.chorus-lead {
+  font-size: clamp(1.1rem, 3.5cqi, 1.5rem);
+}
+
+.chorus-title {
+  font-size: clamp(3rem, 14cqi, 6.5rem);
+  letter-spacing: 0.08em;
+  line-height: 1;
+}
+
+
+footer {
+  grid-column: 1 / -1;
+  border-top: 1px solid #000;
+  padding-top: 1rem;
+  font-size: 0.85rem;
+}
