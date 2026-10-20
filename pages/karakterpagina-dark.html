@@ -1,11 +1,240 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>karakterpagina</title>
+
+    <link rel="stylesheet" href="../assets/style/karakterpage.css">
+
+    <script src="../assets/js/loadmoreknop.js"></script>
 </head>
+
 <body>
-    
+    <header id="header">
+        <a href="#main">Direct naar de hoofdinhoud</a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#"><img src="../assets/images/SVG/lightsaber-icon.svg"
+                            alt="Dit is een afbeelding van twee lightsabers die je naar de lightsaber pagina heen stuurt"
+                            aria-hidden="true">Lightsabers</a>
+                </li>
+                <li>
+                    <a href="#" aria-current="page"><img src="../assets/images/SVG/Home-icon.svg"
+                            alt="Dit is een afbeelding van een starwars huisje  die je naar de home pagina heen stuurt"
+                            aria-hidden="true"> Home </a>
+                </li>
+                <li>
+                    <a href="#"><img src="../assets/images/SVG/characters-icon.svg"
+                            alt="Dit is een afbeelding van een darth vader zijn helm huisje  die je naar de karakters pagina heen stuurt"
+                            aria-hidden="true"> Characters</a>
+                </li>
+
+            </ul>
+        </nav>
+        <!-- https://www.starwars.com/news/jedi-council -->
+        <picture>
+            <source srcset="../assets/images/sith-trooper-mbg.jpeg" media="(width > 70rem)">
+            <source srcset="../assets/images/sith-trooper-mbg.jpeg" media="(width > 105rem)">
+            <img src="../assets/images/sith-trooper-mbg.jpeg" alt="">
+        </picture>
+
+        <section>
+            <section>
+                <h1>De Sith Lords: Meesters van de Duisternis</h1>
+                <p>
+                    Verken de duistere kant van de Force. Van meedogenloze Sith Lords tot wrede Inquisitors: ontdek de
+                    krachtigste schurken die, gedreven door woede en honger naar macht, het sterrenstelsel proberen te
+                    veroveren.
+                </p>
+            </section>
+        </section>
+    </header>
+
+    <main>
+        <section>
+            <!-- bron image: https://www.starwars.com/databank/darth-vader-->
+            <a href="./character-lightside/obiwankenobi.html">
+                <img src="../assets/images/darthvader-profile.jpeg" alt="">
+                <h3>Darth Vader</h3>
+            </a>
+            <!-- bron image: https://www.starwars.com/databank/emperor-palpatine-darth-sidious-->
+            <a href="./character-lightside/anakinskywalker.html">
+                <img src="../assets/images/emperor-palpatine-profile.jpeg" alt="">
+                <h3>Darth Sidious</h3>
+            </a>
+
+            <!-- bron image: https://www.starwars.com/news/darth-maul-the-story-of-an-apprentice-->
+            <a href="">
+                <img src="../assets/images/darthmaul-profile.jpeg" alt="">
+                <h3>Dart Maul</h3>
+            </a>
+
+            <!-- bron image: https://www.starwars.com/databank/count-dooku-->
+            <a href="">
+                <img src="../assets/images/countdooku-profile.jpeg" alt="">
+                <h3>Darth Tyranus</h3>
+            </a>
+
+            <!-- bron image: https://www.starwars.com/databank/kylo-ren-->
+            <a href="">
+                <img src="../assets/images/kyloren-profile.jpeg" alt="">
+                <h3>Kylo Ren</h3>
+            </a>
+
+            <!-- bron image: https://www.starwars.com/databank/asajj-ventress-->
+            <a href="">
+                <img src="../assets/images/ventress-profile.jpeg" alt="">
+                <h3>Asajj Ventress</h3>
+            </a>
+
+            <!-- bron image: https://www.starwars.com/databank/supreme-leader-snoke-->
+            <a href="">
+                <img src="../assets/images/supremeleadersmoke-profile.jpeg" alt="">
+                <h3>Supreme Leader Snoke</h3>
+            </a>
+
+            <!-- bron image: https://www.starwars.com/databank/general-grievous-->
+            <a href="">
+                <img src="../assets/images/generalgrievous-profile.jpeg" alt="">
+                <h3>General Grievous</h3>
+            </a>
+
+            <!-- Bron image: https://www.starwars.com/databank/grand-moff-tarkin-->
+            <a href="">
+                <img src="../assets/images/grandmofftarkin-profile.jpeg" alt="">
+                <h3>Grand Moff Tarkin</h3>
+            </a>
+
+             <!-- bron image: https://www.starwars.com/databank/grand-admiral-thrawn-->
+          <a href="./character-lightside/obiwankenobi.html">
+            <img src="../assets/images/grandadmiralthrawn-profile.jpeg" alt="">
+            <h3>Admiral Thrawn</h3>
+          </a>
+          <!-- bron image: https://www.starwars.com/databank/general-hux-->
+          <a href="./character-lightside/anakinskywalker.html">
+            <img src="../assets/images/generalhux-profile.jpeg" alt="">
+            <h3>General Hux</h3>
+          </a>
+
+          <!-- bron image: https://www.starwars.com/databank/captain-phasma-->
+          <a href="">
+            <img src="../assets/images/captainphasma-profile.jpeg" alt="">
+            <h3>Captain Phasma</h3>
+          </a>
+
+          <!-- bron image: https://www.starwars.com/databank/boba-fett-->
+          <a href="">
+            <img src="../assets/images/bobafett-profile.jpeg" alt="">
+            <h3>Boba Fett</h3>
+          </a>
+
+          <!-- bron image: https://www.starwars.com/databank/jango-fett-->
+          <a href="">
+            <img src="../assets/images/jangofett-profile.jpeg" alt="">
+            <h3>Jango Fett</h3>
+          </a>
+
+          <!-- bron image: https://www.starwars.com/databank/jabba-the-hutt-->
+          <a href="">
+            <img src="../assets/images/jabbathehut-profile.jpeg" alt="">
+            <h3>Jabba the Hut</h3>
+          </a>
+
+          <!-- bron image: https://www.starwars.com/databank/moff-gideon-->
+          <a href="">
+            <img src="../assets/images/moffgideon-profile.jpeg" alt="">
+            <h3>Moff Gideon</h3>
+          </a>
+
+          <!-- bron image: https://www.starwars.com/databank/cad-bane-->
+          <a href="">
+            <img src="../assets/images/cadbane-profile.jpeg" alt="">
+            <h3>Cad Bane</h3>
+          </a>
+
+          <!-- Bron image: https://www.starwars.com/databank/mother-talzin-->
+          <a href="">
+            <img src="../assets/images/mothertalzin-profile.jpeg" alt="">
+            <h3>Mother Talzin</h3>
+          </a>
+
+          <!--  Bron image: https://www.starwars.com/databank/baylan-skoll-->
+          <a href="">
+            <img src="../assets/images/baylanskoll-profile.jpeg" alt="">
+            <h3>Baylan Skoll</h3>
+          </a>
+
+          <!--  Bron image: https://www.starwars.com/databank/shin-hati-->
+          <a href="">
+            <img src="../assets/images/shinhati-profile.jpeg" alt="">
+            <h3>Shin Hati</h3>
+          </a>
+
+          <!--  Bron image: https://www.starwars.com/databank/savage-opress-->
+          <a href="">
+            <img src="../assets/images/savageopress-profile.jpeg" alt="">
+            <h3>Savage Opress</h3>
+          </a>
+
+          <!--  Bron image: https://www.starwars.com/databank/second-sister-->
+          <a href="">
+            <img src="../assets/images/secondsister-profile.jpeg" alt="">
+            <h3>Second Sister</h3>
+          </a>
+
+          <!--  Bron image: https://www.starwars.com/databank/bossk-->
+          <a href="">
+            <img src="../assets/images/bossk-profile.jpeg" alt="">
+            <h3>Bossk</h3>
+          </a>
+
+          <!--  Bron image: https://www.starwars.com/databank/ig-88-->
+          <a href="">
+            <img src="../assets/images/ig88-profile.jpeg" alt="">
+            <h3>IG-88</h3>
+          </a>
+
+          <!--  Bron image: https://www.starwars.com/databank/dryden-vos-->
+          <a href="">
+            <img src="../assets/images/drydenvos-profile.jpeg" alt="">
+            <h3>Dryden Vos</h3>
+          </a>
+
+          <!--  Bron image: https://www.starwars.com/databank/admiral-piett-->
+          <a href="">
+            <img src="../assets/images/admiralpiett-profile.jpeg" alt="">
+            <h3>Admiral Piett</h3>
+          </a>
+        </section>
+
+        <section class="loadmore-section">
+            <button id="loadmore-button" type="button" aria-label="Laad meer Jedi karakters">
+                Bekijk meer Badd guys
+            </button>
+        </section>
+    </main>
+
+
+    <footer>
+        <section>
+            <h2>Holonet Archieven</h2>
+            <p>Een digitaal archief gewijd aan de kennis van de Jedi Orde, kyberkristallen en lightsabers.</p>
+        </section>
+        <nav aria-label="Footer navigatie">
+            <ul>
+                <li><a href="#header">Terug naar boven</a></li>
+                <li><a href="../opdracht lyrics/ymca.html">Typografisch Experiment (YMCA)</a></li>
+                <li><a href="./karakterpagina.html">Alle Karakters</a></li>
+            </ul>
+        </nav>
+        <section>
+            <p><small>&copy; 2026 Bloomingskills &bull; Star Wars is eigendom van Lucasfilm Ltd. &amp; Disney. Dit is
+                    een educatief project voor de HvA.</small></p>
+        </section>
+    </footer>
 </body>
+
 </html>

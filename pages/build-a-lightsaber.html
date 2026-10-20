@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build A Lightsaber</title>
+
+    <link rel="stylesheet" href="../assets/style/build-lightsaber.css">
+    <script src="../assets/js/build-lightsaber.js"></script>
+</head>
+
+<body>
+    <header id="header">
+        <a href="#main">Direct naar de hoofdinhoud</a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#"><img src="../assets/images/SVG/lightsaber-icon.svg"
+                            alt="Dit is een afbeelding van twee lightsabers die je naar de lightsaber pagina heen stuurt"
+                            aria-hidden="true">Lightsabers</a>
+                </li>
+                <li>
+                    <a href="#" aria-current="page"><img src="../assets/images/SVG/Home-icon.svg"
+                            alt="Dit is een afbeelding van een starwars huisje  die je naar de home pagina heen stuurt"
+                            aria-hidden="true"> Home </a>
+                </li>
+                <li>
+                    <a href="./karakterpagina.html"><img src="../assets/images/SVG/characters-icon.svg"
+                            alt="Dit is een afbeelding van een darth vader zijn helm huisje  die je naar de karakters pagina heen stuurt"
+                            aria-hidden="true"> Characters</a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section>
+            <h1>Forge Your Lightsaber</h1>
+            <p>Kies een kyberkristal uit de kluis van de Jedi Tempel en klik op het handvat om je lemmet te ontsteken.
+            </p>
+        </section>
+
+        <section aria-label="lightsaber build">
+
+            <button id="lightsaber-toggle" type="button" aria-label="Ontsteek of doof de lightsaber"
+                aria-pressed="false">
+                <img src="../assets/images/lightsaber1.svg" alt="" aria-hidden="true">
+            </button>
+
+        </section>
+
+        <section>
+            <form action="" id="kyber-kristal-form">
+                <fieldset>
+                    <h2>Kies jouw KyberKristal</h2>
+                    <div>
+                        <label>
+                            <input type="radio" name="crystal" value="blue" data-color="#15F2FD"
+                                data-glow="rgba(21, 242, 253, 0.6)" checked>
+                            <span>Blauw</span>
+                        </label>
+
+                        <label>
+                            <input type="radio" name="crystal" value="green" data-color="#22c55e"
+                                data-glow="rgba(34, 197, 94, 0.6)">
+                            <span>Green</span>
+                        </label>
+
+                        <label>
+                            <input type="radio" name="crystal" value="red" data-color="#FE8178"
+                                data-glow="rgba(254, 129, 120, 0.6)">
+                            <span>Red</span>
+                        </label>
+
+                        <label>
+                            <input type="radio" name="crystal" value="purple" data-color="#b026ff"
+                                data-glow="rgba(176, 38, 255, 0.6)">
+                            <span>Purple</span>
+                        </label>
+
+                        <label>
+                            <input type="radio" name="crystal" value="yellow" data-color="#FFE81F" data-glow="rgba(255, 232, 31, 0.6)">
+                            <span>Geel</span>
+                        </label>
+
+                        <label>
+                            <input type="radio" name="crystal" value="orange" data-color="#ff7700"
+                                data-glow="rgba(255, 119, 0, 0.6)">
+                            <span>Orangje</span>
+                        </label>
+
+                        <label>
+                            <input type="radio" name="crystal" value="white" data-color="#ffffff"
+                                data-glow="rgba(255, 255, 255, 0.7)">
+                            <span>Wit</span>
+                        </label>
+
+                        <label class="crystal-label black">
+                            <input type="radio" name="crystal" value="black" data-color="#222222"
+                                data-glow="rgba(0, 0, 0, 0.9)">
+                            <span>Darksaber</span>
+                        </label>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
