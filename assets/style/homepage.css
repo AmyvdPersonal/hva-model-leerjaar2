@@ -1331,6 +1331,7 @@ main>section:nth-of-type(3)>section button:focus-visible {
   }
 }
 
+/*
 @supports (animation-timeline: view()) {
   main section picture .yodaimg,
   main>section:nth-of-type(3)>picture img {
@@ -1352,6 +1353,7 @@ main>section:nth-of-type(3)>section button:focus-visible {
     }
   }
 }
+*/
 
 /**************************
 * MARK: Footer

@@ -21,7 +21,6 @@ header {
         opacity: 0.9;
         place-content: center;
         min-height: 20rem;
-        mix-blend-mode: cover;
     }
 
     &>a:nth-of-type(1) {
