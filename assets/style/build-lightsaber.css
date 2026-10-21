@@ -12,6 +12,8 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 50rem;
+    position: relative;
+    z-index: 300;
 
     @media (max-width: 1000px) {}
 
@@ -1052,9 +1054,9 @@ html:has(#theme-toggle:checked) {
         }
     }
 
-    main{
-        background-color:var(--bg-primairy-color);
-        color:var(--text-color);
+    main {
+        background-color: var(--bg-primairy-color);
+        color: var(--text-color);
     }
 
     /* Uitlijning voor de Sith schets (Darth Sidious) */

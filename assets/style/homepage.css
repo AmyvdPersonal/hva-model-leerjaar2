@@ -9,6 +9,8 @@
 **************************/
 header {
   display: grid;
+  position: relative;
+  z-index:300;
 
   @media (max-width: 1000px) {}
 
