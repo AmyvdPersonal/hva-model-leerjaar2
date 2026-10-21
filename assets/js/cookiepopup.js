@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
         setTimeout(() => {
             if(!dialogModal.open){
                 dialogModal.showModal();
-            }
+            }        
         },1000)
     }
 
