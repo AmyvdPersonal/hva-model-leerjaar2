@@ -33,7 +33,7 @@
 
 }
 
-[data-theme="dark"] {
+[data-theme="dark"],html:has(#theme-toggle:checked) {
   --bg-primairy-color: #313b44; 
   --bg-secundairy-color: #1c1d22;
   --bg-third-color:#606467;

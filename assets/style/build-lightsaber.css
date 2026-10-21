@@ -1035,6 +1035,9 @@ html:has(#theme-toggle:checked) {
         background-color: var(--bg-primairy-color);
         color: var(--text-color);
     }
+    header>section{
+        color:var(--text-color);
+    }
 
     header picture img {
         @media (max-width: 500px) {
@@ -1059,7 +1062,6 @@ html:has(#theme-toggle:checked) {
         color: var(--text-color);
     }
 
-    /* Uitlijning voor de Sith schets (Darth Sidious) */
     main section img {
         justify-content: right;
         justify-items: end;
