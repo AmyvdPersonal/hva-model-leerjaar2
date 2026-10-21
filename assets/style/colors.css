@@ -27,6 +27,10 @@
 
     --lightsaber-light-blue:#15F2FD;
 
+    --blade-color: #15F2FD;
+    --blade-glow: rgba(21, 242, 253, 0.7);
+    --blade-core: #ffffff;
+
 }
 
 [data-theme="dark"] {

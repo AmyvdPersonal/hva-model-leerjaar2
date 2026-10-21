@@ -13,7 +13,133 @@ Ik heb bloomingskilss gekozen omdat ik op deze oefenwebsite en eindopdracht mijn
 Beschrijf hoe je aanpassingen aan jouw pagina kunt maken en hoe je er voor zorgt dat die op het web gepubliceerd worden.
 Als je een stukje code heb geschreven upload je die naar Github. In github zit er een ingebouwde hosting die ik aan mijn domein heb gekoppeld. Door mijn code te uploaden naar github de main branch. upload je gelijktijdig je code naar je website toe dat live staat.
 
+### Dinsdag 20 Oktober
+Op dinsdag ben ik bezig geweest met het maken van
+- Character overview pagina
+- build a lightsaberpagina
+
+Voor de characters wilde ik een overview pagina maken waardoor je alle characters ziet. Je ziet dan de Jedi counsel op de lightmode en bij de darkside zie je ook de sith counsel.
+Hierin heb ik dezelfde heading gemaakt zoals op de homepage. Daarnaast zie je alle characters op beide pagina in dezelfde grid als op de homepagina. Daarnaast is er een knop gemaakt met een functie dat die maar 10 charcters of 8 per keer laatd zien en die toevoegt aan de bestaande characters card.
+![alt text](./readme-images/bewijzen/karakterpagina-loadmoreknop%20(1).png).
+![alt text](./readme-images/bewijzen/karakterpagina-loadmoreknop%20(2).png).
+![alt text](./readme-images/bewijzen/karakterpagina-loadmoreknop%20(3).png).
+
+Daarnaast heb ik een pagina gemaakt waarmee je als gebruiker je eigen lightsaber kan customizen. 
+![alt text](./readme-images/bewijzen/build-a-lightsaber%20(1).png).
+![alt text](./readme-images/bewijzen/build-a-lightsaber%20(2).png).
+![alt text](./readme-images/bewijzen/build-a-lightsaber%20(3).png).
+![alt text](./readme-images/bewijzen/build-a-lightsaber%20(4).png).
+
+### Maandag 19 Oktober
+Op maandag hadden we na een weekje vrij te zijn weer een drukke dag gehad. 
+- feedback gegeven
+- Werken aan website
+- Lightsaber section maken
+- footer toevoegen
+
+Op school hadden we eerste een kleine recap op wat we de week ervoor hebben gedaan. Daarnaats krijgen we ook een stukej uitleg over hoe de laatste sprint week eruit gaat zien en hoe de beoordeling in elkaar zit. Ik heb samen met lysanne aan dehand van een formulier gekeken of mijn websiet wel webby genoeg is. Dit is een formulier die we aan het begin van sprint 1 ook hebben ingevuld. We hadden dit toen gedaan zodat we een beeld krijgen van wat een website nou echt webby maakt. 
+
+We zijn toen gaan kijken naar elkaars website en hebben toen het formulier voor elkaar ingevuld.
+![alt text](./readme-images/bewijzen/webbyform.jpeg).
+
+Daarnaats ben ik gaan verder werken aan mijn webite. Hierbij heb ik een lightsaber section verder gemaakt met ook klikbare lightsabers. Daarnaast heb ik hierbij een animatie gemaakt met de zwevende kyberkristals. Ze bewegen heen en weer.
+Ik ehbook de asset van de lightsaber gemaakt in figma.
+![alt text](./readme-images/bewijzen/lightsabersection-metanimatie%20(1).png).
+![alt text](./readme-images/bewijzen/lightsabersection-metanimatie%20(2).png).
+![alt text](./readme-images/bewijzen/lightsabersection-metanimatie%20(3).png).
+![alt text](./readme-images/bewijzen/lightsabersection-metanimatie%20(4).png).
+![alt text](./readme-images/bewijzen/lightsabersection-metanimatie%20(5).png).
+
+De asset van de figma
+![alt text](./readme-images/bewijzen/figma-lightsaber-asset.png).
+
+Ik heb de footer toegevoegt en ook gemaakt in de starwars style. Dit heb ik vervolgens in alle pages gemaakt en geplakt.
+![alt text](./readme-images/bewijzen/footer%20(1).png).
+![alt text](./readme-images/bewijzen/footer%20(2).png).
+
+### Vrijdag 9 oktober
+Op vrijdag 9 oktober ben ik bezig geweest met het maken van:
+- Deepdive animaties
+- Huyang section op de homepagina
+
+In de deepdive hebben we het gehad over hoe je animaties kan maken met css en met javascript.
+In de deepdive heb ik 3 opdrachten gedaan waarmee je een een animatie kan starten met eenklein stukej javascript.
+![alt text](./readme-images/bewijzen/Deepdive-animations-oefening1.png).
+![alt text](./readme-images/bewijzen/Deepdive-animations-oefening2.png).
+![alt text](./readme-images/bewijzen/Deepdive-animations-oefening3.png).
+
+Hiernaast ben ik verder gaan werken aan mijn website. ik heb een huyang section gemaakt. Huyang is een robot die young padawans dingen leert over lightsabers en hoe je het moet gaan maken. Hiervoor heb ik ervoor gekozen om deze character te gaan gebruiken voor de lightside van de pagina. Ik heb er voor gekozen om eigenlijk de section net zo te stylen als de yoda section om een bepaald onderdeel van de website in et leiden. Ik dacht dit te gaan doen door een character die best wel herkenbaar is onder starwars fans. (Als je ook de series heb gekeken natuurlijk).
+
+Ik wilde om de tekst heen de kyber kristals die de young padawan moeten verzamelen om hun lightsaber te maken. Alleen hiervoor moest ik zelf eerst gaan zoeken naar afbeeldingen van de kyber kristals om dit vervolgens te verwerken in mijn website.
+![alt text](./readme-images/bewijzen/huyangsection-homepage%20(1).png).
+![alt text](./readme-images/bewijzen/huyangsection-homepage%20(2).png).
+![alt text](./readme-images/bewijzen/huyangsection-homepage%20(3).png).
+
+In de codesnippets die je hierboven ziet heb ik een grid ervan gemaakt. Op de section zit een grid zodat de image naast de tekst komt te staan en zodat het voro mobiel onder elkaar komt te staan. De image van Huyang staat een beetje gedraaid zodat het lijkt alsof hij uit het scherm komt om je iets te vertellen over de kristals.
+
+
+### Donderdag 8 Oktober
+Op woensdasg ben ik bezig geweest met het maken van de deepdive Variabelen fonts.
+Hierin heb ik geleerd wat variabelen fonts is. Waarvoor het handig is en hoe je het moet gebruiken.
+Aan de hand van de opdracht heb ik geleerd hoe je de verschillende lettertype of 1 lettertype kan stylen. daarnaast heb ik geleerd dat je bepaalde animaties kan gebruiken op je lettertype zelf.
+
+![alt text](./readme-images/bewijzen/deepdive-variabelen-fonts1.jpeg).
+![alt text](./readme-images/bewijzen/deepdive-variabelen-fonts2.jpeg).
+![alt text](./readme-images/bewijzen/deepdive-variabelen-fonts3.jpeg).
+
+### Woensdag 7 oktober
+Op woensdag ben ik bezig geweest met het maken van twee secties op de homepagina. Ik heb een charactersection gemaakt en ik heb ook de homepagina dark side opgezet met dezelfde code.
+Voor de homepage heb ik eerst in figma een soort datapad background gemaakt. Dat heb ik egdaan omdat ik eerst op het internet ben gaan rondkijken of ik dit zelf met css kan doen. Alleen dat was iets dat best wel lastig was. Dus ik heb er toen voor gekozen om er een assets van te maken via figma.
+
+![alt text](./readme-images/bewijzen/datapad-bewijs%20(1).png).
+![alt text](./readme-images/bewijzen/datapad-bewijs%20(2).png).
+![alt text](./readme-images/bewijzen/datapad-bewijs%20(3).png).
+![alt text](./readme-images/bewijzen/datapad-bewijs%20(4).png).
+
+Dit is een voorbeeld en bewijststuk van het maken van de achtergrond van de datapad. Ik wilde een typische starwars element terug brengen in de website dus ik was aan het kijken oop de officiele website van starwars voor inspiratie. Vervolgens zag ik onder het kopje databank deze kaartjes. Dit moest me laten denken aan een soort id kaart die ook in de clonewars en bad batch werd gebruikt als een identificatie middel van de wezens. daarom wilde ik dit terug brengen in mijn code en design. 
+
+Om dit te maken ben ik gaan kijken naar voorbeelden of mensen die dit al eerder hebben gemaakt. Dit kon je wel doen met een soort clipping mask functie binnen css. Dit zag er echt heel lastig en moeilijk uit voor het tijdsduur dat we hebben voor dit project. Dus ik wilde het gaan proberen en het is niet gelukt. Daarom heb ik ervoor gekozen om dit niet te doen maar een eigen asset te  maken en die als een achtergrond te gebruiken. Voor mobiel en tablet kwam dit heel naar uit dus toen heb ik een grijze background kleur gebruikt voor de sectie. 
+
+Daarnaast heb ik de kaartjes gemaakt in een grid. Ik wilde de kaarten in een grid layout maken omdat dit een stukje makkelijk responsive te maken is en te stylen dan met flexbox. Ik vond dit heel toepasselijk om hier een grid op te gebruiken. De kaarten zijn 75% foto en 25% van het kaartje tekst vlak. Ik wil alleen de eerste character detail page gaan uitwerken als een voorbeeld.
+
+
+### Dinsdag 6 oktober
+Op Dinsdag ben ik vooral bezig geweest met het maken van eht huiswerk en ook het werken aan mijn homepagina.
+
+Eerst ben ik begonnen met het maken van de lyrics opdracht. Vanuit de 10 schetsen die ik de dag hiervoor heb gemaakt heb ik er een van gekozen. 
+Vervolgens ben ik dit gaan uitwerken in een aparte file. Hierbij heb ik ook meteen de deep dive Interessantere layouts (Vasilis) gemaakt.
+Hieronder zie je het eind resultaat van de lyrics opdracht. Ik heb het simpel gehouden maar wel een beetje expresiief door de verschillende groottes van de teksten.
+![alt text](./readme-images/bewijzen/lyricsoipdrachtuitwerking%20(1).png).
+
+Hier is de code uitwerking van de opdracht.
+![alt text](./readme-images/bewijzen/lyricsoipdrachtuitwerking%20(2).png).
+![alt text](./readme-images/bewijzen/lyricsoipdrachtuitwerking%20(3).png).
+
+Na het maken van de opdracht ben ik uiteindelijk gaan werken aan de opdracht. Ik had nog een feedback puntje dat ik moest gaan veranderen.
+De cookiepopup die ik gemaakt daar werkt de gebruiker niet optimaal genoeg informeert om welke cookies er werden gebruikt. 
+Ik heb de cookiepopup wat uitgebreid met de informatie van welke services ik gebruik. daarnaast ehb ik ook de linkjes van de bedrijven erbij gedaan en de link naar hun privacy beleid. 
+![alt text](./readme-images/bewijzen/cookiepopupuitbreiding.png).
+
+Hierin heb ik gebruik gemaakt van een summary. Dit heb ik gedaan zodat de gebruiker alleen op een tabje te hoeven klikken en niet een hele grote lap aan tekst heb meteen. Als de gebruiker de informatei willen zien kunnen ze erop gaan klikken. Ik heb ook een klein probleempje opgelost bij de cookiepopup zelf. In de javascript had ik een kleine timer gemaakt waardoor de gebruiker als die 1 seconden op de website belandt / op de homepage belandt een popup krijgt. De gebruiker kan dan niet verder maar kan wel de popup weigeren of accepteren.
+
+
 ### Maandag 5 oktober
+Op maandag zijn we begonnen met het derde sprint. Vandaag hebben we de opdracht gdaan om een lyrics uit te beelden met een stukje font.
+Ik heb eerst schetsen gemaakt voor de opdracht en ben daarna dit gaan uitwerken.
+iN de voorbeeld hieronderz ie je dat ik bezig ben geweest met het schetsen van de opdracht. Hierin ben ik in 10 kleine schetsen het nummer ymca uitgaan beelden.
+![alt text](./readme-images//bewijzen/lyricsschets1.jpeg).
+![alt text](./readme-images//bewijzen/lyricsschets2.jpeg).
+![alt text](./readme-images//bewijzen/lyricsschets3.jpeg).
+![alt text](./readme-images//bewijzen/lyricsschets4.jpeg).
+![alt text](./readme-images//bewijzen/lyricsschets5.jpeg).
+![alt text](./readme-images//bewijzen/lyricsschets6.jpeg).
+![alt text](./readme-images//bewijzen/lyricsschets7.jpeg).
+![alt text](./readme-images//bewijzen/lyricsschets8.jpeg).
+![alt text](./readme-images//bewijzen/lyricsschets9.jpeg).
+![alt text](./readme-images//bewijzen/lyricsschets10.jpeg).
+
+Voor deze opdracht ben ik bezig geweest met het maken van een opdracht waarin we een artikel moesten lezen over typografie. We moesten eerst in een groep van 4 mensen een artikel gaan lezen. Vervolgens moesten we hier de belangrijkste dingen gaan onderstrepen en die met elkaar overleggen. Daarnaa moesten we dit gaan samenvatten en uitleggen aan een andere groepje met dezelfde artikel alleen het tweede deel. Zo hebben we samen geleerd waarom typografie belangrijk is. We hebben uiteindelijk een korte presentatie moeten houden voor de klas. 
+![alt text](./readme-images/bewijzen/typografieartikel.jpeg).
 
 ## checkout
 Leg uit wat er met de volgende termen bedoeld wordt: kerning, tracking, leading, flush-left, flush-right, centered, justified, indent, outdent, modular scale, movable type, focus punt, vijf soorten contrast, spatial tension. (Hint, alle termen staan in de artikelen die we samen gelezen hebben).
@@ -52,7 +178,16 @@ Wat is jouw ideale regellengte (measure)? Leg uit waarom.
 Als je in een ontwerp maar één variabele tot je beschikking had om hiërarchie aan te brengen (grootte, plaatsing, spacing, lettersoorten), welke zou je dan gebruiken en waarom?
 Ik zou de specing gaan gebruiken voor de verschillende ruimtes.
 
-### Donderdag 31 september
+### Vrijdag 2 oktober
+Op vrijdag hadden we weer een toetsing moment waarbij we were een tekening moesten maken voor de retosspective.
+![alt text](./readme-images//bewijzen/WhatsApp%20Image%202026-10-21%20at%2015.12.42.jpeg).
+
+Deze dag kreeg ik ook feedback om voor het project meer de punten af te werken om de website toegankelijker te maken en moest ik voor mijn code een tweede pagina maken.
+Ik heb deze feedback meteen verwerkt. 
+![alt text](./readme-images/bewijzen/feedback%20vrijdag%20(1).png).
+![alt text](./readme-images/bewijzen/feedback%20vrijdag%20(2).png).
+
+### Donderdag 1 oktober
 Op donderdag ben ik vooral bezig geweest met het schrijven en het bijhouden van mijn learning log. Ik heb vervolgens verder de test gedaan om te kijken of er verbetering zit in mijn website.
 Daaruit kwam dat  er wel wat verbeteringetjes nog zijn maar dat 98% van de website een stuk meer toegankelijker is voor de mensen met een beperking. IK heb het kleurecontrast aangepast en ook de website hierop aangepast
 ![alt text](./readme-images/readme-images/bewijzen/test1.jpeg).

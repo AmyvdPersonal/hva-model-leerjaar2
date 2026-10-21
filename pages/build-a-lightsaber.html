@@ -7,106 +7,188 @@
     <title>Build A Lightsaber</title>
 
     <link rel="stylesheet" href="../assets/style/build-lightsaber.css">
-    <script src="../assets/js/build-lightsaber.js"></script>
+    <script src="../assets/js/build-lightsaber.js" defer></script>
 </head>
 
 <body>
     <header id="header">
         <a href="#main">Direct naar de hoofdinhoud</a>
-        <nav>
+        <!-- 1. Navigatiebalk -->
+        <nav aria-label="Hoofdnavigatie">
             <ul>
                 <li>
-                    <a href="#"><img src="../assets/images/SVG/lightsaber-icon.svg"
+                    <a href="./build-a-lightsaber.html" aria-current="page">
+                        <img src="../assets/images/SVG/lightsaber-icon.svg"
                             alt="Dit is een afbeelding van twee lightsabers die je naar de lightsaber pagina heen stuurt"
-                            aria-hidden="true">Lightsabers</a>
+                            aria-hidden="true">Lightsabers
+                    </a>
                 </li>
                 <li>
-                    <a href="#" aria-current="page"><img src="../assets/images/SVG/Home-icon.svg"
-                            alt="Dit is een afbeelding van een starwars huisje  die je naar de home pagina heen stuurt"
-                            aria-hidden="true"> Home </a>
+                    <a href="../index.html">
+                        <img src="../assets/images/SVG/Home-icon.svg"
+                            alt="Dit is een afbeelding van een starwars huisje die je naar de home pagina heen stuurt"
+                            aria-hidden="true"> Home
+                    </a>
                 </li>
                 <li>
-                    <a href="./karakterpagina.html"><img src="../assets/images/SVG/characters-icon.svg"
-                            alt="Dit is een afbeelding van een darth vader zijn helm huisje  die je naar de karakters pagina heen stuurt"
-                            aria-hidden="true"> Characters</a>
+                    <a href="./karakterpagina.html">
+                        <img src="../assets/images/SVG/characters-icon.svg"
+                            alt="Dit is een afbeelding van een darth vader zijn helm huisje die je naar de karakters pagina heen stuurt"
+                            aria-hidden="true"> Characters
+                    </a>
                 </li>
-
             </ul>
         </nav>
+      
+        <picture>
+            <source srcset="../assets/images/huyangschets.png" media="(width > 70rem)">
+            <source srcset="../assets/images/huyangschets.png" media="(width > 105rem)">
+            <img src="../assets/images/huyangschets.png" alt="Professor Huyang schets" aria-hidden="true">
+        </picture>
+    
+        <div aria-hidden="true">
+            <img src="../assets/images/kyberkristal-black.png" alt="">
+        </div>
+      
+        <div aria-hidden="true">
+            <img src="../assets/images/kyberkristal-red.png" alt="">
+        </div>
+     
+        <div aria-hidden="true">
+            <img src="../assets/images/kyberkristal-white.png" alt="">
+        </div>
+      
+        <div aria-hidden="true">
+            <img src="../assets/images/kyberkristal-purple.png" alt="">
+        </div>
+      
+        <div aria-hidden="true">
+            <img src="../assets/images/kyberkristal_yellow.png" alt="">
+        </div>
+    
+        <div aria-hidden="true">
+            <img src="../assets/images/kyberkristal-orange.png" alt="">
+        </div>
+        
+        <div aria-hidden="true">
+            <img src="../assets/images/kyberkristal-green.png" alt="">
+        </div>
+    
+        <div aria-hidden="true">
+            <img src="../assets/images/kyberkristal-blue.png" alt="">
+        </div>
+    
+        <section aria-labelledby="hero-title">
+            <h1 id="hero-title">CUSTOMIZE YOUR LIGHTSABER</h1>
+            <p>
+                Het bouwen van een lightaber is meer dan een techniek. Het is een eeuwenoude traditie. Elke lightsaber
+                is net zo uniek als zijn maker. Duik in de kluis van de jedi tempel, Voel de force en kies een kristal
+                uit dat jou aanroept. Ontseek de lemmet en zet de eerste stap in jouw eigen legende
+            </p>
+        </section>
     </header>
 
     <main id="main">
-        <section>
-            <h1>Forge Your Lightsaber</h1>
-            <p>Kies een kyberkristal uit de kluis van de Jedi Tempel en klik op het handvat om je lemmet te ontsteken.
+        <section aria-labelledby="history-title">
+            <h2 id="history-title"> Eerst effe een kleine geschiedenis les</h2>
+            <p>Voordat de lightsaber bestond zoals we die nu kennen, gebruikten de oude Je'daii eigenlijk metalen
+                zwaarden die ze met de Force lieten gloeien. De allereerste energie zwaarden werden helemaal niet door
+                de Jedi bedacht, maar door een oeroud ras genaamd de Rakata. Deze wapens werkten op duistere energie en
+                waren dus best wel gevaarlijk voor de Jedi. Vervolgens kwamen de Protosabers, maar die zaten met een
+                dikke kabel aan een batterij op je riem vast.</p>
+
+            <section id="history-extra" hidden>
+                <p>Dit was niet echt handig, want je kon niet goed bewegen en ze raakten heel snel oververhit. Daarnaast
+                    heb ik geleerd dat de Sith de technologie uiteindelijk hebben verbeterd door de batterij gewoon in
+                    het handvat zelf te stoppen. De Sith kregen hun bekende rode kleur door hun kristallen te laten
+                    "bloeden" met de dark side. Uiteindelijk hebben de Jedi deze moderne lightsaber helemaal overgenomen
+                    en werd het echt hun kenmerkende symbool. Tijdens de Clone Wars werden ze heel veel gebruikt omdat
+                    de Jedi toen generaals waren. Maar na Order 66 moesten de overlevers hun lightsabers echt goed gaan
+                    verstoppen om niet ontdekt te worden door de Empire.</p>
+                <p>Dit was niet echt handig, want je kon niet goed bewegen en ze raakten heel snel oververhit. Daarnaast
+                    heb ik geleerd dat de Sith de technologie uiteindelijk hebben verbeterd door de batterij gewoon in
+                    het handvat zelf te stoppen. De Sith kregen hun bekende rode kleur door hun kristallen te laten
+                    "bloeden" met de dark side. Uiteindelijk hebben de Jedi deze moderne lightsaber helemaal overgenomen
+                    en werd het echt hun kenmerkende symbool. Tijdens de Clone Wars werden ze heel veel gebruikt omdat
+                    de Jedi toen generaals waren. Maar na Order 66 moesten de overlevers hun lightsabers echt goed gaan
+                    verstoppen om niet ontdekt te worden door de Empire.</p>
+            </section>
+
+            <button type="button" id="history-knop" aria-expanded="false" aria-controls="history-extra">Nieuwsgierig
+                lees meer</button>
+
+        </section>
+
+        <section aria-labelledby="forge-title">
+            <h2 id="forge-title">Forge your lightsaber</h2>
+            <p> Kies een kyberkristal uit de kluis van de Jedi Tempel en klik op het handvat om je lemmet te ontsteken.
             </p>
-        </section>
 
-        <section aria-label="lightsaber build">
+            <section>
+                <button type="button" id="lightsaber-toggle" aria-label="Ontsteek of doof het lightsaber lemmet"
+                    aria-pressed="false">
+                    <img src="../assets/images/lightsaber1.svg" alt="Lightsaber handvat">
+                </button>
+            </section>
 
-            <button id="lightsaber-toggle" type="button" aria-label="Ontsteek of doof de lightsaber"
-                aria-pressed="false">
-                <img src="../assets/images/lightsaber1.svg" alt="" aria-hidden="true">
-            </button>
-
-        </section>
-
-        <section>
-            <form action="" id="kyber-kristal-form">
-                <fieldset>
-                    <h2>Kies jouw KyberKristal</h2>
-                    <div>
-                        <label>
-                            <input type="radio" name="crystal" value="blue" data-color="#15F2FD"
-                                data-glow="rgba(21, 242, 253, 0.6)" checked>
-                            <span>Blauw</span>
-                        </label>
-
-                        <label>
-                            <input type="radio" name="crystal" value="green" data-color="#22c55e"
-                                data-glow="rgba(34, 197, 94, 0.6)">
-                            <span>Green</span>
-                        </label>
-
-                        <label>
-                            <input type="radio" name="crystal" value="red" data-color="#FE8178"
-                                data-glow="rgba(254, 129, 120, 0.6)">
-                            <span>Red</span>
-                        </label>
-
-                        <label>
-                            <input type="radio" name="crystal" value="purple" data-color="#b026ff"
-                                data-glow="rgba(176, 38, 255, 0.6)">
-                            <span>Purple</span>
-                        </label>
-
-                        <label>
-                            <input type="radio" name="crystal" value="yellow" data-color="#FFE81F" data-glow="rgba(255, 232, 31, 0.6)">
-                            <span>Geel</span>
-                        </label>
-
-                        <label>
-                            <input type="radio" name="crystal" value="orange" data-color="#ff7700"
-                                data-glow="rgba(255, 119, 0, 0.6)">
-                            <span>Orangje</span>
-                        </label>
-
-                        <label>
-                            <input type="radio" name="crystal" value="white" data-color="#ffffff"
-                                data-glow="rgba(255, 255, 255, 0.7)">
-                            <span>Wit</span>
-                        </label>
-
-                        <label class="crystal-label black">
-                            <input type="radio" name="crystal" value="black" data-color="#222222"
-                                data-glow="rgba(0, 0, 0, 0.9)">
-                            <span>Darksaber</span>
-                        </label>
-                    </div>
-                </fieldset>
-            </form>
+            <section>
+                <section rol="group">
+                    <button type="button" data-color="orange" data-blade="#ff7700" data-glow="rgba(255, 119, 0, 0.7)"
+                        aria-label="Oranje kyberkristal" aria-pressed="false">
+                        <img src="../assets/images/kyberkristal-orange.png" alt="" aria-hidden="true">
+                    </button>
+                    <button type="button" data-color="purple" data-blade="#b026ff" data-glow="rgba(176, 38, 255, 0.7)"
+                        aria-label="Paarse kyberkristal" aria-pressed="false">
+                        <img src="../assets/images/kyberkristal-purple.png" alt="" aria-hidden="true">
+                    </button>
+                    <button type="button" data-color="white" data-blade="#ffffff" data-glow="rgba(255, 255, 255, 0.85)"
+                        aria-label="Witte kyberkristal" aria-pressed="false">
+                        <img src="../assets/images/kyberkristal-white.png" alt="" aria-hidden="true">
+                    </button>
+                    <button type="button" data-color="black" data-blade="#000000" data-glow="rgba(255, 255, 255, 0.95)"
+                        aria-label="Zwarte kyberkristal (Darksaber)" aria-pressed="false">
+                        <img src="../assets/images/kyberkristal-black.png" alt="" aria-hidden="true">
+                    </button>
+                    <button type="button" data-color="yellow" data-blade="#FFE81F" data-glow="rgba(255, 232, 31, 0.7)"
+                        aria-label="Gele kyberkristal" aria-pressed="false">
+                        <img src="../assets/images/kyberkristal_yellow.png" alt="" aria-hidden="true">
+                    </button>
+                    <button type="button" data-color="green" data-blade="#22c55e" data-glow="rgba(34, 197, 94, 0.7)"
+                        aria-label="Groene kyberkristal" aria-pressed="false">
+                        <img src="../assets/images/kyberkristal-green.png" alt="" aria-hidden="true">
+                    </button>
+                    <button type="button" data-color="red" data-blade="#FE8178" data-glow="rgba(254, 129, 120, 0.7)"
+                        aria-label="Rode kyberkristal" aria-pressed="false">
+                        <img src="../assets/images/kyberkristal-red.png" alt="" aria-hidden="true">
+                    </button>
+                    <button type="button" data-color="blue" data-blade="#15F2FD" data-glow="rgba(21, 242, 253, 0.7)"
+                        aria-label="Blauwe kyberkristal" aria-pressed="true">
+                        <img src="../assets/images/kyberkristal-blue.png" alt="" aria-hidden="true">
+                    </button>
+                </section>
+            </section>
         </section>
     </main>
+
+    <footer>
+        <section>
+            <h2>Holonet Archieven</h2>
+            <p>Een digitaal archief gewijd aan de kennis van de Jedi Orde, kyberkristallen en lightsabers.</p>
+        </section>
+        <nav aria-label="Footer navigatie">
+            <ul>
+                <li><a href="#header">Terug naar boven</a></li>
+                <li><a href="../opdracht lyrics/ymca.html">Typografisch Experiment (YMCA)</a></li>
+                <li><a href="./karakterpagina.html">Alle Karakters</a></li>
+            </ul>
+        </nav>
+        <section>
+            <p><small>&copy; 2026 Bloomingskills &bull; Star Wars is eigendom van Lucasfilm Ltd. &amp; Disney. Dit is
+                    een educatief project voor de HvA.</small></p>
+        </section>
+    </footer>
+
+
 </body>
 
 </html>
