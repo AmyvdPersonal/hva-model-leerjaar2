@@ -46,7 +46,7 @@ nav {
   align-self: start;
   width: 100%;
   grid-area: 1/1;
-  z-index: 100;
+  z-index: 200;
 
   @media (max-width: 500px) {
     position: fixed;
@@ -54,7 +54,7 @@ nav {
     bottom: 0;
     left: 0;
     width: 100%;
-    z-index: 100;
+    z-index: 200;
   }
 }
 
@@ -66,7 +66,7 @@ ul {
       var(--lightsaber-lightgrey) 0% 30%,
       var(--lightsaber-light-blue) 30% 100%);
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   align-items: center;
   justify-content: center;
   place-content: center;
@@ -87,6 +87,7 @@ ul {
     width: 95%;
     border-radius: 3rem;
     height: 5rem;
+    grid-template-columns: repeat(3, 1fr);
     background: linear-gradient(to right,
         var(--lightsaber-grey) 0% 30%,
         var(--lightsaber-light-blue) 30% 100%);
@@ -107,6 +108,7 @@ li:nth-of-type(3) {
   grid-column: 3;
   grid-row: 1;
 }
+
 
 li a {
   font-size: var(--h3);
@@ -144,6 +146,65 @@ a:focus-visible {
   outline-offset: 5px;
 }
 
+/* ==================================================
+   MARK: Smooth Dark/Light Mode Switch (Dev.to techniek)
+   ================================================== */
+
+#theme-toggle {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+}
+li > label[for="theme-toggle"] {
+    position: relative;
+    display: inline-block;
+    width: 3.2rem;
+    height: 1.6rem;
+    background-color: var(--lightsaber-grey);
+    border: 2px solid var(--starwars-yellow);
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    @media (max-width: 500px) {
+        display:none;
+    }
+}
+
+li > label[for="theme-toggle"]::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 2px;
+    transform: translateY(-50%);
+    width: 1.1rem;
+    height: 1.1rem;
+    background-color: var(--starwars-yellow);
+    border-radius: 50%;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s ease;
+    @media (max-width: 500px) {
+        width: 0.9rem;
+        height: 0.9rem;
+        left: 2px;
+    }
+}
+#theme-toggle:checked + label[for="theme-toggle"] {
+    background-color: var(--black-color);
+    border-color: var(--lightsaber-red);
+}
+#theme-toggle:checked + label[for="theme-toggle"]::before {
+    transform: translateY(-50%) translateX(1.5rem);
+    background-color: var(--lightsaber-red);
+    @media (max-width: 500px) {
+        transform: translateY(-50%) translateX(1.2rem);
+    }
+}
+
+#theme-toggle:focus-visible + label[for="theme-toggle"] {
+    outline: 2px solid var(--starwars-yellow);
+    outline-offset: 4px;
+}
 picture {
   grid-area: 1/1;
 }
@@ -1389,7 +1450,8 @@ https://codepen.io/jh3y/pen/gOmObQj
 /**************************
 * MARK: Dark side
 **************************/
-[data-theme="dark"] {
+[data-theme="dark"],
+html:has(#theme-toggle:checked) {
   body {
     background-color: var(--bg-primairy-color);
     color: var(--text-color);
