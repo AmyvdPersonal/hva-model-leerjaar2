@@ -17,7 +17,7 @@
 <body>
   <header>
     <a href="#main">Direct naar de hoofdinhoud</a>
-    <nav>
+    <nav aria-label="Hoofdnavigatie">
       <ul>
         <li>
           <a href="./build-a-lightsaber-dark.html"><img src="../assets/images/SVG/lightsaber-icon.svg"
@@ -30,12 +30,12 @@
               aria-hidden="true"> Home </a>
         </li>
         <li>
-          <a href="./pages/karakterpagina-dark.html"><img src="../assets/images/SVG/characters-icon.svg"
+          <a href="./karakterpagina-dark.html"><img src="../assets/images/SVG/characters-icon.svg"
               alt="Dit is een afbeelding van een darth vader zijn helm huisje  die je naar de karakters pagina heen stuurt"
               aria-hidden="true"> Characters</a>
         </li>
         <li>
-          <input type="checkbox" id="theme-toggle" aria-label="Schakel donkere modus in">
+          <input type="checkbox" id="theme-toggle" autocomplete="off" aria-label="Schakel donkere modus in">
           <label for="theme-toggle" title="Wissel Light/Dark side"></label>
         </li>
 
@@ -60,11 +60,10 @@
     </section>
   </header>
 
-  <main class="hide-content">
+  <main class="hide-content" id="main">
 
     <section>
       <h2>Discover de sith</h2>
-      <a href="./build-a-lightsaber.html">Customize<span class="visually-hidden"></span></a>
       <picture>
         <source srcset="../assets/images/darthsidious.png" media="(width > 70rem)">
         <source srcset="../assets/images/darthsidious.png" media="(width > 1058rem)">
@@ -76,7 +75,7 @@
         <h2>Sith Counsel</h2>
         <section>
           <!-- bron image: https://www.starwars.com/databank/darth-vader-->
-          <a href="./character-lightside/obiwankenobi.html">
+          <a href="./character-side/obiwankenobi-dark.html">
             <img src="../assets/images/darthvader-profile.jpeg" alt="">
             <h3>Darth Vader</h3>
           </a>

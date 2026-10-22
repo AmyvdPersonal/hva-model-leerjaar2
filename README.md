@@ -13,6 +13,42 @@ Ik heb bloomingskilss gekozen omdat ik op deze oefenwebsite en eindopdracht mijn
 Beschrijf hoe je aanpassingen aan jouw pagina kunt maken en hoe je er voor zorgt dat die op het web gepubliceerd worden.
 Als je een stukje code heb geschreven upload je die naar Github. In github zit er een ingebouwde hosting die ik aan mijn domein heb gekoppeld. Door mijn code te uploaden naar github de main branch. upload je gelijktijdig je code naar je website toe dat live staat.
 
+### Donderdag 22 Oktober
+Op donderdag ben ik vooral bezig geweest met het maken van 1 karakterdetailpage. Ik heb dit gedaan zodat de gebruiker een beeld heeft van hoe een detail page eruit ziet.
+Ik heb een pagina gemaakt voor de eerste character die je ziet op de karakter overview pagina en de homepagina. Ik heb het zo kort gehouden zodat de gebruiker de informatie overzichtelijk kan zien. ik heb deze pagina eerst voor mobiel gemaakt en heb hierbij de style van de homepage behouden.
+
+Naast het maken van deze pagina ben ik gaan kijken of mijn project voldoet aan de eisen en randvoorwaarden. 
+Ik heb de kleien puntjes op de i gezet, gechecked of alle linkjes werken en ook gechecked of de website fluide is.
+![alt text](./readme-images/bewijzen/characterdetails%20(1).png).
+![alt text](./readme-images/bewijzen/characterdetails%20(2).png).
+
+
+### Woensdag 21 oktober
+Op woensdag heb ik de volgende dingen gedaan:
+- bi-weekly
+- Build a lightsaber page veranderd
+- bijwerken van em learning log
+
+In de les hebbenw e eerst een paar stellingen gekregen en daarin moesten we onze mening mee delen. Na dit te doen zijn we verder gegaan met het maken van een formulier. 
+Op het formulier staat een stelling en daarop moesten wij de onderzoeksvragen gaan bedenken en de manieren hoe we dit gaan doen.
+![alt text](./readme-images/bewijzen/bi-weekly-form.jpeg).
+
+Hierin hebben we geleerd welke manieren er zijn voor onderzoek doen en welke vragen het beste erbij passen. Dit is iets wat ik eruit heb geleerd.
+
+Voor de lightsaber pagina wilde ik dit iets meer gaan uitbreiden dan alleen build a lightsaber section.
+Ik had eerst een radio buttons gedaan met een feieldset in een form tag. maar foor de styling vond ik dit niet fijn werken als je de lightsaber de laser wilde aanpassen. Daarom heb ik ervoor gekozen om dit anders te doen.
+
+Ik heb ten eerst de html aangepast. Ik heb de pagina een background gegeven ik een images van huyang erboven kan doen met nog wat kyber kristals. Door de zwarte achtergrond Zie je duidelijker de andere elementen. daarbij  omdat het om de lightsabers gaat wilde ik images van de kybercrystal om de h1 en de subtekst zetten. Zo krijgt de gebruiker een beeld van wat een kyberkristal is. Ik ehb de radio aangepast naar knoppen met een images van een kyber kristal. Dit is gedaan zodat de gebruiker ziet welke kleuren er zijn en kan er dan op gaan klikken. daarbij vond ik de radio buttons niet zelf fijn werken. Voor het klikken op de knoppen moest ik hiervoor wel de functie aanpassen die de laserstraalt naar voren brengt.
+
+In de javascript haal ik de data op van de buttons die bijvoorbeeld ene straatl en een data-glow heeft. Dit wordt opgehaald in de file en daarna meegeven aan als de knop van een kyberkristal aan is dan geeft hij die kleur mee. Die kleur komt uit de javascript file.
+
+![alt text](./readme-images/bewijzen/madebuildlightsaberpage%20(1).png).
+![alt text](./readme-images/bewijzen/madebuildlightsaberpage%20(2).png).
+![alt text](./readme-images/bewijzen/madebuildlightsaberpage%20(3).png).
+
+Verder kan je op de afbeeldingen zien dat ik bezig ben geweest met deze pagina.
+Daarnaast heb ik deze dag vooral mijn focus gelegt op het schrijven van de learning log.
+
 ### Dinsdag 20 Oktober
 Op dinsdag ben ik bezig geweest met het maken van
 - Character overview pagina
@@ -712,6 +748,59 @@ Zo heb je bijvoorbeeld 1 font Garamont die al bijvoorbeeld 450 jaar oud is en va
 ### 31 aug - Kickoff
 
 Een fork van de model repository gemaakt en gepubliceerd via mijn eigen Github omgeving.
+
+## 📚 Bronnenlijst
+
+### 1. Code, CSS-technieken & Interactie
+* **CodePen – Lightsaber Glow, Rotatie & Rand-animaties:**
+  * [Sixclones - Glowing Border / Animation](https://codepen.io/Sixclones/pen/MJrEgz) – Gebruikt voor de roterende lightsaber glow rand op de interactieve knoppen.
+  * [creme - Lightsaber CSS](https://codepen.io/creme/pen/XXdZjM) – Inspiratie voor lightsaber hilts en laser-gloed.
+  * [Aleix - Star Wars Elements](https://codepen.io/Aleix/pen/oWwoza) – Inspiratie voor thematische Star Wars webcomponenten.
+  * [jh3y - CSS Interactions](https://codepen.io/jh3y/pen/gOmObQj) – Geavanceerde CSS interacties en pseudo-elementen.
+* **CSS Shake Animatie:**
+  * [Unused-CSS – CSS Shake Animation](https://unused-css.com/blog/css-shake-animation/) – Animatie voor tril- en feedback-effecten.
+* **StackOverflow:**
+  * [Local Storage Theme Switch](https://stackoverflow.com/questions/56871118/change-theme-and-store-it-in-local-storage) – Concept voor het persistent opslaan van de dark/light mode voorkeur via `localStorage`.
+  * [Horizontal Rule Styling](http://stackoverflow.com/questions/14821087/what-is-the-right-way-to-create-a-horizontal-line-with-html-and-css) – Semantische scheidingslijnen stylen zonder overbodige `div`-elementen op `theme.html`.
+* **MDN Web Docs (Toegankelijkheid & Web API's):**
+  * [MDN - HTMLDialogElement.showModal()](https://developer.mozilla.org/en-US/docs/Web/API/HTMLDialogElement/showModal) – Voor het openen en beheren van de toegankelijke cookiepopup via het officiële `<dialog>` element.
+  * [MDN - Window.localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) – Voor het veilig opslaan van gebruikersvoorkeuren in de browser.
+  * [MDN - DOMContentLoaded](https://developer.mozilla.org/en-US/docs/Web/API/Document/DOMContentLoaded_event) – Voor het correct en vertragingsvrij laden van scripts.
+* **AI-ondersteuning (Conform HvA-richtlijnen transparant vermeld):**
+  * *Gemini / Claude:* Inezet als digitale gids en sparringpartner voor het berekenen van de `clamp()`-formules voor fluïde typografie (`algemenestyling.css`), W3C HTML/CSS-validatie en het foutloos opzetten van CSS Grid architecturen.
+
+---
+
+### 2. Afbeeldingen & Grafische Assets
+* **Officiële Star Wars Databank ([StarWars.com Databank](https://www.starwars.com/databank)):**
+  * *Jedi & Heroes:* Obi-Wan Kenobi, Anakin Skywalker, Yoda, Qui-Gon Jinn, Mace Windu, Plo Koon, Kit Fisto, Ki-Adi-Mundi, Saesee Tiin, Luke Skywalker, Leia Organa, Ahsoka Tano, Rey, Han Solo, Chewbacca, Padmé Amidala, Lando Calrissian, Poe Dameron, Finn, Jyn Erso, Cassian Andor, The Mandalorian, C-3PO, R2-D2, BB-8 en Grogu.
+  * *Sith & Dark Side:* Darth Vader, Emperor Palpatine / Darth Sidious, Darth Maul, Count Dooku, Kylo Ren, Asajj Ventress, Supreme Leader Snoke, General Grievous, Darth Bane, Darth Plagueis, Moff Gideon, Grand Admiral Thrawn, Grand Moff Tarkin, Jango Fett, Boba Fett, Cad Bane, Bossk, IG-88, Captain Phasma, General Hux, Second Sister, Mother Talzin, Savage Opress, Shin Hati en Baylan Skoll.
+* **Wallpapers & Hero Afbeeldingen:**
+  * [Alpha Coders](https://wall.alphacoders.com/big.php?i=1247346) – Hero afbeelding van Obi-Wan Kenobi op de homepage.
+  * [WallpaperCat](https://wallpapercat.com/darth-vader-wallpapers#download) – Hero afbeelding van Darth Vader op de darkside homepage.
+  * [StarWars.com Jedi Council News](https://www.starwars.com/news/jedi-council) – Achtergrondafbeelding van de Hoge Jedi Raad op `karakterpagina.html`.
+* **Pinterest Inspiratie & Schetsen:**
+  * [Pinterest - Kyber Kristallen & Schetsen](https://nl.pinterest.com/pin/773282198505730945/) – Kyber kristallen en schetsen van Yoda & Huyang.
+  * [Pinterest - Lightsaber Color Palette](https://es.pinterest.com/pin/51158145756833365/) – Kleur- en sfeerinspiratie voor de lightsaber-waardes in `colors.css`.
+
+---
+
+### 3. Obi-Wan Kenobi Film- & Serie Appearances
+* [Wookieepedia – Episode I: The Phantom Menace](https://starwars.fandom.com/wiki/Star_Wars:_Episode_I_The_Phantom_Menace)
+* [IMDb – Episode II: Attack of the Clones](https://www.imdb.com/title/tt0121765/)
+* [IMDb – The Clone Wars](https://www.imdb.com/title/tt0458290/)
+* [Pathé – Episode III: Revenge of the Sith](https://www.pathe.nl/nl/films/star-wars-episode-iii-revenge-of-the-sith-re-release-47269)
+* [Wookieepedia – Obi-Wan Kenobi (Disney+ serie)](https://starwars.fandom.com/wiki/Obi-Wan_Kenobi)
+* [TV Tropes – Star Wars Rebels](https://tvtropes.org/pmwiki/pmwiki.php/WesternAnimation/StarWarsRebels)
+* [Amazon – Episode IV: A New Hope](https://www.amazon.nl/New-Hope-Star-Wars-Episode/dp/0345341465)
+* [IMDb – Episode V: The Empire Strikes Back](https://www.imdb.com/title/tt0080684/)
+* [IMDb – Episode VI: Return of the Jedi](https://www.imdb.com/title/tt0086190/)
+
+---
+
+### 4. Privacy & Wetgeving (AVG / GDPR)
+* [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement) – Gelinkt in de cookiepopup ter verantwoording van hosting via GitHub Pages.
+* [TransIP Privacy Policy](https://www.transip.nl/legal/privacy-policy/) – Gelinkt in de cookiepopup ter verantwoording van de domeinnaamregistratie via TransIP.
 
 
 

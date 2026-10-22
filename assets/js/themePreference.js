@@ -7,6 +7,8 @@ window.addEventListener('DOMContentLoaded', function () {
 
     if (window.location.href.includes('-dark.html')) {
         themeToggle.checked = true;
+    }else{
+        themeToggle.checked = false;
     }
 
     themeToggle.addEventListener('click', function () {

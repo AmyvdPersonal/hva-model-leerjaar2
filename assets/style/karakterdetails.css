@@ -1,0 +1,571 @@
+@import url(./colors.css);
+@import url(./fonts.css);
+@import url(./algemenestyling.css);
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*************************************************
+* MARK: Header & Lightsaber Navigatiebalk
+*************************************************/
+header {
+    display: grid;
+
+    @media (max-width: 1000px) {}
+
+    @media (max-width: 500px) {
+        opacity: 0.9;
+        place-content: center;
+    }
+
+    &>a:nth-of-type(1) {
+        position: absolute;
+        top: 1rem;
+        left: -9999px;
+        z-index: 100;
+        padding: .5em;
+        margin: .5em;
+        font-weight: bold;
+        background-color: var(--starwars-yellow);
+        color: var(--text-color);
+        outline-color: var(--gradient-black-overlay);
+
+        &:focus-visible {
+            left: 1rem;
+        }
+    }
+
+    nav {
+        position: relative;
+        top: 2.5rem;
+        display: flex;
+        justify-content: space-around;
+        align-self: start;
+        width: 100%;
+        grid-area: 1/1;
+        z-index: 200;
+
+        @media (max-width: 500px) {
+            position: fixed;
+            top: auto;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            z-index: 200;
+        }
+
+        @media(max-width:1000px) {
+            position: absolute;
+            top: 2.5rem;
+            left: 0;
+        }
+    }
+
+    /* Lightsaber navigatiebalk */
+    ul {
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to right,
+                var(--lightsaber-lightgrey) 0% 30%,
+                var(--lightsaber-light-blue) 30% 100%);
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        justify-content: center;
+        place-content: center;
+
+        list-style: none;
+        width: 80%;
+        height: 6rem;
+        text-align: center;
+
+        border-radius: 5rem 10rem 10rem 5rem;
+        color: var(--text-color);
+
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+        @media (max-width: 500px) {
+            position: fixed;
+            bottom: 2%;
+            width: 95%;
+            border-radius: 3rem;
+            grid-template-columns: repeat(3, 1fr);
+            height: 5rem;
+            background: linear-gradient(to right,
+                    var(--lightsaber-grey) 0% 30%,
+                    var(--lightsaber-light-blue) 30% 100%);
+        }
+    }
+
+    li:nth-of-type(1) {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    li:nth-of-type(2) {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    li:nth-of-type(3) {
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+    li a {
+        font-size: var(--h3);
+        color: var(--text-color);
+        text-decoration: none;
+        font-family: "Montserrat";
+
+        @media (max-width: 500px) {
+            display: grid;
+            font-size: var(--p-disappear);
+            justify-content: center;
+            place-content: center;
+            align-content: center;
+            gap: 0.2rem;
+        }
+    }
+
+    nav li:nth-of-type(1) a img,
+    nav li:nth-of-type(2) a img,
+    nav li:nth-of-type(3) a img {
+        display: none;
+
+        @media (max-width: 500px) {
+            display: block;
+            width: 5rem;
+            height: 5rem;
+            object-fit: contain;
+            mix-blend-mode: normal;
+            opacity: 1;
+        }
+    }
+
+    a:focus-visible {
+        outline: 3px solid var(--starwars-yellow);
+        outline-offset: 5px;
+    }
+
+    /* ==================================================
+   MARK: Smooth Dark/Light Mode Switch 
+   ================================================== */
+
+    #theme-toggle {
+        position: absolute;
+        opacity: 0;
+        width: 0;
+        height: 0;
+        pointer-events: none;
+    }
+
+    li>label[for="theme-toggle"] {
+        position: relative;
+        display: inline-block;
+        width: 3.2rem;
+        height: 1.6rem;
+        background-color: var(--lightsaber-grey);
+        border: 2px solid var(--starwars-yellow);
+        border-radius: 2rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease, border-color 0.3s ease;
+
+        @media (max-width: 500px) {
+            display: none;
+        }
+    }
+
+    li>label[for="theme-toggle"]::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 2px;
+        transform: translateY(-50%);
+        width: 1.1rem;
+        height: 1.1rem;
+        background-color: var(--starwars-yellow);
+        border-radius: 50%;
+        transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s ease;
+
+        @media (max-width: 500px) {
+            width: 0.9rem;
+            height: 0.9rem;
+            left: 2px;
+        }
+    }
+
+    #theme-toggle:checked+label[for="theme-toggle"] {
+        background-color: var(--black-color);
+        border-color: var(--lightsaber-red);
+    }
+
+    #theme-toggle:checked+label[for="theme-toggle"]::before {
+        transform: translateY(-50%) translateX(1.5rem);
+        background-color: var(--lightsaber-red);
+
+        @media (max-width: 500px) {
+            transform: translateY(-50%) translateX(1.2rem);
+        }
+    }
+
+    #theme-toggle:focus-visible+label[for="theme-toggle"] {
+        outline: 2px solid var(--starwars-yellow);
+        outline-offset: 4px;
+    }
+}
+
+/*************************************************
+* MARK: Main 
+*************************************************/
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    margin: 0 auto;
+
+    @media (min-width: 1000px) {
+        gap: 5rem;
+    }
+}
+
+/*************************************************
+* MARK: Sectie 1 - Foto, Titel, Specs & Bio 
+*************************************************/
+main>section:nth-of-type(1) {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 1.5rem;
+    padding: 0;
+    height: auto;
+
+    @media (min-width: 1000px) {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto 1fr;
+        gap: 1.5rem 3.5rem;
+        align-items: stretch;
+        max-width: 95vw;
+        padding: 0;
+    }
+}
+
+main>section:nth-of-type(1) picture {
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+    display: block;
+
+    @media (min-width: 1000px) {
+        grid-column: 1;
+        grid-row: 1 / span 3;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+main>section:nth-of-type(1) picture img {
+    width: 100%;
+    height: 65vh;
+    object-fit: cover;
+    object-position: left 75%;
+    display: block;
+
+    @media (min-width: 1000px) {
+       height: 100%;
+        min-height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center 20%;
+        border-radius: 0 0 1.5rem 1.5rem;
+    }
+}
+
+
+main>section:nth-of-type(1) h1 {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: end;
+    z-index: 2;
+
+    color: #FFF2F2;
+    font-family: 'Deathstar', sans-serif;
+    font-size: var(--h1);
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    padding: 1.5rem;
+    margin: 0;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.9);
+
+    @media (min-width: 1000px) {
+        grid-column: 2;
+        grid-row: 1;
+        align-self: start;
+        color: var(--text-color);
+        padding: 0;
+        margin-top: 7.5rem;
+        text-shadow: none;
+    }
+}
+
+
+main>section:nth-of-type(1) ul {
+    grid-column: 1;
+    grid-row: 2;
+    list-style-type: disc;
+    padding-left: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    font-size: var(--p);
+    color: var(--text-color);
+    margin: 0;
+
+    @media (min-width: 1000px) {
+        grid-column: 2;
+        grid-row: 2;
+        padding-left: 1.5rem;
+    }
+}
+
+main>section:nth-of-type(1) ul li strong {
+    font-weight: 700;
+}
+
+
+main>section:nth-of-type(1) p {
+    grid-column: 1;
+    grid-row: 3;
+    font-size: var(--p);
+    line-height: 1.6;
+    color: var(--text-color);
+    padding: 0 1.5rem;
+    margin: 0;
+
+    @media (min-width: 1000px) {
+        grid-column: 2;
+        grid-row: 3;
+        padding: 0;
+    }
+}
+
+/*************************************************
+* MARK: Sectie 2 
+*************************************************/
+main>section:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0 1.5rem;
+
+    @media (min-width: 1000px) {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.8rem;
+        padding: 0rem 5rem 0rem 5rem;
+    }
+}
+
+main>section:nth-of-type(2) article {
+    background-color: var(--dark-beige-color);
+    padding: 2rem 1.8rem;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+main>section:nth-of-type(2) article h2 {
+    font-family: 'Deathstar', sans-serif;
+    font-size: var(--h3);
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    color: var(--black-color);
+}
+
+main>section:nth-of-type(2) article p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--black-color);
+}
+
+/*************************************************
+* MARK: Sectie 3 - Appearances 
+*************************************************/
+main>section:nth-of-type(3) {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0 1.5rem;
+
+    @media (min-width: 1000px) {
+        padding: 0rem 5rem 0rem 5rem;
+    }
+}
+
+main>section:nth-of-type(3) h2 {
+    font-family: 'Deathstar', sans-serif;
+    font-size: var(--h2);
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+
+
+main>section:nth-of-type(3) ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+
+    @media (min-width: 1000px) {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+main>section:nth-of-type(3) ul li {
+    width: 100%;
+}
+
+main>section:nth-of-type(3) figure {
+    margin: 0;
+    width: 100%;
+    background-color: var(--black-color);
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+}
+
+main>section:nth-of-type(3) figure img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+
+    @media (min-width: 1000px) {
+        height: 16rem;
+    }
+}
+
+main>section:nth-of-type(3) figcaption {
+    font-size: 0.95rem;
+    font-weight: 600;
+    padding: 1rem;
+    text-align: center;
+    color: var(--starwars-yellow);
+    background-color: var(--black-color);
+}
+
+/*************************************************
+* MARK: Footer
+*************************************************/
+footer {
+    background: linear-gradient(to top, var(--black-color), #1a1a1a);
+    color: #ffffff;
+    padding: 3rem 1.5rem 8rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+
+    @media (min-width: 1000px) {
+        padding: 4rem 2rem 3rem 2rem;
+    }
+}
+
+footer section h2 {
+    font-family: 'Deathstar', sans-serif;
+    color: var(--starwars-yellow);
+    font-size: var(--h3);
+}
+
+footer section p {
+    font-size: 0.95rem;
+    color: var(--beige-color);
+}
+
+footer nav {
+    position: static;
+    width: 100%;
+    background: none;
+    box-shadow: none;
+}
+
+footer nav ul {
+    background: none;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    width: 100%;
+    height: auto;
+
+    @media (min-width: 1000px) {
+        flex-direction: row;
+        justify-content: center;
+        gap: 2rem;
+    }
+}
+
+footer nav ul li a {
+    color: var(--starwars-yellow);
+    font-size: 0.95rem;
+    text-decoration: underline;
+}
+
+footer section:last-of-type small {
+    font-size: 0.8rem;
+    color: #888888;
+}
+
+/*************************************************
+* MARK: Dark Mode
+*************************************************/
+[data-theme="dark"],
+html:has(#theme-toggle:checked) {
+    body {
+        background-color: var(--bg-primairy-color);
+        color: var(--text-color);
+    }
+
+    nav ul {
+        background: linear-gradient(to right,
+                var(--lightsaber-grey) 0% 30%,
+                var(--lightsaber-darkred) 30% 100%);
+    }
+
+    main>section:nth-of-type(1) h1 {
+        @media (min-width: 1000px) {
+            color: var(--starwars-yellow);
+        }
+    }
+
+    main>section:nth-of-type(2) article {
+        background-color: var(--bg-secundairy-color);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+    }
+
+    main>section:nth-of-type(2) article h2 {
+        color: var(--starwars-yellow);
+    }
+
+    main>section:nth-of-type(2) article p {
+        color: var(--text-color);
+    }
+}

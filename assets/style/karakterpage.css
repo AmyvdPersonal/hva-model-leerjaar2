@@ -74,7 +74,7 @@ ul {
 
     list-style: none;
     width: 80%;
-    height: 4rem;
+    height: 6rem;
     text-align: center;
 
     border-radius: 5rem 10rem 10rem 5rem;
@@ -345,7 +345,7 @@ main>section>a>img {
     display: block;
 }
 
-main>section>a>h3 {
+main>section>a>h2 {
     position: relative;
     z-index: 1;
     width: 100%;
@@ -374,7 +374,7 @@ main>section>a>p {
 }
 
 main>section:first-of-type>a {
-    animation: crad-appear 0.35s ease-out;
+    animation: card-appear 0.35s ease-out;
 }
 
 @keyframes card-appear {

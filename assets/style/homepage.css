@@ -10,7 +10,7 @@
 header {
   display: grid;
   position: relative;
-  z-index:300;
+  z-index: 300;
 
   @media (max-width: 1000px) {}
 
@@ -149,64 +149,71 @@ a:focus-visible {
 }
 
 /* ==================================================
-   MARK: Smooth Dark/Light Mode Switch (Dev.to techniek)
+   MARK: Smooth Dark/Light Mode Switch
    ================================================== */
 
 #theme-toggle {
-    position: absolute;
-    opacity: 0;
-    width: 0;
-    height: 0;
-    pointer-events: none;
-}
-li > label[for="theme-toggle"] {
-    position: relative;
-    display: inline-block;
-    width: 3.2rem;
-    height: 1.6rem;
-    background-color: var(--lightsaber-grey);
-    border: 2px solid var(--starwars-yellow);
-    border-radius: 2rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease, border-color 0.3s ease;
-    @media (max-width: 500px) {
-        display:none;
-    }
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  pointer-events: none;
 }
 
-li > label[for="theme-toggle"]::before {
-    content: '';
-    position: absolute;
-    top: 50%;
+li>label[for="theme-toggle"] {
+  position: relative;
+  display: inline-block;
+  width: 3.2rem;
+  height: 1.6rem;
+  background-color: var(--lightsaber-grey);
+  border: 2px solid var(--starwars-yellow);
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+
+  @media (max-width: 500px) {
+    display: none;
+  }
+}
+
+li>label[for="theme-toggle"]::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 2px;
+  transform: translateY(-50%);
+  width: 1.1rem;
+  height: 1.1rem;
+  background-color: var(--starwars-yellow);
+  border-radius: 50%;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s ease;
+
+  @media (max-width: 500px) {
+    width: 0.9rem;
+    height: 0.9rem;
     left: 2px;
-    transform: translateY(-50%);
-    width: 1.1rem;
-    height: 1.1rem;
-    background-color: var(--starwars-yellow);
-    border-radius: 50%;
-    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.3s ease;
-    @media (max-width: 500px) {
-        width: 0.9rem;
-        height: 0.9rem;
-        left: 2px;
-    }
-}
-#theme-toggle:checked + label[for="theme-toggle"] {
-    background-color: var(--black-color);
-    border-color: var(--lightsaber-red);
-}
-#theme-toggle:checked + label[for="theme-toggle"]::before {
-    transform: translateY(-50%) translateX(1.5rem);
-    background-color: var(--lightsaber-red);
-    @media (max-width: 500px) {
-        transform: translateY(-50%) translateX(1.2rem);
-    }
+  }
 }
 
-#theme-toggle:focus-visible + label[for="theme-toggle"] {
-    outline: 2px solid var(--starwars-yellow);
-    outline-offset: 4px;
+#theme-toggle:checked+label[for="theme-toggle"] {
+  background-color: var(--black-color);
+  border-color: var(--lightsaber-red);
 }
+
+#theme-toggle:checked+label[for="theme-toggle"]::before {
+  transform: translateY(-50%) translateX(1.5rem);
+  background-color: var(--lightsaber-red);
+
+  @media (max-width: 500px) {
+    transform: translateY(-50%) translateX(1.2rem);
+  }
+}
+
+#theme-toggle:focus-visible+label[for="theme-toggle"] {
+  outline: 2px solid var(--starwars-yellow);
+  outline-offset: 4px;
+}
+
 picture {
   grid-area: 1/1;
 }
@@ -260,9 +267,13 @@ header>section {
   }
 }
 
-section section {
-  display: grid;
+header>section section {
+ display: grid;
   gap: 1rem;
+  background-color: var(--gradient-black-overlay);
+  padding: 2.5rem;
+  border-radius: 1.5rem;
+  backdrop-filter: blur(6px);
 }
 
 section h1::before,
@@ -864,8 +875,18 @@ main>section:nth-of-type(3)>a:active::before {
 }
 
 
-/*de 8 zwevende kyberkristallen*/
+/* Container voor de 8 kristallen (bedekt de hele sectie voor de percentages) */
 main>section:nth-of-type(3)>div {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* De 8 zwevende kyberkristallen zelf */
+main>section:nth-of-type(3)>div>div {
   position: absolute;
   z-index: 1;
   width: clamp(2.5rem, 5vw, 4.5rem);
@@ -888,7 +909,6 @@ main>section:nth-of-type(3)>div {
   @media(max-width:500px) {
     width: 2.2rem;
     opacity: 0.75;
-
   }
 }
 
@@ -906,8 +926,8 @@ main>section:nth-of-type(3)>div {
   }
 }
 
-/* zwart*/
-main>section:nth-of-type(3)>div:nth-of-type(1) {
+/* 1. Zwart */
+main>section:nth-of-type(3)>div>div:nth-of-type(1) {
   top: 4%;
   left: 6%;
   width: 123px;
@@ -930,8 +950,8 @@ main>section:nth-of-type(3)>div:nth-of-type(1) {
   }
 }
 
-/* rood*/
-main>section:nth-of-type(3)>div:nth-of-type(2) {
+/* 2. Rood */
+main>section:nth-of-type(3)>div>div:nth-of-type(2) {
   top: 38%;
   right: 5%;
   width: 171px;
@@ -956,8 +976,8 @@ main>section:nth-of-type(3)>div:nth-of-type(2) {
   }
 }
 
-/* wit*/
-main>section:nth-of-type(3)>div:nth-of-type(3) {
+/* 3. Wit */
+main>section:nth-of-type(3)>div>div:nth-of-type(3) {
   top: 48%;
   left: 62%;
   width: 90px;
@@ -981,8 +1001,8 @@ main>section:nth-of-type(3)>div:nth-of-type(3) {
   }
 }
 
-/* paars */
-main>section:nth-of-type(3)>div:nth-of-type(4) {
+/* 4. Paars */
+main>section:nth-of-type(3)>div>div:nth-of-type(4) {
   top: 5%;
   left: 52%;
   width: 163px;
@@ -1006,8 +1026,8 @@ main>section:nth-of-type(3)>div:nth-of-type(4) {
   }
 }
 
-/* geel */
-main>section:nth-of-type(3)>div:nth-of-type(5) {
+/* 5. Geel */
+main>section:nth-of-type(3)>div>div:nth-of-type(5) {
   top: 58%;
   left: 45%;
   width: 105px;
@@ -1031,8 +1051,8 @@ main>section:nth-of-type(3)>div:nth-of-type(5) {
   }
 }
 
-/* Oranje */
-main>section:nth-of-type(3)>div:nth-of-type(6) {
+/* 6. Oranje */
+main>section:nth-of-type(3)>div>div:nth-of-type(6) {
   top: 18%;
   left: 40%;
   width: 65px;
@@ -1056,8 +1076,8 @@ main>section:nth-of-type(3)>div:nth-of-type(6) {
   }
 }
 
-/* groen */
-main>section:nth-of-type(3)>div:nth-of-type(7) {
+/* 7. Groen */
+main>section:nth-of-type(3)>div>div:nth-of-type(7) {
   top: 10%;
   right: 8%;
   width: 124px;
@@ -1080,8 +1100,8 @@ main>section:nth-of-type(3)>div:nth-of-type(7) {
   }
 }
 
-/* blauw */
-main>section:nth-of-type(3)>div:nth-of-type(8) {
+/* 8. Blauw */
+main>section:nth-of-type(3)>div>div:nth-of-type(8) {
   top: 35%;
   left: 47%;
   width: 90px;
@@ -1093,9 +1113,7 @@ main>section:nth-of-type(3)>div:nth-of-type(8) {
   }
 
   @media (max-width: 500px) {
-    scale: 0.45;
-    top: 42%;
-    left: 78%;
+    display:none;
   }
 
   @media (max-width: 1000px) {
@@ -1159,7 +1177,7 @@ main>section:nth-of-type(3)>section {
   }
 }
 
-main>section:nth-of-type(3)>section>button:hover img{
+main>section:nth-of-type(3)>section>button:hover img {
   animation: tilt-n-move-shaking 0.25s infinite;
 }
 
@@ -1331,7 +1349,7 @@ main>section:nth-of-type(3)>section button:focus-visible {
   }
 }
 
-/*
+
 @supports (animation-timeline: view()) {
   main section picture .yodaimg,
   main>section:nth-of-type(3)>picture img {
@@ -1353,7 +1371,7 @@ main>section:nth-of-type(3)>section button:focus-visible {
     }
   }
 }
-*/
+
 
 /**************************
 * MARK: Footer
@@ -1364,7 +1382,7 @@ footer {
   color: #f0f0f0;
   border-top: 3px solid var(--starwars-yellow);
   padding: 4rem 2rem 3rem 2rem;
-  
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1401,7 +1419,7 @@ footer {
     justify-content: center;
     gap: 1.5rem;
     list-style: none;
-    background: none; 
+    background: none;
     box-shadow: none;
     height: auto;
     width: auto;
@@ -1442,6 +1460,7 @@ footer {
     line-height: 1.4;
   }
 }
+
 /*
 Bronnen:
 https://codepen.io/Sixclones/pen/MJrEgz
@@ -1486,7 +1505,15 @@ html:has(#theme-toggle:checked) {
     }
   }
 
-  /* Uitlijning voor de Sith schets (Darth Sidious) */
+ header>section section{
+  color:var(--black-color);
+  display: grid;
+  gap: 1rem;
+  background-color: var(--gradient-black-overlay);
+  padding: 2.5rem;
+  border-radius: 1.5rem;
+  backdrop-filter: blur(30px);
+ }
   main section img {
     justify-content: right;
     justify-items: end;
