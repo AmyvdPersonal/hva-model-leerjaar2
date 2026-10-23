@@ -1,87 +1,341 @@
-/* MARK: fonts */
 @font-face {
   font-family: 'Seraphs';
   src: url('font/SeraphsVF.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
 }
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+:root {
+  --font-seraphs: 'Seraphs';
+
+  --h1: clamp(5rem, 2rem + 12vw, 20rem);
+  --h2: 4rem;
+  --h3: 3rem;
+  --p: 2rem;
+
+  --ink: currentColor;
+  --ink-2: #FF4FD8;
+  --ink-3: #4FF8FF;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 body {
-  font-family: 'Seraphs', serif;
-  background-color: #fff;
-  color: #000;
-  min-height: 100vh;
-  padding: 5vh 5vw;
-  display: grid;
-  grid-template-columns: auto 1fr;
-  grid-template-rows: 1fr auto;
-  gap: 2.5rem 3rem;
-}
-header {
-  writing-mode: sideways-lr;
-  border-right: 1.5px solid #000;
-  padding-right: 1.5rem;
-  position: sticky;
-  top: 5vh;
-  height: fit-content;
+  font-size: var(--p);
+  font-family: var(--font-seraphs), sans-serif;
+  color: #222;
+  background-color: #FAFAFA;
 }
 
-header h1 {
-  font-size: clamp(2.5rem, 8vi, 5rem);
-  letter-spacing: 0.15em;
-  font-weight: 700;
-}
-
-header .artist {
-  font-size: 1.1rem;
-  letter-spacing: 0.08em;
-  margin-top: 1rem;
-}
-
-main {
-  container-type: inline-size;
-  display: flex;
-  flex-direction: column;
-  gap: 3.5rem;
-  max-width: 55rem;
-}
-
-.verse, .chorus {
-  display: flex;
-  flex-direction: column;
-  gap: 1.8rem;
-}
-
-.lyric-group h2 {
-  font-size: clamp(1.8rem, 6cqi, 3rem);
-  font-weight: 600;
-  line-height: 1.1;
-}
-
-.lyric-group p,
-.chorus-detail {
-  font-size: clamp(1rem, 3cqi, 1.35rem);
+p {
+  font-size: var(--p);
   line-height: 1.5;
 }
 
-.chorus-lead {
-  font-size: clamp(1.1rem, 3.5cqi, 1.5rem);
+header {
+  background: linear-gradient(to right, #00A651, #72C6EF, #F7941E);
+  min-height: 50vh;
+  width: 100%;
+  display: grid;
+  place-content: center;
+  color: #FFF;
+  text-align: center;
+  padding: 4rem 2rem;
 }
 
-.chorus-title {
-  font-size: clamp(3rem, 14cqi, 6.5rem);
-  letter-spacing: 0.08em;
-  line-height: 1;
+header section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
+header p {
+  margin-top: 1.5rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+main {
+  max-width: 65rem;
+  margin: 4rem auto;
+  padding: 0 2rem;
+}
+
+main > section:first-of-type > article {
+  margin-bottom: 4rem;
+}
+
+/* MARK: Animatie Classes */
+
+.fx-typing {
+  font-family: var(--font-seraphs), sans-serif;
+  font-size: var(--h1);
+  font-weight: 900;
+  font-stretch: 75%;
+  font-variation-settings: 'wght' 200, 'SRFS' 0;
+  text-transform: uppercase;
+  line-height: 0.9;
+  letter-spacing: 0.02em;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 0.08em solid currentColor;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
+  animation:
+    ymca-smooth-beat 3.8s ease-in-out infinite,
+    cursor-blink 0.5s step-end infinite alternate;
+}
+
+.fx-loud {
+  font-family: var(--font-seraphs), sans-serif;
+  font-size: var(--h2);
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  color: var(--ink);
+  display: inline-block;
+  transform-origin: left center;
+  animation: fx-loud 3s infinite;
+}
+
+.fx-heartbeat {
+  font-family: var(--font-seraphs), sans-serif;
+  font-size: var(--h3);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--ink-2);
+  display: block;
+  text-align: center;
+  margin: 3.5rem 0;
+  animation: fx-heartbeat 1.4s ease-in-out infinite;
+}
+
+.fx-fall {
+  font-family: var(--font-seraphs), sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  line-height: 0.85;
+  cursor: pointer;
+  border-bottom: 2px dashed var(--ink-2);
+  display: inline-block;
+  user-select: none;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.fx-fall:hover {
+  color: var(--ink-2);
+  border-color: transparent;
+  animation: fx-fall 0.65s cubic-bezier(0.55, 0.055, 0.675, 0.19) forwards;
+}
+
+main > section:first-of-type > article:first-of-type {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1.2rem;
+}
+
+main > section:first-of-type > article:first-of-type > h2,
+main > section:first-of-type > article:first-of-type > h3 {
+  width: 100%;
+}
+
+main > section:first-of-type > article:nth-of-type(2) {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+main > section:first-of-type > article:nth-of-type(2) > h2,
+main > section:first-of-type > article:nth-of-type(2) > h3 {
+  width: 100%;
+}
+
+main > section:first-of-type > article:nth-of-type(2) > p:nth-of-type(2) {
+  border-bottom: 2px solid currentColor;
+  padding-bottom: 2px;
+}
 
 footer {
-  grid-column: 1 / -1;
-  border-top: 1px solid #000;
-  padding-top: 1rem;
-  font-size: 0.85rem;
+  text-align: center;
+  padding: 4rem 2rem;
+  font-size: 1.4rem;
+  color: #666;
+}
+
+footer a {
+  color: inherit;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer a:focus-visible {
+  outline: 2px solid #00A651;
+  outline-offset: 3px;
+}
+
+
+/* MARK: Scroll Driven Animatie */
+
+@supports (animation-timeline: view()) {
+  main > section:first-of-type > article {
+    view-timeline-name: --lyric-verse;
+    view-timeline-axis: block;
+    animation-timeline: --lyric-verse;
+    animation-name: verse-reveal;
+    animation-range: entry 10% cover 35%;
+    animation-fill-mode: both;
+  }
+
+  @keyframes verse-reveal {
+    from {
+      opacity: 0.15;
+      transform: translateY(3.5rem) scale(0.96);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+}
+
+/* MARK: Animaties */
+
+@keyframes ymca-smooth-beat {
+  0%, 5% {
+    max-width: 0ch;
+  }
+  14%, 20% {
+    max-width: 2.2ch;
+  }
+  32%, 38% {
+    max-width: 4.8ch;
+  }
+  50%, 56% {
+    max-width: 7.2ch;
+  }
+  68%, 88% {
+    max-width: 10ch;
+  }
+  98%, 100% {
+    max-width: 0ch;
+  }
+}
+
+@keyframes cursor-blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes fx-loud {
+  0%, 12% {
+    transform: scale(1);
+    color: var(--ink);
+    text-shadow: none;
+    animation-timing-function: cubic-bezier(.2, 1.5, .4, 1);
+  }
+  20% {
+    transform: scale(1.35);
+    color: var(--ink-2);
+    text-shadow: 0 0 18px color-mix(in srgb, var(--ink-2) 55%, transparent);
+  }
+  23% { transform: translate(-4px, 2px) rotate(-3deg) scale(1.35); }
+  26% { transform: translate(4px, -2px) rotate(3deg) scale(1.35); }
+  29% { transform: translate(-3px, -1px) rotate(-2deg) scale(1.35); }
+  32% { transform: translate(3px, 1px) rotate(2deg) scale(1.35); }
+  35% { transform: translate(-2px, 2px) rotate(-1deg) scale(1.35); }
+  38% { transform: translate(2px, -1px) rotate(1deg) scale(1.35); }
+  44% {
+    transform: scale(1.35);
+    color: var(--ink-2);
+    text-shadow: 0 0 18px color-mix(in srgb, var(--ink-2) 55%, transparent);
+    animation-timing-function: cubic-bezier(.3, 1.6, .5, 1);
+  }
+  54%, 100% {
+    transform: scale(1);
+    color: var(--ink);
+    text-shadow: none;
+  }
+}
+
+@keyframes fx-heartbeat {
+  0%, 100% {
+    transform: scale(1);
+    text-shadow: 0 0 0 transparent;
+  }
+  14% {
+    transform: scale(1.18);
+    text-shadow: 0 0 18px color-mix(in srgb, var(--ink-2) 65%, transparent);
+  }
+  28% {
+    transform: scale(1);
+  }
+  42% {
+    transform: scale(1.25);
+    text-shadow: 0 0 26px color-mix(in srgb, var(--ink-2) 80%, transparent);
+  }
+  70% {
+    transform: scale(1);
+    text-shadow: 0 0 0 transparent;
+  }
+}
+
+@keyframes fx-fall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  70% {
+    transform: translateY(5rem) rotate(-4deg);
+  }
+  85% {
+    transform: translateY(4.6rem) rotate(-2deg);
+  }
+  100% {
+    transform: translateY(5.2rem) rotate(-5deg);
+    opacity: 0.75;
+  }
+}
+
+/* MARK: Reduced Motion */
+
+@media (prefers-reduced-motion: reduce) {
+  main > section:first-of-type > article {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+
+  .fx-typing,
+  .fx-loud,
+  .fx-heartbeat {
+    animation: none;
+    max-width: 100%;
+    border-right: none;
+    transform: none;
+  }
+
+  .fx-fall:hover {
+    animation: none;
+    transform: none;
+    color: var(--ink-2);
+  }
 }
