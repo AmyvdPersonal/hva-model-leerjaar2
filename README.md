@@ -13,6 +13,17 @@ Ik heb bloomingskilss gekozen omdat ik op deze oefenwebsite en eindopdracht mijn
 Beschrijf hoe je aanpassingen aan jouw pagina kunt maken en hoe je er voor zorgt dat die op het web gepubliceerd worden.
 Als je een stukje code heb geschreven upload je die naar Github. In github zit er een ingebouwde hosting die ik aan mijn domein heb gekoppeld. Door mijn code te uploaden naar github de main branch. upload je gelijktijdig je code naar je website toe dat live staat.
 
+
+### Vrijdag 23 Oktober
+Op vrijdag hadden we een sprint review voor de sprint 3. Hierbij hadden we gesprekken en een beoordeling voor onze code. We moesten weer een sprint review hadden en dit gaan tekenen op papier.
+![alt text](./readme-images/bewijzen/recapsprint3-1.HEIC).
+![alt text](./readme-images/bewijzen/recapsprint3-2.HEIC).
+![alt text](./readme-images/bewijzen/recapsprint3-3.HEIC).
+
+Hierin moesten we niet alleen de review houden van sprint 3 maar van ale de 6 weken dat we achter de rug hadden. Hierbij hadden we ook een reviw moment met de docent. Hierin kwam naar voren dat ik 1 competentie niet goed had. Hiermoest moest ik alleen de ymca opdracht verbeteren aan de hand van de theorie die we geleerd hebben.
+
+
+
 ### Donderdag 22 Oktober
 Op donderdag ben ik vooral bezig geweest met het maken van 1 karakterdetailpage. Ik heb dit gedaan zodat de gebruiker een beeld heeft van hoe een detail page eruit ziet.
 Ik heb een pagina gemaakt voor de eerste character die je ziet op de karakter overview pagina en de homepagina. Ik heb het zo kort gehouden zodat de gebruiker de informatie overzichtelijk kan zien. ik heb deze pagina eerst voor mobiel gemaakt en heb hierbij de style van de homepage behouden.
