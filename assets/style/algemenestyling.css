@@ -59,6 +59,10 @@ a:focus-visible {
     outline-offset: 5px;
 }
 
+a:visited{
+    color: var(--text-color);
+  }
+
 .visually-hidden {
   clip-path: inset(50%);
   height: 1px;

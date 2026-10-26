@@ -13,12 +13,15 @@ Ik heb bloomingskilss gekozen omdat ik op deze oefenwebsite en eindopdracht mijn
 Beschrijf hoe je aanpassingen aan jouw pagina kunt maken en hoe je er voor zorgt dat die op het web gepubliceerd worden.
 Als je een stukje code heb geschreven upload je die naar Github. In github zit er een ingebouwde hosting die ik aan mijn domein heb gekoppeld. Door mijn code te uploaden naar github de main branch. upload je gelijktijdig je code naar je website toe dat live staat.
 
+### Maandag 24 oktober
+Op maandag hebben wij een 
+
 
 ### Vrijdag 23 Oktober
 Op vrijdag hadden we een sprint review voor de sprint 3. Hierbij hadden we gesprekken en een beoordeling voor onze code. We moesten weer een sprint review hadden en dit gaan tekenen op papier.
-![alt text](./readme-images/bewijzen/recapsprint3-1.HEIC).
-![alt text](./readme-images/bewijzen/recapsprint3-2.HEIC).
-![alt text](./readme-images/bewijzen/recapsprint3-3.HEIC).
+![alt text](./readme-images/bewijzen/recapsprint3-1.jpg).
+![alt text](./readme-images/bewijzen/recapsprint3-2.jpg).
+![alt text](./readme-images/bewijzen/recapsprint3-3.jpg).
 
 Hierin moesten we niet alleen de review houden van sprint 3 maar van ale de 6 weken dat we achter de rug hadden. Hierbij hadden we ook een reviw moment met de docent. Hierin kwam naar voren dat ik 1 competentie niet goed had. Hiermoest moest ik alleen de ymca opdracht verbeteren aan de hand van de theorie die we geleerd hebben.
 
@@ -277,7 +280,7 @@ Ik heb een cookie consent gemaakt met ahsoka tano als knop. Ik heb een hover gem
 ![alt text](./readme-images/readme-images/bewijzen/cookieconsent-codesnippet2.png).
 ![alt text](./readme-images/readme-images/bewijzen/cookieconsent-codesnippet3.png).
 
-In de afbeeldingen zie je ook dat ik een javascript file heb gemaakt waarin ik het id van de knoppen ophaal en hieraan een localstorage eraan toevoeg. Ik heb dit gedaan zodat die onthoudt welek keuze de gebruiker gemaakt heeft. Daarnaast heb ik zoals ikn de eerdere deepdives al behandeld is een classlist eraan toegevoegt als je op accepteer klikt dan kan je de rest van de pagina zien. Als je op weiger klikt dan kan je de rest van de pagina niet meer zien.
+In de afbeeldingen zie je ook dat ik een javascript file heb gemaakt waarin ik het id van de knoppen ophaal en hieraan een localstorage eraan toevoeg. Ik heb dit gedaan zodat die onthoudt welke keuze de gebruiker gemaakt heeft. Daarnaast heb ik zoals ikn de eerdere deepdives al behandeld is een classlist eraan toegevoegt als je op accepteer klikt dan kan je de rest van de pagina zien. Als je op weiger klikt dan kan je de rest van de pagina niet meer zien.
 
 ### Maandag 28 september
 Op deze dag ben ik bezig geweest met het maken van :
