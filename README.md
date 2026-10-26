@@ -13,31 +13,71 @@ Ik heb bloomingskilss gekozen omdat ik op deze oefenwebsite en eindopdracht mijn
 Beschrijf hoe je aanpassingen aan jouw pagina kunt maken en hoe je er voor zorgt dat die op het web gepubliceerd worden.
 Als je een stukje code heb geschreven upload je die naar Github. In github zit er een ingebouwde hosting die ik aan mijn domein heb gekoppeld. Door mijn code te uploaden naar github de main branch. upload je gelijktijdig je code naar je website toe dat live staat.
 
-### Maandag 24 oktober
-Op maandag hebben wij een 
+### [Week 8] Maandag 26 oktober – Expo & Oplevering
+Op maandag hebben wij een laatste feedback moment gehad van het digitale tuintje.
+
+Wat hebben we gedaan:
+- Een expo voor de klas
+- webby form
+- log form
+- feedback verwerken
+
+Een expo voor de klas
+In de expo moesten we eerst onze website laten zien aan andere. Eerst moest je de website klaarzette op de laptop zodat we elkaars werken konden beoordelen. 
+Je kreeg 3 strips van sticker kleuren. De kleuren die we hadden waren blauw, rood en groen
+
+blauw = een sticker voor accesibility
+rood = toegepaste ontwerp vaardigheden
+groen = technische vaardigheden
+
+Bij de laptop kregen we een formulier waar iedereen hun feedback konden verwerken. Inde afbeelding hieronder zie je alle feedback punten die ik heb gekregen voor mijn website
+![Feedback formulier met stickers](./readme-images/bewijzen/peerfeedback.jpeg).
+Hierin kwam er 1 punt naar voren waarmee ik de website kan verbeteren. Dat was namelijk dat alle teksten beter uitgelijnd kunnen worden. 
+Hier is een screenshot dat ik het heb verbeterd.
+![Screnshot van een stukje code](./readme-images/bewijzen/text-alignment.png).
+
+Naast het feedback geven op elkaar website moesten we ook opnieuw het webby formulier voor het laatst invullen. Dit hebben we gedaan zodat we samen kijken of onze website wel webby genoeg is voor de deadline. Dit moesten we in duo's doen. Ik heb het formulier samen ingevuld met laura.
+![Screnshot van een stukje code](./readme-images/bewijzen/webbyform.jpeg).
+
+Hierin kwam er naar voren dat alles wel goed was alleen een kleine alt tekst dat niet goed werkt en ook dat ik geen visited gebruikte op me a tag.
+In de afbeelding hieronder heb ik dit meteen toegepast zodat de de gebruikerservaring een stukje beter worden. Daarnaast maakt het de accesibilty een stukje beter.
+![Screnshot van een stukje code](./readme-images/bewijzen/alttekst-huyang.png).
+![Screnshot van een stukje code](./readme-images/bewijzen/visitedtag.png).
+
+Voor het laatste feedback hebben we samen in een groepje van 4 mensen elkaars logboek besproken. In het formulier moesten we streng gaan kijken naar elkaars learning log aan de hand van de vragen die op het formulier staat.
+In het formulier kwamen er wel degelijk wat punten naar voren die ik kan verbeteren. 
+- De sprint bij de datums zetten
+- afbeeldingen goed draaien
+- alle checkouts van sprint 3 in de logboek zetten
+- de retrospective afbeeldingen van sprint 3 aanpassen van een heic bestand naar een jpg
+
+![Screnshot van een stukje code](./readme-images/bewijzen/learninglogfeedback.jpeg).
+
+Na het krijgen van de feedback ben ik dit meteen gaan verwerken in mijn project en de learning log file. 
+Vervolgens heb ik een reflectie op mijn feedback punten geschreven.
 
 
-### Vrijdag 23 Oktober
+### [Sprint 3] Vrijdag 23 Oktober
 Op vrijdag hadden we een sprint review voor de sprint 3. Hierbij hadden we gesprekken en een beoordeling voor onze code. We moesten weer een sprint review hadden en dit gaan tekenen op papier.
-![alt text](./readme-images/bewijzen/recapsprint3-1.jpg).
-![alt text](./readme-images/bewijzen/recapsprint3-2.jpg).
-![alt text](./readme-images/bewijzen/recapsprint3-3.jpg).
+![Sprint review 3 recap schets op papier deel 1](./readme-images/bewijzen/recapsprint3-1.jpg).
+![Sprint review 3 recap schets op papier deel 2](./readme-images/bewijzen/recapsprint3-2.jpg).
+![Sprint review 3 recap schets op papier deel 3](./readme-images/bewijzen/recapsprint3-3.jpg).
 
 Hierin moesten we niet alleen de review houden van sprint 3 maar van ale de 6 weken dat we achter de rug hadden. Hierbij hadden we ook een reviw moment met de docent. Hierin kwam naar voren dat ik 1 competentie niet goed had. Hiermoest moest ik alleen de ymca opdracht verbeteren aan de hand van de theorie die we geleerd hebben.
 
 
 
-### Donderdag 22 Oktober
+### [Sprint 3] Donderdag 22 Oktober
 Op donderdag ben ik vooral bezig geweest met het maken van 1 karakterdetailpage. Ik heb dit gedaan zodat de gebruiker een beeld heeft van hoe een detail page eruit ziet.
 Ik heb een pagina gemaakt voor de eerste character die je ziet op de karakter overview pagina en de homepagina. Ik heb het zo kort gehouden zodat de gebruiker de informatie overzichtelijk kan zien. ik heb deze pagina eerst voor mobiel gemaakt en heb hierbij de style van de homepage behouden.
 
 Naast het maken van deze pagina ben ik gaan kijken of mijn project voldoet aan de eisen en randvoorwaarden. 
 Ik heb de kleien puntjes op de i gezet, gechecked of alle linkjes werken en ook gechecked of de website fluide is.
-![alt text](./readme-images/bewijzen/characterdetails%20(1).png).
-![alt text](./readme-images/bewijzen/characterdetails%20(2).png).
+![Screenshot van de karakterdetailpagina op mobiel](./readme-images/bewijzen/characterdetails%20(1).png).
+![Screenshot van de karakterdetailpagina op desktop](./readme-images/bewijzen/characterdetails%20(2).png).
 
 
-### Woensdag 21 oktober
+### [Sprint 3] Woensdag 21 oktober
 Op woensdag heb ik de volgende dingen gedaan:
 - bi-weekly
 - Build a lightsaber page veranderd
@@ -45,7 +85,7 @@ Op woensdag heb ik de volgende dingen gedaan:
 
 In de les hebbenw e eerst een paar stellingen gekregen en daarin moesten we onze mening mee delen. Na dit te doen zijn we verder gegaan met het maken van een formulier. 
 Op het formulier staat een stelling en daarop moesten wij de onderzoeksvragen gaan bedenken en de manieren hoe we dit gaan doen.
-![alt text](./readme-images/bewijzen/bi-weekly-form.jpeg).
+![Ingevuld bi-weekly onderzoeksformulier uit de les](./readme-images/bewijzen/bi-weekly-form.jpeg).
 
 Hierin hebben we geleerd welke manieren er zijn voor onderzoek doen en welke vragen het beste erbij passen. Dit is iets wat ik eruit heb geleerd.
 
@@ -56,31 +96,31 @@ Ik heb ten eerst de html aangepast. Ik heb de pagina een background gegeven ik e
 
 In de javascript haal ik de data op van de buttons die bijvoorbeeld ene straatl en een data-glow heeft. Dit wordt opgehaald in de file en daarna meegeven aan als de knop van een kyberkristal aan is dan geeft hij die kleur mee. Die kleur komt uit de javascript file.
 
-![alt text](./readme-images/bewijzen/madebuildlightsaberpage%20(1).png).
-![alt text](./readme-images/bewijzen/madebuildlightsaberpage%20(2).png).
-![alt text](./readme-images/bewijzen/madebuildlightsaberpage%20(3).png).
+![Screenshot van het bouwen van de lightsaber pagina met zwarte achtergrond en kyberkristallen](./readme-images/bewijzen/madebuildlightsaberpage%20(1).png).
+![Code-implementatie van de lightsaber knoppen en laserstraal interactie](./readme-images/bewijzen/madebuildlightsaberpage%20(2).png).
+![JavaScript functie voor het dynamisch aanpassen van de lightsaber straalkleur](./readme-images/bewijzen/madebuildlightsaberpage%20(3).png).
 
 Verder kan je op de afbeeldingen zien dat ik bezig ben geweest met deze pagina.
 Daarnaast heb ik deze dag vooral mijn focus gelegt op het schrijven van de learning log.
 
-### Dinsdag 20 Oktober
+### [Sprint 3] Dinsdag 20 Oktober
 Op dinsdag ben ik bezig geweest met het maken van
 - Character overview pagina
 - build a lightsaberpagina
 
 Voor de characters wilde ik een overview pagina maken waardoor je alle characters ziet. Je ziet dan de Jedi counsel op de lightmode en bij de darkside zie je ook de sith counsel.
 Hierin heb ik dezelfde heading gemaakt zoals op de homepage. Daarnaast zie je alle characters op beide pagina in dezelfde grid als op de homepagina. Daarnaast is er een knop gemaakt met een functie dat die maar 10 charcters of 8 per keer laatd zien en die toevoegt aan de bestaande characters card.
-![alt text](./readme-images/bewijzen/karakterpagina-loadmoreknop%20(1).png).
-![alt text](./readme-images/bewijzen/karakterpagina-loadmoreknop%20(2).png).
-![alt text](./readme-images/bewijzen/karakterpagina-loadmoreknop%20(3).png).
+![Karakteroverzicht pagina met load more knop](./readme-images/bewijzen/karakterpagina-loadmoreknop%20(1).png).
+![Karakterkaarten grid na het laden van extra karakters](./readme-images/bewijzen/karakterpagina-loadmoreknop%20(2).png).
+![JavaScript code van de load more functionaliteit](./readme-images/bewijzen/karakterpagina-loadmoreknop%20(3).png).
 
 Daarnaast heb ik een pagina gemaakt waarmee je als gebruiker je eigen lightsaber kan customizen. 
-![alt text](./readme-images/bewijzen/build-a-lightsaber%20(1).png).
-![alt text](./readme-images/bewijzen/build-a-lightsaber%20(2).png).
-![alt text](./readme-images/bewijzen/build-a-lightsaber%20(3).png).
-![alt text](./readme-images/bewijzen/build-a-lightsaber%20(4).png).
+![Lightsaber customizer overzicht](./readme-images/bewijzen/build-a-lightsaber%20(1).png).
+![Lightsaber customizer met geactiveerde blauwe laserstraal](./readme-images/bewijzen/build-a-lightsaber%20(2).png).
+![Selecteren van kyberkristallen voor kleurverandering](./readme-images/bewijzen/build-a-lightsaber%20(3).png).
+![Mobiele weergave van de interactieve lightsaber builder](./readme-images/bewijzen/build-a-lightsaber%20(4).png).
 
-### Maandag 19 Oktober
+### [Sprint 3] Maandag 19 Oktober
 Op maandag hadden we na een weekje vrij te zijn weer een drukke dag gehad. 
 - feedback gegeven
 - Werken aan website
@@ -90,61 +130,84 @@ Op maandag hadden we na een weekje vrij te zijn weer een drukke dag gehad.
 Op school hadden we eerste een kleine recap op wat we de week ervoor hebben gedaan. Daarnaats krijgen we ook een stukej uitleg over hoe de laatste sprint week eruit gaat zien en hoe de beoordeling in elkaar zit. Ik heb samen met lysanne aan dehand van een formulier gekeken of mijn websiet wel webby genoeg is. Dit is een formulier die we aan het begin van sprint 1 ook hebben ingevuld. We hadden dit toen gedaan zodat we een beeld krijgen van wat een website nou echt webby maakt. 
 
 We zijn toen gaan kijken naar elkaars website en hebben toen het formulier voor elkaar ingevuld.
-![alt text](./readme-images/bewijzen/webbyform.jpeg).
+![Ingevuld Webby evaluatieformulier voor peer feedback](./readme-images/bewijzen/webbyform.jpeg).
 
 Daarnaats ben ik gaan verder werken aan mijn webite. Hierbij heb ik een lightsaber section verder gemaakt met ook klikbare lightsabers. Daarnaast heb ik hierbij een animatie gemaakt met de zwevende kyberkristals. Ze bewegen heen en weer.
 Ik ehbook de asset van de lightsaber gemaakt in figma.
-![alt text](./readme-images/bewijzen/lightsabersection-metanimatie%20(1).png).
-![alt text](./readme-images/bewijzen/lightsabersection-metanimatie%20(2).png).
-![alt text](./readme-images/bewijzen/lightsabersection-metanimatie%20(3).png).
-![alt text](./readme-images/bewijzen/lightsabersection-metanimatie%20(4).png).
-![alt text](./readme-images/bewijzen/lightsabersection-metanimatie%20(5).png).
+![Lightsaber sectie op homepage met zwevende kyberkristallen](./readme-images/bewijzen/lightsabersection-metanimatie%20(1).png).
+![Detailweergave van de zwevende animatie van kyberkristallen](./readme-images/bewijzen/lightsabersection-metanimatie%20(2).png).
+![CSS keyframes code voor de zwevende float animatie](./readme-images/bewijzen/lightsabersection-metanimatie%20(3).png).
+![CSS styling van de individueel geroteerde kyberkristallen](./readme-images/bewijzen/lightsabersection-metanimatie%20(4).png).
+![Responsieve weergave van de kristallen op mobiel](./readme-images/bewijzen/lightsabersection-metanimatie%20(5).png).
 
 De asset van de figma
-![alt text](./readme-images/bewijzen/figma-lightsaber-asset.png).
+![In Figma ontworpen lightsaber vector asset](./readme-images/bewijzen/figma-lightsaber-asset.png).
 
 Ik heb de footer toegevoegt en ook gemaakt in de starwars style. Dit heb ik vervolgens in alle pages gemaakt en geplakt.
-![alt text](./readme-images/bewijzen/footer%20(1).png).
-![alt text](./readme-images/bewijzen/footer%20(2).png).
+![Desktop weergave van de Holonet footer met archieven en navigatie](./readme-images/bewijzen/footer%20(1).png).
+![Mobiele weergave van de footer met gestapelde links](./readme-images/bewijzen/footer%20(2).png).
 
-### Vrijdag 9 oktober
+### [Sprint 3] Vrijdag 9 oktober
 Op vrijdag 9 oktober ben ik bezig geweest met het maken van:
 - Deepdive animaties
 - Huyang section op de homepagina
 
 In de deepdive hebben we het gehad over hoe je animaties kan maken met css en met javascript.
 In de deepdive heb ik 3 opdrachten gedaan waarmee je een een animatie kan starten met eenklein stukej javascript.
-![alt text](./readme-images/bewijzen/Deepdive-animations-oefening1.png).
-![alt text](./readme-images/bewijzen/Deepdive-animations-oefening2.png).
-![alt text](./readme-images/bewijzen/Deepdive-animations-oefening3.png).
+![Deepdive animaties oefening 1 - basis transitie](./readme-images/bewijzen/Deepdive-animations-oefening1.png).
+![Deepdive animaties oefening 2 - keyframe animatie](./readme-images/bewijzen/Deepdive-animations-oefening2.png).
+![Deepdive animaties oefening 3 - interactieve animatie met JavaScript](./readme-images/bewijzen/Deepdive-animations-oefening3.png).
 
 Hiernaast ben ik verder gaan werken aan mijn website. ik heb een huyang section gemaakt. Huyang is een robot die young padawans dingen leert over lightsabers en hoe je het moet gaan maken. Hiervoor heb ik ervoor gekozen om deze character te gaan gebruiken voor de lightside van de pagina. Ik heb er voor gekozen om eigenlijk de section net zo te stylen als de yoda section om een bepaald onderdeel van de website in et leiden. Ik dacht dit te gaan doen door een character die best wel herkenbaar is onder starwars fans. (Als je ook de series heb gekeken natuurlijk).
 
 Ik wilde om de tekst heen de kyber kristals die de young padawan moeten verzamelen om hun lightsaber te maken. Alleen hiervoor moest ik zelf eerst gaan zoeken naar afbeeldingen van de kyber kristals om dit vervolgens te verwerken in mijn website.
-![alt text](./readme-images/bewijzen/huyangsection-homepage%20(1).png).
-![alt text](./readme-images/bewijzen/huyangsection-homepage%20(2).png).
-![alt text](./readme-images/bewijzen/huyangsection-homepage%20(3).png).
+![Huyang schets sectie layout op de desktop homepage](./readme-images/bewijzen/huyangsection-homepage%20(1).png).
+![Huyang schets sectie op tablet schermformaat](./readme-images/bewijzen/huyangsection-homepage%20(2).png).
+![CSS grid implementatie van de Huyang sectie](./readme-images/bewijzen/huyangsection-homepage%20(3).png).
 
 In de codesnippets die je hierboven ziet heb ik een grid ervan gemaakt. Op de section zit een grid zodat de image naast de tekst komt te staan en zodat het voro mobiel onder elkaar komt te staan. De image van Huyang staat een beetje gedraaid zodat het lijkt alsof hij uit het scherm komt om je iets te vertellen over de kristals.
 
+## checkout
+1. Variabelen in Seraphs
 
-### Donderdag 8 Oktober
+Voor de opmaak van de songtekst maak ik voornamelijk gebruik van de variabelen Weight (dikte), Width (breedte) en Italic/Slant (schuinte).
+
+2. Wat voegt dit toe aan het ontwerp?
+
+Weight: Zorgt voor ijzersterke hiërarchie. Het refrein knalt eruit in Bold, terwijl de coupletten lekker rustig en leesbaar blijven in Regular of Light.
+
+Width: Bepaalt de vibe en pacing! Een lange uithaal in de zang? Maak het lettertype Wide. Een snel, ritmisch stukje rap? Dan zet ik het lekker Condensed naast elkaar.
+
+Italic: Perfect voor ad-libs of achtergrondkoortjes. Het geeft direct een ander (zachter) stemgeluid weer in de tekst.
+
+3. Animatie toevoegen voor ritme en accenten
+
+Laat de typografie meedansen met de beat (kinetische typografie)!
+
+Verschijnen op de tel: Laat de woorden één voor één op het scherm poppen, precies op de flow van de zanger.
+
+Schalen bij accenten: Laat bepaalde woorden (bijvoorbeeld op een harde basdrum of schreeuw) heel even 'opblazen' of trillen om visuele impact te maken.
+
+Fading & Sliding: Gebruik soepele, trage fades voor zachte melodieën en snelle, harde cuts voor een up-tempo stuk. Zo matcht de beweging van de tekst perfect met de muzikale energie!
+
+
+### [Sprint 3] Donderdag 8 Oktober
 Op woensdasg ben ik bezig geweest met het maken van de deepdive Variabelen fonts.
 Hierin heb ik geleerd wat variabelen fonts is. Waarvoor het handig is en hoe je het moet gebruiken.
 Aan de hand van de opdracht heb ik geleerd hoe je de verschillende lettertype of 1 lettertype kan stylen. daarnaast heb ik geleerd dat je bepaalde animaties kan gebruiken op je lettertype zelf.
 
-![alt text](./readme-images/bewijzen/deepdive-variabelen-fonts1.jpeg).
-![alt text](./readme-images/bewijzen/deepdive-variabelen-fonts2.jpeg).
-![alt text](./readme-images/bewijzen/deepdive-variabelen-fonts3.jpeg).
+![Deepdive variabele fonts uitwerking deel 1](./readme-images/bewijzen/deepdive-variabelen-fonts1.jpeg).
+![Deepdive variabele fonts uitwerking deel 2](./readme-images/bewijzen/deepdive-variabelen-fonts2.jpeg).
+![Deepdive variabele fonts typografische animaties](./readme-images/bewijzen/deepdive-variabelen-fonts3.jpeg).
 
-### Woensdag 7 oktober
+### [Sprint 3] Woensdag 7 oktober
 Op woensdag ben ik bezig geweest met het maken van twee secties op de homepagina. Ik heb een charactersection gemaakt en ik heb ook de homepagina dark side opgezet met dezelfde code.
 Voor de homepage heb ik eerst in figma een soort datapad background gemaakt. Dat heb ik egdaan omdat ik eerst op het internet ben gaan rondkijken of ik dit zelf met css kan doen. Alleen dat was iets dat best wel lastig was. Dus ik heb er toen voor gekozen om er een assets van te maken via figma.
 
-![alt text](./readme-images/bewijzen/datapad-bewijs%20(1).png).
-![alt text](./readme-images/bewijzen/datapad-bewijs%20(2).png).
-![alt text](./readme-images/bewijzen/datapad-bewijs%20(3).png).
-![alt text](./readme-images/bewijzen/datapad-bewijs%20(4).png).
+![Figma ontwerp van de Datapad interface achtergrond](./readme-images/bewijzen/datapad-bewijs%20(1).png).
+![Datapad SVG achtergrond toegepast in HTML en CSS](./readme-images/bewijzen/datapad-bewijs%20(2).png).
+![Datapad sectie met karakterkaarten grid op desktop](./readme-images/bewijzen/datapad-bewijs%20(3).png).
+![Datapad sectie fallback weergave op mobiel formaat](./readme-images/bewijzen/datapad-bewijs%20(4).png).
 
 Dit is een voorbeeld en bewijststuk van het maken van de achtergrond van de datapad. Ik wilde een typische starwars element terug brengen in de website dus ik was aan het kijken oop de officiele website van starwars voor inspiratie. Vervolgens zag ik onder het kopje databank deze kaartjes. Dit moest me laten denken aan een soort id kaart die ook in de clonewars en bad batch werd gebruikt als een identificatie middel van de wezens. daarom wilde ik dit terug brengen in mijn code en design. 
 
@@ -152,44 +215,65 @@ Om dit te maken ben ik gaan kijken naar voorbeelden of mensen die dit al eerder 
 
 Daarnaast heb ik de kaartjes gemaakt in een grid. Ik wilde de kaarten in een grid layout maken omdat dit een stukje makkelijk responsive te maken is en te stylen dan met flexbox. Ik vond dit heel toepasselijk om hier een grid op te gebruiken. De kaarten zijn 75% foto en 25% van het kaartje tekst vlak. Ik wil alleen de eerste character detail page gaan uitwerken als een voorbeeld.
 
+## Checkout
+Check-out Vragen
 
-### Dinsdag 6 oktober
+1. Waarom een grid gebruiken?
+
+Voor de ontwerper: Het geeft je direct structuur en houvast. Je maakt veel sneller beslissingen omdat je niet over elke pixel hoeft te twijfelen!
+
+Voor de bezoeker: Het brengt rust en orde. Het menselijk brein houdt van voorspelbaarheid, waardoor je content makkelijker te scannen en te begrijpen is.
+
+2. Drie manieren om chaos te voorkomen
+
+Gebruik een strak grid: Zorg dat je elementen logisch en netjes uitgelijnd zijn.
+
+Beperk je variabelen: Gebruik niet te veel verschillende lettertypes, felle kleuren of formaten door elkaar. Hou de basis simpel.
+
+Omarm witruimte (white space): Prop niet alles vol! Geef je elementen de ruimte om te ademen, dit zorgt direct voor overzicht.
+
+3. Hoeveel gekkigheid mag er in je werk zitten?
+
+Precies genoeg om op te vallen! Zie het als zout in een goed gerecht: een snufje geeft karakter en trekt de aandacht, maar te veel verpest de bruikbaarheid. Zorg dat de basis super gebruiksvriendelijk is, en voeg op één of twee plekken een verrassend, eigenwijs element toe om het memorabel te maken.
+
+### [Sprint 3] Dinsdag 6 oktober
 Op Dinsdag ben ik vooral bezig geweest met het maken van eht huiswerk en ook het werken aan mijn homepagina.
 
-Eerst ben ik begonnen met het maken van de lyrics opdracht. Vanuit de 10 schetsen die ik de dag hiervoor heb gemaakt heb ik er een van gekozen. 
+Eerst ben ik begonnen met het maken van de lyrics opdracht. Vanuit de 10 schetsen die ik de dag hiervoor heb gemaakt heb ik gekozen voor de schets waarbij het woord 'down' visueel naar beneden valt. Ik vond dat deze schets de dynamiek van de songtekst het krachtigst uitdrukte in een responsive layout.
 Vervolgens ben ik dit gaan uitwerken in een aparte file. Hierbij heb ik ook meteen de deep dive Interessantere layouts (Vasilis) gemaakt.
-Hieronder zie je het eind resultaat van de lyrics opdracht. Ik heb het simpel gehouden maar wel een beetje expresiief door de verschillende groottes van de teksten.
-![alt text](./readme-images/bewijzen/lyricsoipdrachtuitwerking%20(1).png).
+Hieronder zie je het eind resultaat van de lyrics opdracht. Ik heb het simpel gehouden maar wel een beetje expressief door de verschillende groottes van de teksten, lettergewichten en animaties te combineren.
+![Eindresultaat van de YMCA lyrics typografie opdracht](./readme-images/bewijzen/lyricsoipdrachtuitwerking%20(1).png).
 
 Hier is de code uitwerking van de opdracht.
-![alt text](./readme-images/bewijzen/lyricsoipdrachtuitwerking%20(2).png).
-![alt text](./readme-images/bewijzen/lyricsoipdrachtuitwerking%20(3).png).
+![HTML structuur van de YMCA lyrics pagina](./readme-images/bewijzen/lyricsoipdrachtuitwerking%20(2).png).
+![CSS animaties en typografische styling van de lyrics](./readme-images/bewijzen/lyricsoipdrachtuitwerking%20(3).png).
 
 Na het maken van de opdracht ben ik uiteindelijk gaan werken aan de opdracht. Ik had nog een feedback puntje dat ik moest gaan veranderen.
 De cookiepopup die ik gemaakt daar werkt de gebruiker niet optimaal genoeg informeert om welke cookies er werden gebruikt. 
 Ik heb de cookiepopup wat uitgebreid met de informatie van welke services ik gebruik. daarnaast ehb ik ook de linkjes van de bedrijven erbij gedaan en de link naar hun privacy beleid. 
-![alt text](./readme-images/bewijzen/cookiepopupuitbreiding.png).
+![Uitgebreide cookiepopup modal met privacybeleid links en summary element](./readme-images/bewijzen/cookiepopupuitbreiding.png).
 
 Hierin heb ik gebruik gemaakt van een summary. Dit heb ik gedaan zodat de gebruiker alleen op een tabje te hoeven klikken en niet een hele grote lap aan tekst heb meteen. Als de gebruiker de informatei willen zien kunnen ze erop gaan klikken. Ik heb ook een klein probleempje opgelost bij de cookiepopup zelf. In de javascript had ik een kleine timer gemaakt waardoor de gebruiker als die 1 seconden op de website belandt / op de homepage belandt een popup krijgt. De gebruiker kan dan niet verder maar kan wel de popup weigeren of accepteren.
 
 
-### Maandag 5 oktober
-Op maandag zijn we begonnen met het derde sprint. Vandaag hebben we de opdracht gdaan om een lyrics uit te beelden met een stukje font.
-Ik heb eerst schetsen gemaakt voor de opdracht en ben daarna dit gaan uitwerken.
-iN de voorbeeld hieronderz ie je dat ik bezig ben geweest met het schetsen van de opdracht. Hierin ben ik in 10 kleine schetsen het nummer ymca uitgaan beelden.
-![alt text](./readme-images//bewijzen/lyricsschets1.jpeg).
-![alt text](./readme-images//bewijzen/lyricsschets2.jpeg).
-![alt text](./readme-images//bewijzen/lyricsschets3.jpeg).
-![alt text](./readme-images//bewijzen/lyricsschets4.jpeg).
-![alt text](./readme-images//bewijzen/lyricsschets5.jpeg).
-![alt text](./readme-images//bewijzen/lyricsschets6.jpeg).
-![alt text](./readme-images//bewijzen/lyricsschets7.jpeg).
-![alt text](./readme-images//bewijzen/lyricsschets8.jpeg).
-![alt text](./readme-images//bewijzen/lyricsschets9.jpeg).
-![alt text](./readme-images//bewijzen/lyricsschets10.jpeg).
+
+### [Sprint 3] Maandag 5 oktober
+Op maandag zijn we begonnen met het derde sprint: Experiment. Vandaag hebben we de opdracht gedaan om een lyrics uit te beelden met een stukje font en typografie.
+Ik heb eerst 10 conceptschetsen gemaakt om te experimenteren met typografische hiërarchie, leading, tracking en ruimtelijke spanning (spatial tension). Ik wilde onderzoeken hoe ik de tekst van YMCA ritme kon geven op het scherm.
+In de voorbeelden hieronder zie je de 10 verschillende schetsen waarin ik varieer met tekstgroottes, gecentreerde vs links uitgelijnde regels en visuele effecten (zoals het woord 'down' laten zakken en 'heartbeat' laten kloppen).
+![YMCA lyrics schets 1](./readme-images//bewijzen/lyricsschets1.jpeg).
+![YMCA lyrics schets 2](./readme-images//bewijzen/lyricsschets2.jpeg).
+![YMCA lyrics schets 3](./readme-images//bewijzen/lyricsschets3.jpeg).
+![YMCA lyrics schets 4](./readme-images//bewijzen/lyricsschets4.jpeg).
+![YMCA lyrics schets 5](./readme-images//bewijzen/lyricsschets5.jpeg).
+![YMCA lyrics schets 6](./readme-images//bewijzen/lyricsschets6.jpeg).
+![YMCA lyrics schets 7](./readme-images//bewijzen/lyricsschets7.jpeg).
+![YMCA lyrics schets 8](./readme-images//bewijzen/lyricsschets8.jpeg).
+![YMCA lyrics schets 9](./readme-images//bewijzen/lyricsschets9.jpeg).
+![YMCA lyrics schets 10](./readme-images//bewijzen/lyricsschets10.jpeg).
 
 Voor deze opdracht ben ik bezig geweest met het maken van een opdracht waarin we een artikel moesten lezen over typografie. We moesten eerst in een groep van 4 mensen een artikel gaan lezen. Vervolgens moesten we hier de belangrijkste dingen gaan onderstrepen en die met elkaar overleggen. Daarnaa moesten we dit gaan samenvatten en uitleggen aan een andere groepje met dezelfde artikel alleen het tweede deel. Zo hebben we samen geleerd waarom typografie belangrijk is. We hebben uiteindelijk een korte presentatie moeten houden voor de klas. 
-![alt text](./readme-images/bewijzen/typografieartikel.jpeg).
+![Gemarkeerd artikel en aantekeningen over typografietheorie](./readme-images/bewijzen/typografieartikel.jpeg).
 
 ## checkout
 Leg uit wat er met de volgende termen bedoeld wordt: kerning, tracking, leading, flush-left, flush-right, centered, justified, indent, outdent, modular scale, movable type, focus punt, vijf soorten contrast, spatial tension. (Hint, alle termen staan in de artikelen die we samen gelezen hebben).
@@ -228,34 +312,34 @@ Wat is jouw ideale regellengte (measure)? Leg uit waarom.
 Als je in een ontwerp maar één variabele tot je beschikking had om hiërarchie aan te brengen (grootte, plaatsing, spacing, lettersoorten), welke zou je dan gebruiken en waarom?
 Ik zou de specing gaan gebruiken voor de verschillende ruimtes.
 
-### Vrijdag 2 oktober
+### [Sprint 2] Vrijdag 2 oktober
 Op vrijdag hadden we weer een toetsing moment waarbij we were een tekening moesten maken voor de retosspective.
-![alt text](./readme-images//bewijzen/WhatsApp%20Image%202026-10-21%20at%2015.12.42.jpeg).
+![Foto van de getekende retrospective voor sprint 2](./readme-images//bewijzen/WhatsApp%20Image%202026-10-21%20at%2015.12.42.jpeg).
 
 Deze dag kreeg ik ook feedback om voor het project meer de punten af te werken om de website toegankelijker te maken en moest ik voor mijn code een tweede pagina maken.
 Ik heb deze feedback meteen verwerkt. 
-![alt text](./readme-images/bewijzen/feedback%20vrijdag%20(1).png).
-![alt text](./readme-images/bewijzen/feedback%20vrijdag%20(2).png).
+![Feedbacknotities van het vrijdaggesprek over toegankelijkheid deel 1](./readme-images/bewijzen/feedback%20vrijdag%20(1).png).
+![Feedbacknotities van het vrijdaggesprek over het toevoegen van een tweede pagina](./readme-images/bewijzen/feedback%20vrijdag%20(2).png).
 
-### Donderdag 1 oktober
+### [Sprint 2] Donderdag 1 oktober
 Op donderdag ben ik vooral bezig geweest met het schrijven en het bijhouden van mijn learning log. Ik heb vervolgens verder de test gedaan om te kijken of er verbetering zit in mijn website.
 Daaruit kwam dat  er wel wat verbeteringetjes nog zijn maar dat 98% van de website een stuk meer toegankelijker is voor de mensen met een beperking. IK heb het kleurecontrast aangepast en ook de website hierop aangepast
-![alt text](./readme-images/readme-images/bewijzen/test1.jpeg).
+![Toegankelijkheidstest resultaten met 98% score](./readme-images/readme-images/bewijzen/test1.jpeg).
 
-### Woensdag 30 september
+### [Sprint 2] Woensdag 30 september
 Op woensdag hebben we op school een test gedaan om te kijken of je met de screenreader wel je eigen website kan bezoeken.
 Ik heb de test gemaakt en daaruit kwam er eigenlijk dat hij niet bezocht kon worden voor mensen met een screenreader. Ik heb de uitslagen gekregen uit een test die je kon invullen. 
-![alt text](./readme-images/readme-images/bewijzen/test1.jpeg).
+![Screenreader testresultaten en checklist](./readme-images/readme-images/bewijzen/test1.jpeg).
 
 Ik ben hiermee dezelfde dag nog aan de slag mee gegaan om mijn website toegankelijk te maken voor met screenreader.
 Ik heb vooral alt teksten en arialabels toegevoegt in mijn html. Eerder maakte ik al gebruik van een goede symmanthiek van me html. Dit hoefde ik namelijk niet aan te passen. 
-![alt text](./readme-images/readme-images/bewijzen/refactoringcode-toegankelijkheid-codesnippet1.jpeg).
-![alt text](./readme-images/readme-images/bewijzen/refactoringcode-toegankelijkheid-codesnippet2.jpeg).
-![alt text](./readme-images/readme-images/bewijzen/refactoringcode-toegankelijkheid-codesnippet3.jpeg).
+![Code refactoring voor screenreader toegankelijkheid snippet 1](./readme-images/readme-images/bewijzen/refactoringcode-toegankelijkheid-codesnippet1.jpeg).
+![Code refactoring voor alt-teksten en labels snippet 2](./readme-images/readme-images/bewijzen/refactoringcode-toegankelijkheid-codesnippet2.jpeg).
+![Code refactoring voor semantische HTML elementen snippet 3](./readme-images/readme-images/bewijzen/refactoringcode-toegankelijkheid-codesnippet3.jpeg).
 
 Daarnaast ben ik ook bezig geweest om mijn popup van de cookieconsent aan te passen. Ik heb er een timer opgezet dar wanneer je door de indexpagina en de theme page door heen bent met  het klikken en je op de homepage komt. Als je 1 seconde op de homepage zit dan krijg je een popup te zien van ahsoka die je de cookieconsent laat zien en dan kan je ook niet verder gaan op de website.
 Barbara die gaf me een tip om mijn cookie consent te gaan verbeteren. Ik heb dus ervoor gekozen om het zo te gaan maken waarin ik eigenlijk een functie toevoeg binnen mijn cookieconsent functie.
-![alt text](./readme-images/readme-images/bewijzen/refactoringcode-toegankelijkheid-codesnippet4.jpeg).
+![Code snippet van de getimede cookie consent popup](./readme-images/readme-images/bewijzen/refactoringcode-toegankelijkheid-codesnippet4.jpeg).
 
 Woensdag 30 sep
 
@@ -267,22 +351,22 @@ Ik vind het bedienen van een website op me laptop wel lastig om dit te bedienen 
 
 Met welke beperking rekening houden vind je het meest lastig?
 Vind je dat je beperkt wordt in wat je kunt ontwerpen?
-Of heb je al manieren gevonden om vanuit een solide basis  - die voor iedereen toegankelijk is - allemaal leuke en mooie extra's toe te voegen als je bezoekers dat goed vinden?
+Of heb je al manieren gevonden om vanuit een solide basis  - die voor iedereen toegankelijk is - allemaal leuke en mooie extra's toe te voegen als je bezoekers dat goed vinden?
 Voor animaties en blinden mensen die werken met een screen reader.
 Nee door gewoonte vind ik het lastig om te gaan programmeren en te ontwerpen voor mensen met een beperking. Dat komt gewoon omdat ik vaak vanuit mijn eigen perspectief of het perspectief voor iemand die geen beperking heeft.
 
 
-### dinsdag 29 september
+### [Sprint 2] Dinsdag 29 september
 OP deze dag ben ik vooral bezig geweest met het schrijven van code voor de cookieconsent. Omdat op woensdag we de cookieconsent en de toegankelijkkheid van onze website gaan testen. Wilde ik het cookieconsent gaan maken.
 
 Ik heb een cookie consent gemaakt met ahsoka tano als knop. Ik heb een hover gemaakt dta ze eigenlijk als je over haar hen gaat der ogen open zien gaan alsof ze dan wakker word. Vervolgens als je op haar klikt krijg je een tekst balk te zien met een thema tekst van starwars en je eigenlijk het cookie consent ziet.
-![alt text](./readme-images/readme-images/bewijzen/cookieconsent-codesnippet1.png).
-![alt text](./readme-images/readme-images/bewijzen/cookieconsent-codesnippet2.png).
-![alt text](./readme-images/readme-images/bewijzen/cookieconsent-codesnippet3.png).
+![HTML opzet van de dialog cookie consent popup](./readme-images/readme-images/bewijzen/cookieconsent-codesnippet1.png).
+![JavaScript localStorage logica voor het opslaan van cookiekeuze](./readme-images/readme-images/bewijzen/cookieconsent-codesnippet2.png).
+![CSS styling van de Ahsoka Tano cookie knop](./readme-images/readme-images/bewijzen/cookieconsent-codesnippet3.png).
 
 In de afbeeldingen zie je ook dat ik een javascript file heb gemaakt waarin ik het id van de knoppen ophaal en hieraan een localstorage eraan toevoeg. Ik heb dit gedaan zodat die onthoudt welke keuze de gebruiker gemaakt heeft. Daarnaast heb ik zoals ikn de eerdere deepdives al behandeld is een classlist eraan toegevoegt als je op accepteer klikt dan kan je de rest van de pagina zien. Als je op weiger klikt dan kan je de rest van de pagina niet meer zien.
 
-### Maandag 28 september
+### [Sprint 2] Maandag 28 september
 Op deze dag ben ik bezig geweest met het maken van :
 - een tekening van darth sidoius die je op de dark theme pagina kan vinden.
 - darth maul 
@@ -292,20 +376,20 @@ Op deze dag ben ik bezig geweest met het maken van :
 
 Ik heb deze dag vooral me tijd kwijtgeraakt aan het maken van assets die ik op mijn website kan gebruiken.
 Het tekeningen van de elementen en eht maken van de assets die ik wil gebruiken duurt wel lang. Ik heb dper tekening 3/4 uur aaan gezeten en de ahsoka asset ook 3 uurtjes max aangespendeert.
-![alt text](./assets/images/darthsidious.png).
-![alt text](./assets/images/Darthmaul.png).
+![Tekening van Darth Sidious voor het dark theme](./assets/images/darthsidious.png).
+![Tekening van Darth Maul voor het dark theme](./assets/images/Darthmaul.png).
 
 De asset die ik gemaakt heb van ashoka wilde ik gaan gebruiken voor het cookie consent. Zij was eerst een pada wan van anakin skywalker maar heeft uiteindelijk de jedi order verlaten. Ze is een character die een beetje tussen beide kanten staat en vooral mensen hielp tijdens de tijd dat de empire aan de macht kwam. Daarom heb ik ervoor gekozen om haar als button.
-![alt text](./assets/images/ahsokacookie1.png).
-![alt text](./assets/images/ahsokacookie2.png).
+![Illustratie van Ahsoka Tano met gesloten ogen in rust-stand](./assets/images/ahsokacookie1.png).
+![Illustratie van Ahsoka Tano met open ogen bij hover op de cookie knop](./assets/images/ahsokacookie2.png).
 
 Om wel op de hoogte te blijven van de kennis die et on sgedeelt word. Ben ik de lesstof gaan doorlezen. Zo krijg ik een idee wat er is gebeurd en ben ik nog wel op de hoogte.
 
 Daarnaast heb ik de deepdive gedaan interactie.
 In deze deepdive heb ik de interactie van een form gemaakt. Ik heb deze deepdive niet toegepast in mijn code omdat ik geen formulier wil maken op mijn website.
-![alt text](./readme-images/readme-images/bewijzen/deepdive-interactie.png).
+![Deepdive interactie met HTML en CSS formulier oefening](./readme-images/readme-images/bewijzen/deepdive-interactie.png).
 
-### Vrijdag 25 September
+### [Sprint 2] Vrijdag 25 September
 Op vrijdag ben ik bezig geweest met het maken van:
 - Huiswerk
 - Deepdive
@@ -321,25 +405,25 @@ In de deepdive van positions en dialogs Ben ik gaan kijken naar hoe je in je dia
 - static
 
 Dit heb ik vervolgens toegepast in de volgende oefeningen.
-![alt text](./readme-images/readme-images/bewijzen/deepdive-positionsendialog-oefening1.png).
-![alt text](./readme-images/readme-images/bewijzen/deepdive-positionsendialog-oefening2.png).
-![alt text](./readme-images/readme-images/bewijzen/deepdive-positionsendialog-oefening3.png).
+![Deepdive positions en dialog oefening 1 - fixed positionering](./readme-images/readme-images/bewijzen/deepdive-positionsendialog-oefening1.png).
+![Deepdive positions en dialog oefening 2 - absolute positionering](./readme-images/readme-images/bewijzen/deepdive-positionsendialog-oefening2.png).
+![Deepdive positions en dialog oefening 3 - HTML dialog element styling](./readme-images/readme-images/bewijzen/deepdive-positionsendialog-oefening3.png).
 
-Op deze dag zelf ben ik bezig geweest met het maken van deze tekening voor het gebruiken voor mijn website.
-![alt text](./assets/images/huyangschets.png).
+Op deze dag zelf ben ik bezig geweest met het maken van deze tekening van Huyang om te gebruiken op mijn website. Ik heb de lijnen bewust digitaal getekend in een schets-stijl, zodat het lijkt op een technisch datapad-dossier over deze oude lightsaber-meester.
+![Zelfgemaakte digitale illustratie schets van droid professor Huyang](./assets/images/huyangschets.png).
 
 
 
-### Woensdag 23 September
+### [Sprint 2] Woensdag 23 September
 OP woensdag voelde ik mij niet lekker en be hierdoor niet naar school geweest. Maar om niet achter te gaan lopen ben ik wel bezig geweest met het huiswerk en de deepdive die open stond. Ik heb deze dag ook nog een beetje gewerkt aan me navbar in de homepagina.
 
 Voor de deepdive heb ik geleerd om aan de hand van een button actie een style te veranderen. Door de button aan te roepen en ook een class eraan toetevoegen kan ik dit toepassen in mijn eigen code.
 Daarnaast weet ik dus nu ook hoe je een dialoog maakt in html en css en javascript. Je maakt een dialoog aan in je html en een button. De button geef je een id mee en die haal je weer op in je js bestand. In je js bestand kan je dan vervolgens de id een variabelen van maken. Die kan je vervolgens een functie van maken die een  classlist toevoegt als de knop in true of false state staat (aan de hand de event click) > De classlist geeft een class mee die je vervolegsn in je css file weer kan stylen.
-![alt text](./readme-images/readme-images/bewijzen/deepdive-buttonsendialog-oefening1.png).
-![alt text](./readme-images/readme-images/bewijzen/deepdive-buttonsendialog-oefening2.png).
-![alt text](./readme-images/readme-images/bewijzen/deepdive-buttonsendialog-oefening3.png).
-![alt text](./readme-images/readme-images/bewijzen/deepdive-buttonsendialog-oefening4.png).
-![alt text](./readme-images/readme-images/bewijzen/deepdive-buttonsendialog-oefening5.png).
+![Deepdive buttons en dialog oefening 1](./readme-images/readme-images/bewijzen/deepdive-buttonsendialog-oefening1.png).
+![Deepdive buttons en dialog oefening 2 - modal openen](./readme-images/readme-images/bewijzen/deepdive-buttonsendialog-oefening2.png).
+![Deepdive buttons en dialog oefening 3 - state management](./readme-images/readme-images/bewijzen/deepdive-buttonsendialog-oefening3.png).
+![Deepdive buttons en dialog oefening 4 - classList toevoegen](./readme-images/readme-images/bewijzen/deepdive-buttonsendialog-oefening4.png).
+![Deepdive buttons en dialog oefening 5 - dialog sluiten en styling](./readme-images/readme-images/bewijzen/deepdive-buttonsendialog-oefening5.png).
 
 Ik heb de styling ietjes verbeterd in me design voor de homepagin aop deze dag.
 
@@ -361,7 +445,7 @@ Je koet rekening houden met dat het gebruiksvriendelijk is, Voldoet aan de wet e
 
 
 
-### Dinsdag 22 september
+### [Sprint 2] Dinsdag 22 september
 Op dinsdag ben ik gaan thuiswerken aan het huiswerk voor woensdag. Ik ben toen bezig geweest met:
 - Deepdive: s2- Buttons, states en selectors
 - De talk en de artikelen lezen
@@ -369,28 +453,28 @@ Op dinsdag ben ik gaan thuiswerken aan het huiswerk voor woensdag. Ik ben toen b
 - gewerkt aan de homepagina van me website.
 
 Bij de deepdive heb ik geleerd dat buttons dieje maakt verschillende states hebben. Door de oefening te maken van de codepen heb ik meteen de theorie die mij is gegeeven tijdens de deepdive toegepast.
-![alt text](./readme-images/readme-images/bewijzen/deepdiveknoppen.png).
+![Deepdive buttons, states en selectors oefening](./readme-images/readme-images/bewijzen/deepdiveknoppen.png).
 
 Tijdens het lezen van de artikelen wete ik nu wat drak patterns zijn en hoe ik dit kan voorkomen.
 Ik ben ook bezig geweest met het werken aan me project. Ik heb de teksten van beide pagina's dus de header teksten gemaakt en die meteen samen met de header afbeelding responsive gemaakt. Ik ben een overlay over de image gemaakt en daarna hier overheen de teksten laten uitkomen. Ik heb een begin gemaakt aan de navbar die op telefoon afbeeldingen heeft en desktop de teksten met linkejes. Ik heb de navbar gemaakt in een lightsaber en hierin een linear gradient gemaakt die de helft van beide kleuren hebben.
-![alt text](./readme-images/readme-images/bewijzen/codesnippet1.png).
-![alt text](./readme-images/readme-images/bewijzen/codesnippet2.png).
-![alt text](./readme-images/readme-images/bewijzen/codesnippet3.png).
-![alt text](./readme-images/readme-images/bewijzen/codesnippet4.png).
-![alt text](./readme-images/readme-images/bewijzen/codesnippet5.png).
+![Code snippet van de responsive header teksten](./readme-images/readme-images/bewijzen/codesnippet1.png).
+![Code snippet van de image overlay styling](./readme-images/readme-images/bewijzen/codesnippet2.png).
+![Code snippet van de lightsaber navigatiebalk](./readme-images/readme-images/bewijzen/codesnippet3.png).
+![Code snippet van het lineaire kleurverloop op de lightsaber hilt](./readme-images/readme-images/bewijzen/codesnippet4.png).
+![Code snippet van de navigatie media queries voor mobiel](./readme-images/readme-images/bewijzen/codesnippet5.png).
 
-Daarnaast ben ik begonnen met het schetsen en het maken van een yoda element. EErst wilde ik de afbeelding met photoshop en illustrator maken en dit is uiteindelijk zo uitgekomen. 
-![alt text](./readme-images/readme-images/bewijzen/yodaimage1.png).
+Daarnaast ben ik begonnen met het schetsen en het maken van een yoda element. Eerst heb ik met de hand potloodschetsen gemaakt om Yoda's herkenbare contouren te vangen, en daarna heb ik dit digitaal uitgewerkt in Illustrator en Photoshop om hem als een sfeervolle overlay-illustratie in de introductiesectie te plaatsen.
+![Illustratie van meester Yoda ontworpen in Illustrator en Photoshop](./readme-images/readme-images/bewijzen/yodaimage1.png).
 
-### Maandag 21 september
+### [Sprint 2] Maandag 21 september
 
 Op deze dag ben ik bezig geweest met het maken van een liver version die tijdens de les werd uitgetyped, ben ik verder gaan werken aan me project en zijn we dieper ingeaaan over de cookie popup.
 IK heb geleerd hoe je een cookie popup kan analyseren en dit ook kan toepassen. Daarnaast ehb ik geleerd wat dark patterns zijn.
 Met de dark patterns zijn we de cookie popups van 3 websites gaan analyseren. (Bekijk de afbeelding hieronder).
-![alt text](./readme-images/bewijzen/analyserencookies.jpeg).
+![Werkblad van de analyse naar dark patterns in cookie banners](./readme-images/bewijzen/analyserencookies.jpeg).
 
 Tijdens de les hebben we dit gemaakt 
-![alt text](./readme-images/bewijzen/puppies.png).
+![Lesopdracht uitwerking met puppy afbeeldingen layout](./readme-images/bewijzen/puppies.png).
 
 Ik heb vandaag ook geleerd om te debuggen met code voor mijn digitale tuintje
 IK heb namelijk met een merge conflict mijn code van de ladngspage / indexpagina kwijt geraakt.
@@ -410,15 +494,15 @@ De heading elements zijn de elementen zoals h1, h2, h3 en p tags waarmee je teks
 Hoe ga jij met cookies om? Beschrijf jouw beweegredenen en of die zijn veranderd na het volgen van dit college.
 Soms als ik snel een website bezoek dan negeer ik al standaard de de cookies en accepteer ik deze niet. Ik heb nooit uitgebreid alles gelezen en zal dat ook niet gaan doen. Tijd kost nou eenmaal geld en veel tijd hebben we niet om alles door te lezen wat er met me data wordt gedaan. Ik zal wel alles meenemen in het maken van een website maar niet bij het gebruik van een website.
 
-### Vrijdag 18 September
+### [Sprint 1] Vrijdag 18 September
 In de retrospective ben ik bezig geweest met het maken van een schets en het in beeld brengen van mijn proces. Hieronder vind je hoe ik mijn proces van sprint 1 heb ervaren.
 Je krijgt makkelijk een beeld van wat een goede retrospective tekening is en ik heb dit verwerkt doormiddel van een tekning die ej hieronder kan vinden. 
 
 De retospective van vrijdag
-![alt text](./readme-images/bewijzen/retrospective1.jpeg).
-![alt text](./readme-images/bewijzen/retrospective2.jpeg).
-![alt text](./readme-images/bewijzen/retrospective3.jpeg).
-![alt text](./readme-images/bewijzen/retrospective4.jpeg).
+![Sprint 1 retrospective tekening deel 1](./readme-images/bewijzen/retrospective1.jpeg).
+![Sprint 1 retrospective tekening deel 2](./readme-images/bewijzen/retrospective2.jpeg).
+![Sprint 1 retrospective tekening deel 3](./readme-images/bewijzen/retrospective3.jpeg).
+![Sprint 1 retrospective tekening deel 4](./readme-images/bewijzen/retrospective4.jpeg).
 
 Daarnaast hebben we ook retrospective gesprekken gehad waarin we hebben gekeken wat er verbeterd kan worden zowel in mijn process, learning log en mijn code.
 Ik heb het naar mijn verwachting veel beter gedaan. De feedback die ik heb gekregen
@@ -459,7 +543,7 @@ Lukt het om verschillende ideeën te bedenken?
 jaa het lukt wel om twee verschillende ideeën qua design te maken.
 
 Lukt het om je ideeën te schetsen?
-Ja het lukt wel met het schetsen op basis van me concept en het ideeën te verwerken erin. ik probeer in me schetsen duidelijk de starwars style naar voren te brengen.
+Ja het lukt wel met het schetsen op basis van me concept en het ideeën te verwerken erin. Ik schets zowel papieren wireframes om de lay-out en hiërarchie per apparaat te testen, als grafische schetsen (zoals Yoda en Huyang) om de Star Wars sfeer visueel over te brengen in het webdesign.
 
 Wat doet deze CSS-property?
 je kan met verschillende properties verschillende dingen bereiken. Bijvoorbeeld mset css kan ej animaties, styling en mobiele websites maken. 
@@ -517,16 +601,22 @@ Voldoet het nog aan de eisen?
 Na kijken van eisen en de sprint review gesprek/ retrospective ben ik wel op een goede richting. Ik heb het evaluaren nog niet gedaan en het echte prototype van me code nog niet.
 
 
-### Woensdag 15 september
-Op woensdag zijn we bezig geweest met he verversen van je design en daar een nieuwe blik erop tegeven.
-In een groepje van 4 keken we naar het design van elkaar en konden we hierop een nieuwe maken. Dit was de opdracht 18 tot 20.
-![alt text](./readme-images/bewijzen/wireframe1.jpeg).
-![alt text](./readme-images/bewijzen/wireframe2.jpeg).
-![alt text](./readme-images/bewijzen/wireframe3.jpeg).
+### [Sprint 1] Woensdag 15 september
+Op woensdag zijn we bezig geweest met het verversen van je design en daar een nieuwe blik erop te geven.
+In een groepje van 4 keken we naar het design van elkaar en hebben we op basis van feedback nieuwe wireframes geschetst. In de schetsen hieronder onderzoek ik verschillende schermformaten en de Gestaltprincipes: schets 1 toont de mobiele indeling met een duidelijke verticale leesvolgorde, schets 2 experimenteert met nabijheid en witruimte voor tablets, en schets 3 test een breed desktop grid waarin het datapad en de karakters visueel samenkomen.
+
+![Papieren wireframe schets van de pagina opzet 1](./readme-images/bewijzen/wireframe1.jpeg).
+Hierin ben ik gaan schetsen hoe ik wil dat de website eruit komt te zien op mobile. Ik heb eerst de 3 paginageschetst waarin je ziet dat er op mobiel eerst een star wars intro wordt gemaakt. Daarna zie je een pagina waarin de gebruiker kan kiezen welk thema die wilt hebben. Hierin staat een de lightside voor lighttheme en de darkside voor darktheme. Best wel voorzelf sprekend. In de derde schets zie je een begin dat ik van de homepage heb gemaakt. Hierin wilde ik een beetje het vooruit laten komen dat de heading een intro heeft met een afbeelding van dat thema. Daarnaast zie je ook een heading en een introtekstje dat past bij de image.
+
+![Papieren wireframe schets van de layout variatie 2](./readme-images/bewijzen/wireframe2.jpeg).
+In deze afbeelding / schets moesten we de wireframe doorgeven aan iemand anders en die konden dan dingen aanpassen aan je wireframe. Zo krijg je een nieuwe blik op je gemaakte werk en ook een beetje feedback.
+
+![Papieren wireframe schets van de mobiele layout 3](./readme-images/bewijzen/wireframe3.jpeg).
+In deze afbeelding / schets moesten we de wireframe doorgeven aan iemand anders en die konden dan dingen aanpassen aan je wireframe. Zo krijg je een nieuwe blik op je gemaakte werk en ook een beetje feedback.
 
 WE hebben geleert wat de gestaltprincipes zijn en wat nou een grid is en hoe je dit kan toepassen in je code.
-![alt text](image-1.png)
-![alt text](image-2.png)
+![Gestalt principes en grid theorie aantekeningen 1](image-1.png)
+![Gestalt principes en grid theorie aantekeningen 2](image-2.png)
 
 ## checkout
 Symmetry 
@@ -546,12 +636,12 @@ De websites elementen kan je makkelijk responsie maken.
 Vraag 3
 De witruimte en de Similarity. De ruimte is heel belangrijk in de websie want dan zijn elementen iets zichtbaarder
 
-### Maandag 14 September
+### [Sprint 1] Maandag 14 September
 OP maandag hebben we in groepjes het gehad over de vormen van researching. We kregen in de les een blad met een Hoofdvraag daarop. Hierin moesten we deelvragen bedenken die het beste het onderwerp zouden beantwoorden. 
-![alt text](./bewijzen/WhatsApp Image 2026-09-15 at 17.37.35.jpeg)
+![Whiteboard foto van de deelvragen en onderzoeksmethoden](<./bewijzen/WhatsApp Image 2026-09-15 at 17.37.35.jpeg>)
 
 Op de foto zie je dat we de deelvragen hadden behandeld. De bladen werden omgewisself met een andere groepje. Bij hun vragen hebben de bijpassende onderzoeksmethoden besproken en opgeschreven. Zo wisten we welke onderzoeksmethode je hierop kan aansluiten en in welke scenario je dit kan toepassen.
- ![alt text](./readme-images/bewijzen/Hoofdvraag.jpeg).
+![Werkblad met de centrale hoofdvraag van het onderzoek](./readme-images/bewijzen/Hoofdvraag.jpeg).
 
 
 Leg uit wanneer een website 'lelijk' wordt en geef voorbeelden wat je kan doen om deze 'lelijke' onderdelen te fixen?
@@ -564,17 +654,17 @@ Je moet eerst voor mobiel gaan designen dan pas naar de web versie.
 Kun je het ontwerp en de bouw van je eigen Garden (zo uit je hoofd) onderbouwen in Webby vocabulair?
 Ik maak me website meteen mobil first klaar.
 
-### Vrijdag 11 september
+### [Sprint 1] Vrijdag 11 september
 Op vrijdag ben ik bezig geweest met het maken van de deep dive opdracht. In de deep dive opdracht van Sanne heb ik geleerd wat grid is en de children properties die je kan gebruiken om een grid item te stylen. Aan de hand van de oefeningen hieronder (De afbeeldingen als bewijs) zie je dat ik de stof heb opgenomen en dit heb toegepast in de code.
-![alt text](./bewijzen/grid-101-1.png).
-![alt text](./bewijzen/grid-101-2.png).
-![alt text](./bewijzen/grid-101-3.png).
-![alt text](./bewijzen/grid-101-4.png).
-![alt text](./bewijzen/grid-101-5.png).
-![alt text](./bewijzen/grid-101-6.png).
-![alt text](./bewijzen/grid-101-7.png).
+![Grid 101 workshop oefening 1 - basis grid template columns](./bewijzen/grid-101-1.png).
+![Grid 101 workshop oefening 2 - grid gap en uitlijning](./bewijzen/grid-101-2.png).
+![Grid 101 workshop oefening 3 - grid template rows](./bewijzen/grid-101-3.png).
+![Grid 101 workshop oefening 4 - grid column span](./bewijzen/grid-101-4.png).
+![Grid 101 workshop oefening 5 - responsive auto-fit en minmax](./bewijzen/grid-101-5.png).
+![Grid 101 workshop oefening 6 - grid area positionering](./bewijzen/grid-101-6.png).
+![Grid 101 workshop oefening 7 - complexe samengestelde grid layout](./bewijzen/grid-101-7.png).
 
-### donderdag 10 september 2026
+### [Sprint 1] Donderdag 10 september 2026
  Op deze thuiswerk dag ben ik gaan werken aan het huiswerk dat we gekregen hadden.
  - Schetsen verder afmaken
  - Mooie kleuren, gradients en patronen
@@ -591,16 +681,16 @@ De verschillende soorten gradients die je hebt:
 - repeating radial gradient
 - repeating conic gradient
 
-![alt text](./bewijzen/gradients.png).
+![CSS gradients oefening 1 - zes verschillende kleurverlopen](./bewijzen/gradients.png).
 
 In de oefening die je hieronder ziet heb ik geleerd om de verschillende soorten gradienst op elkaar te stappelen. Hieronder heb ik in de opdracht een vlag moeten namaken met css.
-![alt text](./bewijzen/gardients-2.png).
-![alt text](./bewijzen/gradients-3.png).
+![CSS gradients oefening 2 - vlag nagemaakt met gestapelde gradients](./bewijzen/gardients-2.png).
+![CSS gradients oefening 3 - radiale en lineaire kleurverloop combinaties](./bewijzen/gradients-3.png).
 
 In de opdracht hieronder kan je de gradient ook een transition geven. Ik heb dus geleerd om de gradient ook te kunnen animeren met de transition en transform.
-![alt text](./bewijzen/gradients-4.png).
+![CSS gradients oefening 4 - geanimeerde gradient transitie](./bewijzen/gradients-4.png).
 
-### 9 september 2026
+### [Sprint 1] Woensdag 9 september 2026
 Op woensdag 9 september was er een staking met het ov. Hierdoor was er een online les en hebben we de volgende dingen behandeld
 - presenteren van presentatie over onderwerp
 - Visual Research maken
@@ -608,7 +698,7 @@ Op woensdag 9 september was er een staking met het ov. Hierdoor was er een onlin
 - De checkout
 
 In het eerste gedeelte van de dag heb ik samen met analot de presentaties gedaan. We moesten in twee tallen de presentatie maken en wat vragen beantwoorden
-![alt text](./bewijzen/presentatie.png).
+![Presentatiesheet en brainstorm over de essentie van het onderwerp](./bewijzen/presentatie.png).
 
 # De vragen van de presentatie
 Wat is voor jou de essentie van wat je hebt gepresenteerd qua onderwerp en geschreven/beeldende content?
@@ -659,12 +749,12 @@ Ik wil mijn digital garden laten gaan over star wars en wil dat laten zien door 
 # Visual research en Crazy eight
 Na het maken en houden van de presentatie ben ik verder gaan werken aan de visual research opdracht. Met de visual Research opdracht breng je aan je onderwerp een sfeer beeld. Hierdoor ontdek je meerder en verschillende onderdelen die je kutn gebruiken voor je styleguide.
 
-![alt text](./bewijzen/visualresearch1.png).
-![alt text](./bewijzen/visualresearch2.png).
-![alt text](./bewijzen/visualresearch3.png).
-![alt text](./bewijzen/visualresearch4.png).
-![alt text](./bewijzen/visualresearch5.png).
-![alt text](./bewijzen/visualresearch6.png).
+![Visual research moodboard 1 - Star Wars sfeerbeelden en kleuren](./bewijzen/visualresearch1.png).
+![Visual research moodboard 2 - typografie en karakters](./bewijzen/visualresearch2.png).
+![Visual research moodboard 3 - lichte en donkere zijde contrasten](./bewijzen/visualresearch3.png).
+![Visual research moodboard 4 - interfaces en datapad elementen](./bewijzen/visualresearch4.png).
+![Visual research moodboard 5 - texturen en sci-fi vormentaal](./bewijzen/visualresearch5.png).
+![Visual research moodboard 6 - Crazy 8 schetsen overzicht](./bewijzen/visualresearch6.png).
 
 # checkout 
 Leg uit waar het Visual Research in 3 stappen naartoe werkt
@@ -680,7 +770,7 @@ Vertel kort welk idee van de Crazy 8 je het liefst zou willen uitvoeren/ verder 
 ik zou alle crazy eights willen uitvoeren. Dit is wel alleen afhankelijk of het haalbaar blijft.
 
 
-### 7 september - les dag
+### [Sprint 1] Maandag 7 september - lesdag
 Op maandag 7 september heb ik de volgende dingen gedaan
 - Artikelen lezen over digital garden
 - Begrijpen wat digital garden is.
@@ -699,7 +789,7 @@ Om te bergijpen wat een digital garden is ben ik samen in een groepje van 4 ande
 
 Voor de eerste opdracht hebben we een werkvel gekregen waarmee je twee websites moest analyseren. Bij het analyseren kijk je dus of een websites  echt webby is. Dit hebben We gedaan doormiddel van een Werkblad met twee vragen.
 
-![alt text](./bewijzen/WhatsApp%20Image%202026-09-07%20at%2018.19.46.jpeg)
+![Ingevuld werkblad van de website analyse in les 1](./bewijzen/WhatsApp%20Image%202026-09-07%20at%2018.19.46.jpeg)
 
 In deze opdracht heb ik de twee websites  van mikemai.net geanalyseert en daarna de website Virtual Vampire Haven.
 -  https://mikemai.net/
@@ -711,7 +801,7 @@ De website is toegankelijk en heeft ook een een goeie leesbare tekst met korte k
 De virtualVampireHaven is een website dat vooral met passie is gemaakt en is een verzameling van alle websites met vampieren. De website is neit responsive maar wel heel creatief.
 
 Vervolgens zijn we in een groepje van 4 mensen samen onze bevinden gaan vertellen en kwamen we tot de conclusie dat de volgende website de meest webby was en welke het minst was. In de afbeelding hieronder zie je de uitkomsten van de analyse.
-![alt text](./bewijzen/website%20analyse%202.jpeg).
+![Uitkomsten van de website vergelijking en Webby analyse in groepjes](./bewijzen/website%20analyse%202.jpeg).
 
 #### opdracht 2
 - Vanuit de inventarisatie: Wat zou je zelf willen maken? Heb je dingen gezien die je nog niet kan, maar wel interessant vindt in de websites die je bekeken hebt?
@@ -748,18 +838,18 @@ Vertel waar jij mee aan de slag wilt gaan bij het maken van jouw eigen digital g
 Ik ga hem als mijn eigen hobbie maken. Daarbij wil ik een eigen stijl creeren maar4 dat het nog wel bij de websites past. Hiermee moeten er animaties inzitten. Ook op de telefoon te bezoeken zijn.
 
 
-### 3 sept - [Workshop]
+### [Sprint 0] Donderdag 3 september - Workshop
 Deze dag heb ik heel erg veel last van me knie gehad en ben hierbij thuis gebleven. 
 
 
 
-### 2 september - [workshop dag 1]
+### [Sprint 0] Woensdag 2 september - Workshop dag 1
 Op woensdag heb ik eerst een workshop gevolgt van diederik met typography. Hierin besproken we hoe typography is ontstaan en krijgen we een kleine uitleg over de geschiedenis van typography. Diederiek had ons meegenomen naar hoe eerst de letters vaak handgeschreven zijn en hierbij moet je dan denken aan dat bijbels door monikken met de hand zijn geschreven en dat ze daar 1 jaar mee bezig waren. De monniken waren bezig met een bijbel 1 jaar lang. Dat is uiteindelijk door het drukwerk veel sneller gegaan. Hierdoor zijn er meerdere boeken gemaakt binnen een jaar tijd.
 
 Zo heb je bijvoorbeeld 1 font Garamont die al bijvoorbeeld 450 jaar oud is en vandaag de dag nogsteeds wordt gebruikt.
 
 
-### 31 aug - Kickoff
+### [Sprint 0] Maandag 31 augustus - Kickoff
 
 Een fork van de model repository gemaakt en gepubliceerd via mijn eigen Github omgeving.
 
@@ -815,16 +905,3 @@ Een fork van de model repository gemaakt en gepubliceerd via mijn eigen Github o
 ### 4. Privacy & Wetgeving (AVG / GDPR)
 * [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement) – Gelinkt in de cookiepopup ter verantwoording van hosting via GitHub Pages.
 * [TransIP Privacy Policy](https://www.transip.nl/legal/privacy-policy/) – Gelinkt in de cookiepopup ter verantwoording van de domeinnaamregistratie via TransIP.
-
-
-
-
-
-
-
-
-
-
-
-
-

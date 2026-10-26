@@ -19,6 +19,7 @@ h1 {
   color: var(--text-color-choosetheme);
   font-size: var(--h1);
   letter-spacing: 1rem;
+  text-align: center;
 
   @media(max-width:500px) {
     font-family: "Deathstar";
@@ -83,7 +84,7 @@ a {
   font-family: 'Montserrat';
   font-weight: 500;
   font-size: var(--p);
-  color:var(--bg-color);
+  color: var(--bg-color);
 
   text-decoration: none;
 
@@ -96,7 +97,7 @@ a {
     color: var(--black-color);
   }
 
-  &:visited{
+  &:visited {
     color: var(--starwars-yellow);
   }
 

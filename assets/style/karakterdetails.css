@@ -386,6 +386,7 @@ main>section:nth-of-type(2) article {
         display: grid;
         place-content: center;
         place-items: center;
+        text-align: center;
     }
 }
 
